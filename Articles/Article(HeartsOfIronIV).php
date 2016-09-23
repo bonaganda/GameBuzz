@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Hearts of Iron IV</title>
-        <link rel="stylesheet" type="text/css" href="Styles/HomeStyle.css"/>
+        <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
         
