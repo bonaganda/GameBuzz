@@ -58,10 +58,13 @@ body p
     float: right;
     width: 350px;
     height: 400px;  
+    text-align: center;
+    text-decoration: white;
 }
 
 #sidebar a:hover
 {
+    color:  red;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
