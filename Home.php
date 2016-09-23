@@ -17,25 +17,107 @@ and open the template in the editor.
             <nav class="navigation">
                 <ul id="nav">
                     <li><a href="Home.php">HOME</a></li>
-                    <li><a href="Platform.php">PLATFORM</a></li>
+                    <li class="dropdown" style="position: relative; top:80%">
+                          <div><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">PLATFORM</a></div>
+                          <div class="dropdown-content" id="myDropdown">
+                            <a href="#">PS4</a>
+                            <a href="#">XBOX ONE</a>
+                      </div>
+                        </li> 
+                        
                     <li><a href="Reviews.php">REVIEWS</a></li>
                     <li><a href="About.php">ABOUT</a></li>
                     <li><a href="Login.php#">LOGIN</a></li>
                 </ul>
             </nav>
+<script>
+function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var d = 0; d < dropdowns.length; d++) {
+          var openDropdown = dropdowns[d];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+   
+            </script>
 
             <div id="banner">
             </div>
 
 
             <div id="wrapper">
-                <div class="columns">
+                <div class="column">
                     <div id="news_area">
-                        <div class="news1-caption" style="display: block;  ">
-                            <h2> New PTR update introduces Zarya and talent reworks for Nazeebo, Chen, and E.T.C. </h2>
-                            <p>In addition to Zarya and Warhead Junction, the new PTR update added a few more surprising reworks of older heroes.</p>
-                        </div>
-                    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Images/News1.jpg" style="width: 675px; height: 400px;">
+    <div class="text">Heroes of the Storm rated as the shittest game on the world, and zayra just got nerfed!</div>
+  </div>            
+               
+<div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Images/News2.jpg" style="width: 675px; height: 400px;">
+    <div class="text">BattleNet is finally closing after selling overwatch to steam!</div>
+  </div>
+    
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Images/News3.jpg" style="    width: 675px; height: 400px;">
+    <div class="text">Asian pro team has decided to invade oceanic territory but lost to the mere ozies</div>
+  </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+
+    <div style="text-align:center">
+  <span class="dot" style="position:absolute;right:50%;top:90%" onclick="currentSlide(1)"></span> 
+  <span class="dot" style="position:absolute;right:47%;top:90%" onclick="currentSlide(2)"></span> 
+  <span class="dot" style="position:absolute;right:44%;top:90%"onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+
+
+                <script> var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 
                     <div id="article_column">
