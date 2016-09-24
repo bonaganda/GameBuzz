@@ -12,7 +12,7 @@ body
 {
     font-family: lucida grande, tahoma, verdana, arial, sans-serif;
     color: white;
-    background-image: url(../Images/BlackRed.jpg);
+    background-image: url(../Images/Background/GBBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,18 +58,22 @@ body p
     float: right;
     width: 350px;
     height: 400px;  
-    text-align: center;
+    text-align: left;
     text-decoration: white;
 }
 
 #sidebar a:hover
 {
-    color:  red;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
 
 /* Navigation Bars Section */
+
+#logo { 
+    float:left; top:0; left:0; 
+}
+
 #nav
 {
     list-style: none;
@@ -77,10 +81,10 @@ body p
 
 #nav ul
 {
-/*    margin: 0;
-    padding: 0;
-    width: auto;
-    display: none;*/
+    /*  margin: 0;
+        padding: 0;
+        width: auto;
+        display: none;*/
     list-style-type: none;
     margin-top: 0;
     max-width: 80%;
@@ -89,16 +93,17 @@ body p
     background-color: #333;
 }
 
+
 #nav li:last-child
 {
     float: right;
     text-align: center;
 }
 
-
 #nav li
 {
-    font-size: 30px;
+    font-family: Calibri;
+    font-size: 20px;
     float: left;
     position: relative;
 }
@@ -108,14 +113,6 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-}
-
-#nav a:link, nav a:active, nav a:visited
-{
-    font-family: cursive;
-    display: block;
-    color: white;
     text-decoration: none;
 }
 
@@ -131,10 +128,13 @@ nav li a {
     left: 0;
     z-index: 9999;
     width: 100%;
-    height: 100px;
+    height: 80px;
+    margin: 0 auto;
     background-color: black;
+    box-shadow: 3px 3px 3px #1E1B1B;
     margin: 0 auto;
 }
+
 
 .dropbtn {
     display: inline-block;
@@ -145,10 +145,7 @@ nav li a {
     text-align: center;
     float: bottom;
     position: relative;
-    font-family: lucida grande, tahoma, verdana, arial, sans-serif;
-    font-size: 30px;
-    text-decoration: none;
-    
+    font-size: 20px;
 }
 
 .dropdown {
@@ -158,26 +155,27 @@ nav li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    padding-bottom: 10px;
     top: 100%;
-    right: 37%;
     background-color: black;
-    min-width: 100px;
+    min-width: 122px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
 }
 
-
+/* Links inside the dropdown */
 .dropdown-content a {
     color: white;
-    padding-bottom: 15px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #A49D9D}
-.show {display:block;}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #A49D9D; opacity: 0.5}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 .columns
 {
     position: relative;
