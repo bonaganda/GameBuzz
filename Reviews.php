@@ -14,8 +14,15 @@ and open the template in the editor.
         
         <nav class="navigation">
             <ul id="nav">
+                  <a href="Home.php"><img src="Images/Logo/GBLogosmall.png" width="232" height="50" id="logo" /></a> 
                 <li><a href="Home.php">HOME</a></li>
-                <li><a href="Platform.php">PLATFORM</a></li>
+                <li class="dropdown" style="position: relative; top:">
+                    <div><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">PLATFORM</a></div>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">PS4</a>
+                        <a href="#">XONE</a>
+                    </div>
+                </li> 
                 <li><a href="Reviews.php">REVIEWS</a></li>
                 <li><a href="About.php">ABOUT</a></li>
                 <li><a href="Login.php#">LOGIN</a></li>
