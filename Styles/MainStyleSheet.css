@@ -111,6 +111,14 @@ nav li a {
     text-decoration: none;
 }
 
+#nav a:link, nav a:active, nav a:visited
+{
+    font-family: cursive;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
 #nav a:hover
 {
     background-color: #8A0808;
