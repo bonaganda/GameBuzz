@@ -37,7 +37,30 @@ and open the template in the editor.
             
             <div class="columns">
                 <h1>Overwatch</h1>
-                <br><br>
+                
+                <h2>Platform: PC, XONE and PS4</h2></br>
+                Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. 
+                Each hero has their own set of abilities that the player can master. There are a lot of characters in the game that the player can choose from such as Volatile Mercenary, Super-Intelligent Genetically Engineered Gorilla or Cyborg Ninja. 
+                The game is essentially all about teamwork so the player would need to know what his/her role and excel in it. 
+                Whether the player is defending their team mates with energy shields, one of the people in action, or supporting their team mates by intensifying their damage attack to their enemy. Every hero has a role to fill in the game.</br></br>
+                <img src="../Images/ow2.jpg" style="width: 675px; height: 400px;">
+
+                <br><br>There are soldiers, adventurers, scientists and other oddities created and during a global crisis, an international task force encompassed of heroes from all over the globe were tasked with restoring the peace to the world that has been torn apart because of war. 
+                Therefore, their name is called Overwatch. After the crisis have been prevented, they tried to maintain the peace for as long as they can and for years to come but in the end, Overwatch’s influence of doing so has weakened and they have parted.</br></br>
+                <img src="../Images/ow1.jpg" style="width: 675px; height: 400px;">
+                
+                <br><br>The player can choose from 21 unique heroes with their own special abilities that needs to be mastered. 
+                In order to unlock a hero’s potential, the player needs to master their skills and each hero plays differently. Since this a team based game, everyone in the team has a role of their own to play. 
+                There are 3 roles: offence, support and defence. Each role is very important and will contribute to the success of the team. 
+                The player will have to master their character’s abilities to enable them to work better with the team. 
+                There are also different abilities that can work well with others so that the team will have to search the impeccable combination to rule on the battlefield.</br></br>
+                <img src="../Images/ow3.jpg" style="width: 675px; height: 400px;">
+                
+                <br><br>Furthermore, the battles can be done across the globe and against other teams of heroes. 
+                Escorting an EMP device through the King’s Row or even protecting the secrets of the Temple of Anubis, The world is the player’s battlefield. 
+                
+                <br><br><h2>Trailer</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allowfullscreen></iframe>
             </div>
             
             
