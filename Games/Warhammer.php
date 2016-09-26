@@ -33,12 +33,17 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper_game">
+        <div id="wrapper_warhammer">
             
             <div class="columns">
-                <h1>Total War: Warhammer</h1>
+                <style>
+                    h1 {color: red}
+                    
+                </style>
+                
+                <h1>Total War: Warhammer<h2>
  
-                </br></br><h2>Total War: Warhammer</h2> is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. In the Total War Series, it is the 10th title and the first title to be released in the Total War: Warhammer trilogy.
+                <h2>Platform: PC</h2> is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. In the Total War Series, it is the 10th title and the first title to be released in the Total War: Warhammer trilogy.
  
 There are four playable factions featured in the game:
 The Empire of Man, The Dwarfs, The Vampire Counts and The “Greenskins”. There are two other playable factions – The Beastmen and the Chaos Warriors that are available as paid downloadable content.
@@ -54,7 +59,7 @@ The campaign map is slightly akin to the one in Attila with the exception being 
 Moreover, agents are featured in the battles and on the campaign map.</br></br>
 <img src ="../Images/war3.jpg" style="width: 675px; height: 400px;  " > </br></br>
 Agents are attached to an army for the first time can take part in battles and give your side an edge depending on the type of the agent. Named agents can get injured in battles whilst the unnamed agents can be killed and can’t be brought back to life again. Warhammer also features a various kinds of animations e.g. there are around 30 different types of body and skeletons in the game instead of five or six in its predecessors and so as the flying units. Diplomacy, unit-building and city-building are available in the game. Lastly, Corruption, an external element is featured which is caused by the presence of Chaos armies and Vampire Count rather than internal aspects. 
-</br></br> <h1> Trailer </h1> 
+</br></br> <h1> Trailer: </h1> 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyU_1-Py0dA" frameborder="0" allowfullscreen></iframe>
             
             </div>
