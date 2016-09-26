@@ -36,7 +36,7 @@ and open the template in the editor.
         <div id="wrapper">
             
             <div class="columns">
-                <h1>Overwatch</h1>
+                <a style="color: red;"><h1>Overwatch</h1></a>
                 
                 <h2>Platform: PC, XONE and PS4</h2></br>
                 Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. 
@@ -59,7 +59,7 @@ and open the template in the editor.
                 <br><br>Furthermore, the battles can be done across the globe and against other teams of heroes. 
                 Escorting an EMP device through the King’s Row or even protecting the secrets of the Temple of Anubis, The world is the player’s battlefield. 
                 
-                <br><br><h2>Trailer</h2>
+                <br><br><h2>Trailer:</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allowfullscreen></iframe>
             </div>
             

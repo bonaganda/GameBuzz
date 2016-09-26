@@ -36,7 +36,7 @@ and open the template in the editor.
         <div id="wrapper">
             
             <div class="columns">
-                <h1>Hearts Of Iron IV</h1>
+                <a style="color: red;"><h1>Hearts Of Iron IV</h1></a>
                 
                 <h2>Platform: PC</h2></br>
                 Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and the player can lead the nation with their chosen ultimate weapon. 
@@ -57,7 +57,7 @@ and open the template in the editor.
                 Finally, Players can develop comprehensive historic planes and tanks through the army experience and research.</br></br> 
                 <img src="../Images/soldier3.jpg" style="width: 675px; height: 400px;">
 
-                <br><br><h2>Trailer</h2>
+                <br><br><h2>Trailer:</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/e9BiUtINy4w" frameborder="0" allowfullscreen></iframe>
             </div>
             
