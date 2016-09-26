@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>News1</title>
+        <title>News</title>
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
@@ -47,7 +47,7 @@ function myFunction() {
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <div id="wrapper" style="height: 800px">
             
             <div class="columns">
                 <div id="review_col1">
@@ -55,8 +55,8 @@ function myFunction() {
                     <img src="Images/News1.jpg" style="width: 675px; height: 400px;  ">
                     <h2> After many report and interviews denying she was gay, there are lots of proofs of her dating tracer in public </h2>
                     <p>If you only have the ability to put in a few hours per week to help out with coverage, we can aid you in your development as a content creator. For those with the time and talent to make a significant impact straight away, there is equally the chance to make a name for yourself in one of the fastest-growing media areas globally. While the majority of the GG.net crew members work on voluntary basis, the industry is growing rapidly and our site is the perfect place to begin your journey within it. You will be working with your crew leader closely to coordinate tasks, but most of the time you will set your own tempo, and have the freedom to discover just how far you can go.
-Take initiative and assign tasks to yourself: we love people who don’t need to be babysat and ordered around. If you want to write an article about an event – or if you want to help with the ticker by taking care of match data, go for it!
-Use Skype and crew forums to communicate with the crew: our team is online most of the time, busy not having lives at all…</p>
+                    Take initiative and assign tasks to yourself: we love people who don’t need to be babysat and ordered around. If you want to write an article about an event – or if you want to help with the ticker by taking care of match data, go for it!
+                    Use Skype and crew forums to communicate with the crew: our team is online most of the time, busy not having lives at all…</p>
                 </div>
             </div>
        

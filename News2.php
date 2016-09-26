@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>News2</title>
+        <title>News</title>
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
@@ -48,7 +48,7 @@ function myFunction() {
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <div id="wrapper" style="height: 880px">
             
             <div class="columns">
                 <div id="review_col1">
@@ -56,9 +56,9 @@ function myFunction() {
                     <img src="Images/News2.jpg" style="width: 675px; height: 400px;  ">
                     <h2> Battle.net has stopped all their games and services after 10 years due to selling their best game Overwatch to Steam </h2>
                     <p>Genji and Winston can be seen relatively often in pro play, but the pair can be used together to accentuate each other's strengths. Genji and Winston both have insane vertical mobility, making them prime candidates as divers—hence the name "Dive Bros."
-In order to properly explain why Genji and Winston function so well as a pair, let's take a look at the math. Winston does 50 damage upon landing, alongside a decent 60 damage per second using his Tesla Cannon. Genji, on the other hand, can deal an immediate 50 damage with his Swift Strike, and can follow up with rapid right clicks (24 damage per shuriken). Of course, this game isn't only about math; the numbers coincide perfectly with Swift Strike's passive, which grants Genji a dash reset for each elimination he participates in. 
-You can likely see where the math leads. Once the pair of divers can pick up a single kill, Genji can finally do his fair share by continually reseting his dash, slicing the opponents for 50 damage every time the player hits the shift key. This duo is especially effective against grouped bunches of enemies, as they can deal damage to multiple targets at once, making short work of the enemy team.
-While the damage the pair outputs certainly looks large, you have to take into account that Lucio and Zenyatta will likely be buffing the defending teams, so the damage will certainly not be a straight 60 DPS from Winston in addition to Genji's. Still, the pair functions well, and Genji has enough burst to ensure that Zenyatta and Lucio's presences are not enough to ensure the enemies survive. </p>
+                    In order to properly explain why Genji and Winston function so well as a pair, let's take a look at the math. Winston does 50 damage upon landing, alongside a decent 60 damage per second using his Tesla Cannon. Genji, on the other hand, can deal an immediate 50 damage with his Swift Strike, and can follow up with rapid right clicks (24 damage per shuriken). Of course, this game isn't only about math; the numbers coincide perfectly with Swift Strike's passive, which grants Genji a dash reset for each elimination he participates in. 
+                    You can likely see where the math leads. Once the pair of divers can pick up a single kill, Genji can finally do his fair share by continually reseting his dash, slicing the opponents for 50 damage every time the player hits the shift key. This duo is especially effective against grouped bunches of enemies, as they can deal damage to multiple targets at once, making short work of the enemy team.
+                    While the damage the pair outputs certainly looks large, you have to take into account that Lucio and Zenyatta will likely be buffing the defending teams, so the damage will certainly not be a straight 60 DPS from Winston in addition to Genji's. Still, the pair functions well, and Genji has enough burst to ensure that Zenyatta and Lucio's presences are not enough to ensure the enemies survive. </p>
                 </div>
             </div>
        

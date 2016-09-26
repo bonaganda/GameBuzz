@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>News3</title>
+        <title>News</title>
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
@@ -49,7 +49,7 @@ function myFunction() {
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <<div id="wrapper" style="height: 800px">
             
             <div class="columns">
                 <div id="review_col1">
@@ -57,15 +57,15 @@ function myFunction() {
                     <img src="Images/News3.jpg" style="width: 675px; height: 400px;  ">
                     <h2> After years of asians being undergods when it comes to games, the get their comeback! </h2>
                     <p>
-The idea of hosting a Dota 2 tournament on a ship may seem a bit mad, but there was some solid reasoning behind it according to Tournament Director Wang Zilin, who spoke to us about the launch of KeyTV's new product.
+                    The idea of hosting a Dota 2 tournament on a ship may seem a bit mad, but there was some solid reasoning behind it according to Tournament Director Wang Zilin, who spoke to us about the launch of KeyTV's new product.
 
-"In China there are many tournaments now, but tournaments are almost the same, only a few can be remembered," said Wang Zilin, Tournament Director for the Cruise Cup. "We wanted to do something new and bring the audience a new experience. 
+                    "In China there are many tournaments now, but tournaments are almost the same, only a few can be remembered," said Wang Zilin, Tournament Director for the Cruise Cup. "We wanted to do something new and bring the audience a new experience. 
 
-"Another reason is a LAN on a boat can combine tourism and competition perfectly. Players don’t have to waste time on flights, they can play games and travel on a boat at the same time. When we arrive Fukuoka (Japan) and Jeju (South Korea), players can get off the cruise ship and enjoy their time there."
+                    "Another reason is a LAN on a boat can combine tourism and competition perfectly. Players don’t have to waste time on flights, they can play games and travel on a boat at the same time. When we arrive Fukuoka (Japan) and Jeju (South Korea), players can get off the cruise ship and enjoy their time there."
 
-"The idea was our own. Cruises are not very popular among young people, no internet on the high seas, slow pace of life etc. We decided if we could solve the internet problem, and add some activities that young people like, the cruise journey will be interesting. 
+                    "The idea was our own. Cruises are not very popular among young people, no internet on the high seas, slow pace of life etc. We decided if we could solve the internet problem, and add some activities that young people like, the cruise journey will be interesting. 
 
-"As far as I know there have been some attempts to use a satellite for an online stream, but no one has ever tried to host an Esports tournament and Esports Festival on a Cruise ship before."</p>
+                     "As far as I know there have been some attempts to use a satellite for an online stream, but no one has ever tried to host an Esports tournament and Esports Festival on a Cruise ship before."</p>
                 </div>
             </div>
        

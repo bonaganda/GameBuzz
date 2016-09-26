@@ -133,14 +133,9 @@ and open the template in the editor.
                             </font>
                             <p align="left">Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. The player basically controls the unnamed boy who runs, walks, climbs 
                                 and swims and then uses objects to overcome the obstacles and progress in the game.  
-<<<<<<< HEAD
-                                <a href="Games/Inside.php"><b>Read More..</b></a>
-                            </p><br><br>
-=======
-                                <a href="Games/Index.php"><b>Read More..</b></a>
+                            <a href="Games/Inside.php"><b>Read More..</b></a>
                             </p><br>
->>>>>>> c28b35ac1b615e4302d36a6513dbfb886516ccd9
-
+                            
                             <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="overwatch" width="600" height="350" border="0"></a>
                             <font size ="3"></br>
                             <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>

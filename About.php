@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <div id="wrapper" style="height: 1020px;">
             <div class="columns">
                 TELL ME ABOUT YOURSELF HUE HUE HUE    
             </div>

@@ -139,15 +139,9 @@ and open the template in the editor.
                             <a href="Games/QuadrilateralCowboy.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
                             </font>
                             <p align="left"> 
-<<<<<<< HEAD
-                                Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
-                                <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
-                            </p><br><br>
-=======
                             Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
-                            <a href="Games/QuadrilateralCowboy.php.php"><b>Read More..</b></a>
+                            <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
                             </p><br>
->>>>>>> c28b35ac1b615e4302d36a6513dbfb886516ccd9
 
                             <a href="Games/Doom.php"><img src="Images/Article Images/Doom.jpg" alt="doom" wwidth="600" height="350" border="0"></a>
                             <font size ="3"></br>
@@ -156,7 +150,7 @@ and open the template in the editor.
                             <p align="left"> 
                                 This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience. There are relentless demons, unbelievably destructive guns and very fast, fluid movement provide the grounds for an intense, first-person combat – whether you are destroying hordes of demons in Hell in the single-player mode or competing with your friends in several multiplayer modes. You can also easily create, play and share your content with the world by using the DOOM SnapMap game editor.
                                 <a href="Games/Doom.php"><b>Read More..</b></a>
-                            </p><br><br>
+                            </p><br>
 
                             <!--<a href="Games/Warhammer.php"><b>< PREV  </b></a>-->
                             <b><a href="Home2.php" button class="pagesbutton"><span>NEXT </span></button>

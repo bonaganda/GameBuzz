@@ -224,6 +224,18 @@ nav li a {
     margin: 25px 200px 0 200px;
 }
 
+.columns_top10 a {
+    text-decoration: none;
+    color: white;
+}
+
+.columns_top10 a:hover {
+    text-decoration: none;
+    color: red;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
 /*home wrapper content*/
 
 #article_column
@@ -244,6 +256,8 @@ nav li a {
 
 #article_column a:hover {
     color: red;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 #news_area
