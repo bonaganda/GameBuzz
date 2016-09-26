@@ -115,6 +115,8 @@ and open the template in the editor.
                         }
                     </script>
 
+                    <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5" border="0"><br><br>
+                    
                     <!--Article Section*-->
 
                     <div id="article_column">
@@ -123,7 +125,7 @@ and open the template in the editor.
                         <a href=""><b><br>&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
                         <center>
-                            <a href="Games/DarkSouls3.php"><img src="Images/Article Images/Dark Souls.jpg" alt="darksouls3" width="400" height="250" border="0"></a>
+                            <a href="Games/DarkSouls3.php"><img src="Images/Article Images/Dark Souls.jpg" alt="darksouls3" width="600" height="350" border="0"></a>
                             <font size ="3">
                             <a href="Games/DarkSouls3.php"><b><br>DARK SOULS III</b><br></a>
                             </font>
@@ -132,7 +134,7 @@ and open the template in the editor.
                                 <a href="Games/DarkSouls3.php"><b>Read More..</b></a>
                             </p><br>
 
-                            <a href="Games/Uncharted4.php"><img src="Images/Article Images/Uncharted4.jpg" alt="uncharted4" width="400" height="250" border="0"></a>
+                            <a href="Games/Uncharted4.php"><img src="Images/Article Images/Uncharted4.jpg" alt="uncharted4" width="600" height="350" border="0"></a>
                             <font size ="3">
                             <a href="Games/Uncharted4.php"><b><br>UNCHARTED 4</b><br></a>
                             </font>
