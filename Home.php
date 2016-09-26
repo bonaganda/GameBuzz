@@ -14,6 +14,7 @@ and open the template in the editor.
         <nav class="navigation">
             <ul id="nav">
                 <a href="Home.php"><img src="Images/Logo/GBLogosmall.png" width="232" height="50" id="logo" /></a> 
+                
                 <li><a href="Home.php">HOME</a></li>
                 <li class="dropdown" style="position: relative; top:">
                     <div><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">PLATFORM</a></div>
@@ -144,7 +145,7 @@ and open the template in the editor.
                             </font>
                             <p align="left"> 
                                 Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
-                                <a href="Games/QuadrilateralCowboy.php.php"><b>Read More..</b></a>
+                                <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
                             </p><br><br>
 
                             <a href="Games/Doom.php"><img src="Images/Article Images/Doom.jpg" alt="doom" wwidth="600" height="350" border="0"></a>

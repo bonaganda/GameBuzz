@@ -55,7 +55,7 @@ The main character can die in different ways, like being shot by a anaesthetic d
             
             
             <div id="sidebar">
-                <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+                <a href="../Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                 <a href="../Games/Warhammer.php"><img src="../Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
                 <a href="../Games/QuadrilateralCowboy.php"><img src="../Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
                 <a href="../Games/Doom.php"><img src="../Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>

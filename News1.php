@@ -8,7 +8,8 @@
         
         <nav class="navigation">
             <ul id="nav">
-                <li><a href="Home.php">HOME</a></li>
+                 <a href="Home.php"><img src="Images/Logo/GBLogosmall.png" width="232" height="50" id="logo" /></a> 
+                 <li><a href="Home.php">HOME</a></li>
                 <li class="dropdown" style="position: relative; top:80%">
                           <div><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">PLATFORM</a></div>
                           <div class="dropdown-content" id="myDropdown">
@@ -60,7 +61,7 @@ Use Skype and crew forums to communicate with the crew: our team is online most 
             </div>
        
             <div id="sidebar">
-                <b>TOP 10 GAMES</b><br><br>
+                <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                 <a href="Articles/Article(Warhammer).php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="65" border="0"></a>
                 <a href="Articles/Article(QuadrilateralCowboy).php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="65" border="0"></a>
                 <a href="Articles/Article(Doom).php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="65" border="0"></a>
