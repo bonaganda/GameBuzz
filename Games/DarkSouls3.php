@@ -33,12 +33,16 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper_game">
+        <div id="wrapper_warhammer">
             
             <div class="columns">
-                <h1> Dark Souls 3 </h1></br></br>
-                <h2>Dark Souls 3 </h2> <br><br>
-                is an role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. A shield is also available to be used as a secondary weapon but their main use is to deflect the enemies’ attacks and protect the player from suffering damage. Each weapon in the game has two basic kinds of attacks, one is the standard attack and the other is somewhat more powerful that can be charged up like the game from FromSoftware called Bloodborne.</br></br>
+                <style>
+                    h1 {color: red}
+                    
+                </style>
+                <h1> Dark Souls 3 </h1>
+                <h2>Platform: PC, PS4, XBOX 1 </h2> 
+                DS3 is a role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. A shield is also available to be used as a secondary weapon but their main use is to deflect the enemies’ attacks and protect the player from suffering damage. Each weapon in the game has two basic kinds of attacks, one is the standard attack and the other is somewhat more powerful that can be charged up like the game from FromSoftware called Bloodborne.</br></br>
                 <img src ="../Images/d31.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 Moreover, the attacks can be evaded when the player dodge-rolls. The checkpoints in the game are the bonfires and these checkpoints return from previous instalments. The ashes on the other hand play an important role in the game. Magic is also featured in the game with a system returning from Demon's Souls which is now known as “focus points” (FP). In order to perform a spell, the player’s focus points are used. There are two type of Estus Flasks in the game which can be selected to fit a player’s certain play style. One can refill the hit points similar to the previous games in the series while the other can refill the focus points as the new feature in Dark Souls III.</br></br>
                 <img src ="../Images/d32.jpg" style="width: 675px; height: 400px;  " > </br></br>
@@ -48,7 +52,7 @@ and open the template in the editor.
                 <img src ="../Images/d33.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 The game is more focused on role-playing in which the character builder is expanded and weapons are enhanced to offer more tactical choices to players. There fewer overall maps are larger and more detailed that encourages the player to explore them compared to Dark Souls II. Lastly, the stats are adjusted and features multiplayer elements.
                 
-                </br></br><h1> Trailer</h1> 
+                </br></br><h1> Trailer:</h1> 
                 </br><iframe width="560" height="315" src="https://www.youtube.com/embed/_zDZYrIUgKE" frameborder="0" allowfullscreen></iframe>
             </div>
             
