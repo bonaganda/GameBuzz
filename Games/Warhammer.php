@@ -33,10 +33,27 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <div id="wrapper_game">
             
             <div class="columns">
-                    Warhammer article goes here..
+                <h1>Total War: Warhammer</h1>
+ 
+                </br></br><h2>Total War: Warhammer</h2> is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. In the Total War Series, it is the 10th title and the first title to be released in the Total War: Warhammer trilogy.
+ 
+There are four playable factions featured in the game:
+The Empire of Man, The Dwarfs, The Vampire Counts and The “Greenskins”. There are two other playable factions – The Beastmen and the Chaos Warriors that are available as paid downloadable content.
+ 
+Warhammer presents a fantasy setting plus characters from the Warhammer universe. The player can control the characters (warriors, heroes and monsters). </br></br>
+
+<img src ="../Images/war1.jpg" style="width: 675px; height: 400px;  " >
+</br></br>Furthermore, the Chaos faction was indeed free to those who had pre-ordered or purchased it in the week it was firstly released and afterwards available as a downloadable content. In custom and multiplayer battles with a decreased unit roster, the Bretonnia faction is accessible.
+Each faction in the game can access their own distinctive units. For example, the Greenskins faction features units like Giants, Arachnarok spiders and Trolls. The human faction called the Empire features units like the Demigryph Knights and Steam Tanks. Each faction has their own dedicated campaign element. An example would be, a “Waaagh” system wherein this drives the player to be frequently on the warpath, is very unique to the Greenskins faction. There is also a new quest mode that features the battles such as the “The Battle of Blackfire Pass”, this asks the players to complete their missions and battles in order to receive unlockable items and abilities. Dragons and other flying creatures also make appearances in the game.</br> </br>
+<img src ="../Images/war2.jpg" style="width: 675px; height: 400px;  " > </br></br>
+The campaign map is slightly akin to the one in Attila with the exception being the diversity in the physical terrain and climate as one moves from a specific point in the map to another. The campaign map spans to different areas from north to south and west to east.  Another element that has been introduced in Warhammer is Magic, with most of the factions like Vampire Counts and Empire having access to different kinds of magic and particular factions, e.g. Dwarfs and some non-playable AI-controlled factions, having completely none or even limited access to magic.
+
+Moreover, agents are featured in the battles and on the campaign map.</br></br>
+<img src ="../Images/war3.jpg" style="width: 675px; height: 400px;  " > </br></br>
+Agents are attached to an army for the first time can take part in battles and give your side an edge depending on the type of the agent. Named agents can get injured in battles whilst the unnamed agents can be killed and can’t be brought back to life again. Warhammer also features a various kinds of animations e.g. there are around 30 different types of body and skeletons in the game instead of five or six in its predecessors and so as the flying units. Diplomacy, unit-building and city-building are available in the game. Lastly, Corruption, an external element is featured which is caused by the presence of Chaos armies and Vampire Count rather than internal aspects. 
             </div>
             
             

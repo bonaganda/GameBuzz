@@ -34,8 +34,27 @@ body p
     border: 5px solid black;
 }
 
+#wrapper_top10
+{
+    width: 1080px;
+    height: 3600px;
+    overflow: auto;
+    background-color: black;
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid black;    
+}
 /* Header Section */
 
+#wrapper_game
+{
+    width: 1080px;
+    height: 2300px;
+    background-color: black;
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid black;   
+}
 #banner
 {
     width: 1080px;
