@@ -50,7 +50,7 @@ and open the template in the editor.
         <div id="banner"></div>
 
 
-        <div id="wrapper">
+        <div id="wrapper" style="height: 1600px">
             <div class="columns">
                 <div id="news_area">
                     <div class="mySlides fade">
@@ -120,54 +120,47 @@ and open the template in the editor.
                     <!--Article Section*-->
 
                     <div id="article_column">
-
-                        <!--Article title-->
-                        <a href=""><b><br>&nbsp;&nbsp;ARTICLES</b><br><br></a>
+                        <a href=""><b>&nbsp;&nbsp;ARTICLES</b><br><br></a>
+                        
                         <!--List of game articles-->
-                        <center>
-                            <a href="Games/DarkSouls3.php"><img src="Images/Article Images/Dark Souls.jpg" alt="darksouls3" width="600" height="350" border="0"></a>
-                            <font size ="3">
-                            <a href="Games/DarkSouls3.php"><b><br>DARK SOULS III</b><br></a>
-                            </font>
-                            <p align="left"> 
-                                Dark Souls III is an role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. 
-                                <a href="Games/DarkSouls3.php"><b>Read More..</b></a>
-                            </p><br>
+                        <a href="Games/DarkSouls3.php"><img src="Images/Article Images/Dark Souls.jpg" alt="darksouls3" width="600" height="350" border="0"></a>
+                        <font size ="3"><br>
+                        <a href="Games/DarkSouls3.php"><b><br>DARK SOULS III</b><br></a>
+                        </font>
+                        <p align="left"> 
+                            Dark Souls III is an role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. 
+                            <a href="Games/DarkSouls3.php"><b>Read More..</b></a>
+                        </p><br>
 
-                            <a href="Games/Uncharted4.php"><img src="Images/Article Images/Uncharted4.jpg" alt="uncharted4" width="600" height="350" border="0"></a>
-                            <font size ="3">
-                            <a href="Games/Uncharted4.php"><b><br>UNCHARTED 4</b><br></a>
-                            </font>
-                            <p align="left"> 
-                                Uncharted 4 is an adventure-action packed game that is played from a third-person perspective, with platform game elements. The player undertakes control of Nathan Drake, who is physically adept and is able to sprint, climb, jump, swim, scale narrow ledges and wall-faces to get amongst points, swing with a rope, use a grappling hook and do other acrobatic actions. Drake can use different 
-                                weapons such as assault rifles, grenades and pistols to kill his enemies.  
-                                <a href="Games/Uncharted4.php"><b>Read More..</b></a>
-                            </p><br>
+                        <a href="Games/Uncharted4.php"><img src="Images/Article Images/Uncharted4.jpg" alt="uncharted4" width="600" height="350" border="0"></a>
+                        <font size ="3"><br>
+                        <a href="Games/Uncharted4.php"><b><br>UNCHARTED 4</b><br></a>
+                        </font>
+                        <p align="left"> 
+                            Uncharted 4 is an adventure-action packed game that is played from a third-person perspective, with platform game elements. The player undertakes control of Nathan Drake, who is physically adept and is able to sprint, climb, jump, swim, scale narrow ledges and wall-faces to get amongst points, swing with a rope, use a grappling hook and do other acrobatic actions. Drake can use different 
+                            weapons such as assault rifles, grenades and pistols to kill his enemies.  
+                            <a href="Games/Uncharted4.php"><b>Read More..</b></a>
+                        </p><br>
 
-                            <a href="Home2.php" button class="pagesbutton"><span>PREV</span></button>
-                            <a href="Home3.php" button class="pagesbutton"><span>NEXT </span></button>
-                            <a href="Home3.php" button class="pagesbutton"><span>LAST</span></button>
-                            
-                        </center>
-
+                        <b><a href="Home2.php" button class="pagesbutton"><span>PREV</span></button>
                     </div>
 
                 </div>
 
-                <div id="sidebar">
-                    <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
-                    <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
-                    <a href="Games/QuadrilateralCowboy.php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
-                    <a href="Games/Doom.php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
-                    <a href="Games/DarkSouls3.php"><img src="Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
-                    <a href="Games/Inside.php"><img src="Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
-                    <a href="Games/Overwatch.php"><img src="Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
-                    <a href="Games/HeartsOfIron4.php"><img src="Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
-                    <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
-                    <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
-                    <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
-                </div>
-
+            </div>
+            
+            <div id="sidebar">
+                <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+                <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
+                <a href="Games/QuadrilateralCowboy.php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
+                <a href="Games/Doom.php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
+                <a href="Games/DarkSouls3.php"><img src="Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
+                <a href="Games/Inside.php"><img src="Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
+                <a href="Games/Overwatch.php"><img src="Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
+                <a href="Games/HeartsOfIron4.php"><img src="Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
+                <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
+                <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
+                <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
             </div>
 
         </div>

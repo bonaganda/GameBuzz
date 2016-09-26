@@ -118,71 +118,67 @@ and open the template in the editor.
                         }
                     </script>
                     
-                    <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5" border="0"><br><br>
+                    <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5"><br><br>
 
                     <!--Article Section*-->
 
                     <div id="article_column">
 
                         <!--Article title-->
-                        <a href=""><b><br>&nbsp;&nbsp;ARTICLES</b><br><br></a>
+                        <a href=""><b>&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
-                        <center>
                             <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="inside" width="600" height="350" border="0"></a>
-                            <font size ="3">
+                            <font size ="3"></br>
                             <a href="Games/Inside.php"><b><br>INSIDE</b><br></a>
                             </font>
                             <p align="left">Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. The player basically controls the unnamed boy who runs, walks, climbs 
                                 and swims and then uses objects to overcome the obstacles and progress in the game.  
                                 <a href="Games/Index.php"><b>Read More..</b></a>
-                            </p><br><br>
+                            </p><br>
 
                             <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="overwatch" width="600" height="350" border="0"></a>
-                            <font size ="3">
+                            <font size ="3"></br>
                             <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>
                             </font>
                             <p align="left"> 
                                 Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. Each hero has their own set of abilities that the player can master. There are a lot of characters in the game that the player can choose from such as Volatile Mercenary, 
                                 Super-Intelligent Genetically Engineered Gorilla or Cyborg Ninja. 
                                 <a href="Games/Overwatch.php"><b>Read More..</b></a>
-                            </p><br><br>
+                            </p><br>
 
                             <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="heartsofiron4" width="600" height="350" border="0"></a>
-                            <font size ="3">
+                            <font size ="3"><br>
                             <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
                             </font>
                             <p align="left"> 
                                 Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
                                 the player can lead the nation with their chosen ultimate weapon. From the heart of the battlefield to the centre of command, the player will need to guide his/her nation to glory and wage war, invade or negotiate. 
                                 <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
-                            </p><br><br>
+                            </p><br>
 
-                            <a href="Home.php" button class="pagesbutton"><span>PREV</span></button>
-                            <a href="Home2.php" button class="pagesbutton"><span>NEXT </span></button>
-                            <a href="Home3.php" button class="pagesbutton"><span>LAST</span></button>
-                           
-                        </center>
-
+                            <b><a href="Home.php" button class="pagesbutton"><span>PREV</span></button>
+                            <a href="Home3.php" button class="pagesbutton"><span>NEXT </span></button>
+                            <a href="Home3.php" button class="pagesbutton"><span>LAST</span></button></b>
                     </div>
 
                 </div>
 
-                <div id="sidebar">
-                    <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
-                    <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
-                    <a href="Games/QuadrilateralCowboy.php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
-                    <a href="Games/Doom.php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
-                    <a href="Games/DarkSouls3.php"><img src="Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
-                    <a href="Games/Inside.php"><img src="Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
-                    <a href="Games/Overwatch.php"><img src="Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
-                    <a href="Games/HeartsOfIron4.php"><img src="Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
-                    <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
-                    <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
-                    <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
-                </div>
-
             </div>
-
+            
+            <div id="sidebar">
+                <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+                <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
+                <a href="Games/QuadrilateralCowboy.php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
+                <a href="Games/Doom.php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
+                <a href="Games/DarkSouls3.php"><img src="Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
+                <a href="Games/Inside.php"><img src="Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
+                <a href="Games/Overwatch.php"><img src="Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
+                <a href="Games/HeartsOfIron4.php"><img src="Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
+                <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
+                <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
+                <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
+            </div>
+            
         </div>
 
     </body>

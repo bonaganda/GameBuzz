@@ -38,7 +38,7 @@ and open the template in the editor.
             <div class="columns">
                 <a style="color: red;"><h1>Just Cause 3</h1></a>
                 
-                <h2>Platform: PS4, XONE and MS Windows</h2></br>
+                <h2>Platform: PC, PS4 and XONE</h2></br>
                 Just Cause 3 is an open world adventure-action video game that is set on a fictional Mediterranean island known as Medici with Rico Rodriguez set as the main character. The map size is just like the setting of Just Cause 2 with 400sqm devoted to the new setting. Nevertheless, its volumetric terrain has increased to allow more vertically – as a result of this, it’s possible for the character to explore the subterranean caverns and to search the buildings more realistically and more efficiently. The world of the game consists of five key biomes, with each having distinctive landscapes and landmarks.<br><br>
                 <img src="../Images/jc1.jpg" style="width: 675px; height: 400px;">
                 

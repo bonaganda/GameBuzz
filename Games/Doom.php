@@ -37,7 +37,7 @@ and open the template in the editor.
             
             <div class="columns">
                 <a style="color: red;"><h1>Doom</h1></a>
-                <h2> Platform: PC, PS4, XBOX 1 </h2>
+                <h2> Platform: PC, PS4 and XONE </h2>
                 This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience. There are relentless demons, unbelievably destructive guns and very fast, fluid movement provide the grounds for an intense, first-person combat – whether you are destroying hordes of demons in Hell in the single-player mode or competing with your friends in several multiplayer modes. You can also easily create, play and share your content with the world by using the DOOM SnapMap game editor. </br></br>
                 <img src ="../Images/doom1.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 

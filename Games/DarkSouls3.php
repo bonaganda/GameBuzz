@@ -38,7 +38,7 @@ and open the template in the editor.
             <div class="columns">
                 <a style="color: red;"><h1> Dark Souls 3</h1></a>
                 
-                <h2>Platform: PC, PS4, XBOX 1 </h2> 
+                <h2>Platform: PC, PS4 and XONE </h2> 
                 DS3 is a role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. A shield is also available to be used as a secondary weapon but their main use is to deflect the enemies’ attacks and protect the player from suffering damage. Each weapon in the game has two basic kinds of attacks, one is the standard attack and the other is somewhat more powerful that can be charged up like the game from FromSoftware called Bloodborne.</br></br>
                 <img src ="../Images/d31.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 
