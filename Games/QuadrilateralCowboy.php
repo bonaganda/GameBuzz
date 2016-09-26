@@ -36,7 +36,21 @@ and open the template in the editor.
         <div id="wrapper">
             
             <div class="columns">
-                    Quadrilateral Cowboy article goes here..
+                <h1>Quadrilateral Cowboy</h1>
+                </br></br><h2>Quadrilateral Cowboy</h2> is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
+ 
+                In this game, the player is a computer hacker in the 1980s and is armed with a “top-of-the-line hacking deck outfitted with a 56.6k modem and a staggering 256k Ram”. Based from Brendon Chung (developer of Blendo Games), the game takes place in the same universe as his other games, Thirty Flights of Loving and Gravity Bone, and shares the same “blocky” aesthetics. </br></br>
+                <img src ="../Images/cowboy1.jpg" style="width: 675px; height: 400px;  " > </br></br>
+ 
+                Quadrilateral Cowboy is played from the first-person perspective. The player’s role is a hacker which oversees one or more skilled agents that have missions to infiltrate buildings and steal documents. Each agent has a different skill set and abilities and in addition to the player’s hacker with their Deck, there is another character that has a saw to break through the doors whilst another person will be able to climb and move through the levels quickly. The player generally will experience what the agents would see through the virtual reality goggles that relay what they see to the hacker character. </br></br>
+                <img src ="../Images/cowboy2.jpg" style="width: 675px; height: 400px;  " > </br></br>
+                If the agents happen to come across locked doors, cameras and other security measures, the player which is the hacker will need to develop a program – typing the codes into their physical keyboards which in turn handles the security measures without setting off extra alarms to permit the agents to sneak in. Per se, the player must develop the program with the suitable timing to permit them to make it through the different obstacles they encounter without triggering the alarms in the building.
+                Throughout the game, the player needs to access the other gadgets such as a rover to search and collect objects which also can be programmed by the player to assist in the heist.
+ 
+The heists were planned out in a virtual reality simulator within the game, the Heist Planner. This allows the hacker (player) to be able to adjust the timing and control of the agents and the interruptions within the system. This region will also supply a simple in-game tutorial system for the player to know the mechanics of hacking with the instructions displayed as sticky notes are attached to different objects or when the characters hold up signs during the game.
+</br></br> <h1>Trailer</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S_IVvhSX2tY" frameborder="0" allowfullscreen></iframe>
+            
             </div>
             
             
