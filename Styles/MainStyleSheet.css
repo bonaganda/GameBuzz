@@ -77,12 +77,19 @@ body p
     float: right;
     width: 350px;
     height: 400px;  
-    text-align: left;
+    text-align: center;
     text-decoration: white;
+    font-size: 20px;
+}
+
+#sidebar a {
+    color: white;
+    text-decoration: none;
 }
 
 #sidebar a:hover
 {
+    color: red;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -202,6 +209,7 @@ nav li a {
     width: 677px;
     height: 810px;
     margin: 10px 0 10px 0;
+    text-align: center;
 }
 
 /*home wrapper content*/
