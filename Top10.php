@@ -53,6 +53,9 @@ and open the template in the editor.
         
         <div id="wrapper_top10">
             <div class="columns">
+                <Style>
+                    h1 {color: red};
+                    </Style>
             <h1>Top 10 Games of 2016!</h1>
             <h2> Here are the best of the bests in the world of games!</br> </br></h2>
             <h1>Number 10</h1>

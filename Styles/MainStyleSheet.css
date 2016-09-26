@@ -45,6 +45,15 @@ body p
 }
 /* Header Section */
 
+#wrapper_warhammer 
+{
+    width: 1080px;
+    height: 2650px;
+    background-color: black;
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid black;   
+}
 #wrapper_game
 {
     width: 1080px;
