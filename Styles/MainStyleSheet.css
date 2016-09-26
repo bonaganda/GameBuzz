@@ -37,8 +37,7 @@ body p
 #wrapper_top10
 {
     width: 1080px;
-    height: 3600px;
-    overflow: auto;
+    height: 3850px;
     background-color: black;
     background-size: cover;
     margin: 0 auto;
@@ -204,12 +203,12 @@ nav li a {
 }
 .columns
 {
+/*    border-color: red;
+    border-style: solid;*/
     position: relative;
     float: left;
     width: 677px;
-    height: 810px;
-    margin: 10px 0 10px 0;
-    text-align: center;
+    margin: 25px 0 0 25px;
 }
 
 /*home wrapper content*/

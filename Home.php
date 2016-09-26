@@ -51,7 +51,7 @@ and open the template in the editor.
 
 
         <div id="wrapper">
-            <div class="column">
+            <div class="columns">
                 <div id="news_area">
                     <div class="mySlides fade">
                         <a href="News1.php"> <img src="Images/News1.jpg" style="width: 675px; height: 400px"></a>
@@ -122,7 +122,7 @@ and open the template in the editor.
                     </div>
 
                 </div>
-
+            </div>
                 <div id="sidebar">
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                     <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
@@ -136,9 +136,6 @@ and open the template in the editor.
                     <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
                 </div>
-
-            </div>
-
         </div>
 
     </body>
