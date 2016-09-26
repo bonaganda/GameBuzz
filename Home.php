@@ -63,7 +63,7 @@ and open the template in the editor.
 
                         <div class="text">BattleNet is finally closing after selling overwatch to steam!</div>
                     </div>
-                    
+
                     <div class="mySlides fade">
                         <a href="News3.php"> <img src="Images/News3.jpg" style="width: 675px; height: 400px"></a>
                         <div class="text">Asian pro team has decided to invade oceanic territory but lost to the mere ozies</div>
@@ -116,28 +116,72 @@ and open the template in the editor.
                         }
                     </script>
 
+                    <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5" border="0"><br><br>
+
+                    <!--Article Section*-->
 
                     <div id="article_column">
-                        <br><b> Game article goes here... </b><br>
-                    </div>
 
-                </div>
-            </div>
-                <div id="sidebar">
-                    <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
-                    <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
-                    <a href="Games/QuadrilateralCowboy.php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
-                    <a href="Games/Doom.php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
-                    <a href="Games/DarkSouls3.php"><img src="Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
-                    <a href="Games/Inside.php"><img src="Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
-                    <a href="Games/Overwatch.php"><img src="Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
-                    <a href="Games/HeartsOfIron4.php"><img src="Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
-                    <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
-                    <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
-                    <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
-                </div>
-        </div>
+                        <!--Article title-->
 
-    </body>
 
-</html>
+                        <a href=""><b>&nbsp;&nbsp;ARTICLES</b><br><br><br></a>
+                        <center>
+                            <!--List of game articles-->
+                            <a href="Games/Warhammer.php"><img src="Images/Article Images/TotalWar.png" alt="warhammer" width="600" height="350" border="0"></a>
+                            <font size ="3">
+                            <a href="Games/Warhammer.php"><b><br>TOTAL WAR: WARHAMMER</b><br></a>
+                            </font>
+                            <p align="left">
+                                Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. In the Total War Series, it is the 10th title 
+                                and the first title to be released in the Total War: Warhammer trilogy. 
+                                <a href="Games/Warhammer.php"><b>Read More..</b></a>
+                            </p><br>                   
+                            
+                            <a href="Games/QuadrilateralCowboy.php"><img src="Images/Article Images/Quadrilateral.png" alt="quadrilateral cowboy" width="600" height="350" border="0"></a>
+                            <font size ="3">
+                            <a href="Games/QuadrilateralCowboy.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
+                            </font>
+                            <p align="left"> 
+                                Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
+                                <a href="Games/QuadrilateralCowboy.php.php"><b>Read More..</b></a>
+                            </p><br><br>
+
+                            <a href="Games/Doom.php"><img src="Images/Article Images/Doom.jpg" alt="doom" wwidth="600" height="350" border="0"></a>
+                            <font size ="3">
+                            <a href="Games/Doom.php"><b><br>DOOM</b><br></a>
+                            </font>
+                            <p align="left"> 
+                                This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience. There are relentless demons, unbelievably destructive guns and very fast, fluid movement provide the grounds for an intense, first-person combat – whether you are destroying hordes of demons in Hell in the single-player mode or competing with your friends in several multiplayer modes. You can also easily create, play and share your content with the world by using the DOOM SnapMap game editor.
+                                <a href="Games/Doom.php"><b>Read More..</b></a>
+                            </p><br><br>
+
+                            <!--<a href="Games/Warhammer.php"><b>< PREV  </b></a>-->
+                            <b>
+                                <a href="Home2.php" button class="pagesbutton"><span>NEXT </span></button>
+                                    <a href="Home3.php" button class="pagesbutton"><span>LAST</span></button>
+                                        </b>
+                                        </center>
+
+                                        </div>
+
+                                        </div>
+                                        </div>
+                                        <div id="sidebar">
+                                            <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+                                            <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
+                                            <a href="Games/QuadrilateralCowboy.php"><img src="Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
+                                            <a href="Games/Doom.php"><img src="Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
+                                            <a href="Games/DarkSouls3.php"><img src="Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
+                                            <a href="Games/Inside.php"><img src="Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
+                                            <a href="Games/Overwatch.php"><img src="Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
+                                            <a href="Games/HeartsOfIron4.php"><img src="Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
+                                            <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
+                                            <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
+                                            <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
+                                        </div>
+                                        </div>
+
+                                        </body>
+
+                                        </html>
