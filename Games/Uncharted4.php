@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <div id="wrapper" style="height: 2350px;">
             
             <div class="columns">
                 <a style="color: red;"><h1>Uncharted 4</h1></a>

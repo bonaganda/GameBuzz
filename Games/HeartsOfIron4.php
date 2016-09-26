@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper">
+        <div id="wrapper" style="height: 2450px;">
             
             <div class="columns">
                 <a style="color: red;"><h1>Hearts Of Iron IV</h1></a>
