@@ -117,6 +117,8 @@ and open the template in the editor.
                             dots[slideIndex - 1].className += " active";
                         }
                     </script>
+                    
+                    <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5" border="0"><br><br>
 
                     <!--Article Section*-->
 
@@ -126,7 +128,7 @@ and open the template in the editor.
                         <a href=""><b><br>&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
                         <center>
-                            <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="inside" width="400" height="250" border="0"></a>
+                            <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="inside" width="600" height="350" border="0"></a>
                             <font size ="3">
                             <a href="Games/Inside.php"><b><br>INSIDE</b><br></a>
                             </font>
@@ -135,7 +137,7 @@ and open the template in the editor.
                                 <a href="Games/Index.php"><b>Read More..</b></a>
                             </p><br><br>
 
-                            <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="overwatch" width="400" height="250" border="0"></a>
+                            <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="overwatch" width="600" height="350" border="0"></a>
                             <font size ="3">
                             <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>
                             </font>
@@ -145,7 +147,7 @@ and open the template in the editor.
                                 <a href="Games/Overwatch.php"><b>Read More..</b></a>
                             </p><br><br>
 
-                            <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="heartsofiron4" width="400" height="250" border="0"></a>
+                            <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="heartsofiron4" width="600" height="350" border="0"></a>
                             <font size ="3">
                             <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
                             </font>
