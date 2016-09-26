@@ -34,7 +34,9 @@ and open the template in the editor.
         </div>
         
         <div id="wrapper">
-            TELL ME ABOUT YOURSELF HUE HUE HUE                       
+            <div class="columns">
+                TELL ME ABOUT YOURSELF HUE HUE HUE    
+            </div>
         </div>
         
     </body>
