@@ -51,7 +51,7 @@ and open the template in the editor.
 
 
         <div id="wrapper">
-            <div class="column">
+            <div class="columns">
                 <div id="news_area">
                     <div class="mySlides fade">
 

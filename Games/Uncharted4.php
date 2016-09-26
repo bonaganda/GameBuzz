@@ -36,7 +36,7 @@ and open the template in the editor.
         <div id="wrapper">
             
             <div class="columns">
-                <h1>Uncharted 4</h1>
+                <a style="color: red;"><h1>Uncharted 4</h1></a>
                 
                 <h2>Platform: PS4</h2></br>
                 Uncharted 4 is an adventure-action packed game that is played from a third-person perspective, with platform game elements. 
@@ -56,14 +56,15 @@ and open the template in the editor.
                 <br><br>Additionally, the changeover between the gameplay sequences and the cutscene is rather seamless. Competitive multiplayer is also featured in the game. 
                 Lastly, there are certain things that can be unlocked in the game by using the points that the player has collected during the game are additional modes and visual filters, zero gravity mode, cel-shaded  artstyle and bullet time gameplay. </br></br>
                 <img src="../Images/uncharted3.jpg" style="width: 675px; height: 400px;">
-                <br><br><h2>Trailer</h2>
+                
+                <br><br><h2>Trailer:</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/hh5HV4iic1Y" frameborder="0" allowfullscreen></iframe>
                 
             </div>
             
             
             <div id="sidebar">
-                <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+                <a href="../Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                 <a href="../Games/Warhammer.php"><img src="../Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
                 <a href="../Games/QuadrilateralCowboy.php"><img src="../Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
                 <a href="../Games/Doom.php"><img src="../Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>

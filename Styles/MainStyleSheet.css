@@ -37,7 +37,7 @@ body p
 #wrapper_top10
 {
     width: 1080px;
-    height: 3850px;
+    height: 3450px;
     background-color: black;
     background-size: cover;
     margin: 0 auto;
@@ -212,10 +212,17 @@ nav li a {
 }
 .columns
 {
-/*    border-color: red;
-    border-style: solid;*/
     position: relative;
     float: left;
+    width: 677px;
+    margin: 25px 0 0 25px;
+}
+
+.columns_top10{
+    border-color: red;
+    border-style: solid;
+    margin: 0 150px;
+    position: relative;
     width: 677px;
     margin: 25px 0 0 25px;
 }

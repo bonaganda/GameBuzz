@@ -36,26 +36,23 @@ and open the template in the editor.
         <div id="wrapper">
             
             <div class="columns">
-                <style>
-                    h1 {color: red}
-                    
-                </style>
-                <h1>Inside</h1>
+                <a style="color: red;"><h1>Inside</h1></a>
+                
                 <h2>Platform: PC</h2>
                 
                 Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. The player basically controls the unnamed boy who runs, walks, climbs and swims and then uses objects to overcome the obstacles and progress in the game. Later on, the boy gains the ability to control bodies to complete specific puzzles. At several points in the game, the player may learn of hidden rooms which contain orbs that are glowing. If the glowing orbs are disabled during the game, then the player can unlock the game’s different ending.</br></br>
                 <img src ="../Images/inside1.jpg" style="width: 675px; height: 400px;  " >
 
-The main character can die in different ways, like being shot by a anaesthetic dart, drowning, mutilated by the dogs, ensnared by security machines or blown apart by shockwaves. These deaths are presented every so often graphically and realistically as in the predecessor game called Limbo. If the boy (main character) dies, then the game continues from the most recent checkpoint.
+                <br><br>The main character can die in different ways, like being shot by a anaesthetic dart, drowning, mutilated by the dogs, ensnared by security machines or blown apart by shockwaves. These deaths are presented every so often graphically and realistically as in the predecessor game called Limbo. If the boy (main character) dies, then the game continues from the most recent checkpoint.
 
-</br></br><h1> Trailer </h1> </br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yDm6PAgNohU" frameborder="0" allowfullscreen></iframe>
+                </br></br><h2>Trailer: </h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yDm6PAgNohU" frameborder="0" allowfullscreen></iframe>
             
             </div>
             
             
             <div id="sidebar">
-                <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+                <a href="../Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                 <a href="../Games/Warhammer.php"><img src="../Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
                 <a href="../Games/QuadrilateralCowboy.php"><img src="../Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
                 <a href="../Games/Doom.php"><img src="../Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>

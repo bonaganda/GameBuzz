@@ -36,7 +36,7 @@ and open the template in the editor.
         <div id="wrapper">
             
             <div class="columns">
-                <h1>Dota 2</h1>
+                <a style="color: red;"><h1>Dota 2</h1></a>
                 
                 <h2>Platform: PC</h2></br>
                 Dota 2 is a multiplayer online battle arena (MOBA) video game in which two teams of five players compete to collectively abolish a large structure protected by the opposite team known as the “Ancient” while defending their own structure. 
@@ -57,14 +57,15 @@ and open the template in the editor.
                 <br><br>Dota 2 also features seasonal events that presents the players with alternative game modes that doesn’t completely follow the standard rules of the game. 
                 In 2016, Valve has announced the “Custom Game Pass” option to custom game modes, which permits the creators of content to enhance exclusive features, content and other changes to the game mode. </br></br>
                 <img src="../Images/dota23.jpg" style="width: 675px; height: 400px;">
-                <br><br><h2>Trailer</h2>
+                
+                <br><br><h2>Trailer:</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cSFPIwMEq4" frameborder="0" allowfullscreen></iframe>
                 
             </div>
             
             
             <div id="sidebar">
-               <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
+               <a href="../Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                 <a href="../Games/Warhammer.php"><img src="../Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
                 <a href="../Games/QuadrilateralCowboy.php"><img src="../Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
                 <a href="../Games/Doom.php"><img src="../Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
@@ -75,8 +76,6 @@ and open the template in the editor.
                 <a href="../Games/Uncharted4.php"><img src="../Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
                 <a href="../Games/Dota2.php"><img src="../Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
                 <a href="../Games/JustCause3.php"><img src="../Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
-            
-            
         </div>
         
         
