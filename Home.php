@@ -54,19 +54,19 @@ and open the template in the editor.
             <div class="column">
                 <div id="news_area">
                     <div class="mySlides fade">
-                        <div class="numbertext">1 / 3</div>
+                        
                         <img src="Images/News1.jpg" style="width: 675px; height: 400px;">
                         <div class="text">Heroes of the Storm rated as the shittest game on the world, and zarya just got nerfed!</div>
                     </div>            
 
                     <div class="mySlides fade">
-                        <div class="numbertext">2 / 3</div>
+                       
                         <img src="Images/News2.jpg" style="width: 675px; height: 400px;">
                         <div class="text">BattleNet is finally closing after selling overwatch to steam!</div>
                     </div>
 
                     <div class="mySlides fade">
-                        <div class="numbertext">3 / 3</div>
+                        
                         <img src="Images/News3.jpg" style="    width: 675px; height: 400px;">
                         <div class="text">Asian pro team has decided to invade oceanic territory but lost to the mere ozies</div>
                     </div>
