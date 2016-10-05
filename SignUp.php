@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Login</title>
+        <title>Sign Up</title>
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
@@ -28,30 +28,23 @@ and open the template in the editor.
                 <li><a href="Login.php#">LOGIN</a></li>
             </ul>
         </nav>
-       
-        
         
         <div id="banner">
         </div>
         
-        <div id="login_wrapper">
+        <div id="login_wrapper" style="background-image: url(Images/mirana.jpg); background-size: cover;">
             <div class="loginbox">
-                <div id="Sign-In"> <fieldset style="width:100%; height: 185px; color: white;"><legend>MEMBER LOGIN</legend> 
-                        <form method="POST" action="connectivity.php" style="color: red;">
-                            Username:<br><input type="text" name="user" size="30"><br>
+                <div id="Sign-In" style="height: 210px;"> <fieldset style="width:100%; color: white;"><legend>MEMBER LOGIN</legend> 
+                        <!--<form method="POST" action="connectivity.php">-->
+                        
+                        <p style="color: red;">Email Address:<br><input type="email" name="email" size="30"><br>
+                            <br>Username:<br><input type="text" name="user" size="30"><br>
                             <br>Password:<br><input type="password" name="pass" size="30">
-                            <br> <input id="button" type="submit" name="submit" value="Login"><br> 
-                            <a href="SignUp.php">Not a member? Sign up now!</a>
-                        </form> 
+                            <input id="button" type="submit" name="submit" value="Sign Up"><br> </p>
+                        <!--</form>--> 
                     </fieldset> 
                 </div>
-
-                
-                
             </div>
-            
-            
-            
         </div>
         
     </body>
