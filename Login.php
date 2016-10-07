@@ -36,11 +36,18 @@ and open the template in the editor.
         
         <div id="login_wrapper">
             <div class="loginbox">
-                <div id="Sign-In"> <fieldset style="width:100%; height: 185px; color: white;"><legend>MEMBER LOGIN</legend> 
+                <div id="Sign-In"> 
+                    <fieldset style="width:100%; "><legend>MEMBER LOGIN</legend> 
                         <form method="POST" action="connectivity.php" style="color: red;">
-                            Username:<br><input type="text" name="user" size="30"><br>
-                            <br>Password:<br><input type="password" name="pass" size="30">
-                            <br> <input id="button" type="submit" name="submit" value="Login"><br> 
+                            <p>
+                                <label>Username:</label><br>
+                                <input type="text" name="username" size="30" >
+                            </p>
+                            <p>
+                                <label>Password:</label><br>
+                                <input type="password" name="password" size="30">
+                                <input id="button" type="submit" name="login_btn" value="Login"><br>  
+                            </p>
                             <a href="SignUp.php">Not a member? Sign up now!</a>
                         </form> 
                     </fieldset> 
