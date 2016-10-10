@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper" style="height: 2450px;">
+        <div id="wrapper" style="height: 3200px;">
             
             <div class="columns">
                 <a style="color: red;"><h1>Doom</h1></a>
@@ -51,25 +51,55 @@ and open the template in the editor.
 
                 </br></br><h2>Trailer:</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/RO90omga8D4" frameborder="0" allowfullscreen></iframe>
+             
+                <!-- Comment Section -->
+                
+                <br><br><br>
+
+                <!-- Leave a comment text -->
+                <font color = "white"><b>Leave a Comment</b></font> </br></br>
+
+                <!-- Comment Form -->
+                <form action="" method="POST">
+                    <!-- Username text field -->
+                    <input type = "text" name = "name" maxlength = "10" required> Username <font color = "red">(required)</font></br></br>                           
+                    <!-- Comment box -->
+                    <textarea rows ="5" cols ="60" name="commentContent" required></textarea></br></br>
+                    <!-- Submit button -->
+                    <input type = "submit" value = "Publish"></br>
+                </form>
+
+                <!-- Code to display the inputted name and comment in the page -->
+                <?php
+                if ($_POST) {
+
+                    $name = $_POST['name'];
+                    $content = $_POST['commentContent'];
+
+                    #Get old comments
+                    $old = fopen("comments-doom.html", "r+t");
+                    $old_comments = fread($old, 1024);
+
+                    #Delete everything, write down new and old comments
+                    $write = fopen("comments-doom.html", "w+");
+                    $string = "<b><br>" . $name . "</b><br>" . $content . "</br>" . $old_comments . "</br>";
+                    fwrite($write, $string);
+                    fclose($write);
+                    fclose($old);
+                }
+
+                #Read comments
+                $read = fopen("comments-doom.html", "r+t");
+                echo "<br><br>Comments<hr>" . fread($read, 1024);
+                fclose($read);
+                ?>       
+                
+                <!-- End of Comment Section -->
+                
             </div>
             
-            
-            <div id="sidebar">
-                <a href="../Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
-                <a href="../Games/Warhammer.php"><img src="../Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
-                <a href="../Games/QuadrilateralCowboy.php"><img src="../Images/Sidebar/quad_banner.png" alt="quadrilateral" width="300" height="60" border="0"></a>
-                <a href="../Games/Doom.php"><img src="../Images/Sidebar/doom_banner.png" alt="doom" width="300" height="60" border="0"></a>
-                <a href="../Games/DarkSouls3.php"><img src="../Images/Sidebar/dsouls_banner.png" alt="darksouls" width="300" height="60" border="0"></a>
-                <a href="../Games/Inside.php"><img src="../Images/Sidebar/inside_banner.png" alt="inside" width="300" height="60" border="0"></a>
-                <a href="../Games/Overwatch.php"><img src="../Images/Sidebar/overwatch_banner.png" alt="overwatch" width="300" height="60" border="0"></a>
-                <a href="../Games/HeartsOfIron4.php"><img src="../Images/Sidebar/heartsofiron_banner.png" alt="heartsofironiv" width="300" height="60" border="0"></a>
-                <a href="../Games/Uncharted4.php"><img src="../Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
-                <a href="../Games/Dota2.php"><img src="../Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
-                <a href="../Games/JustCause3.php"><img src="../Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
-        </div>
-        
-        
-        
-        
+            <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
+            <?php include 'Top10-Sidebar.php' ?>
+       
     </body>
 </html>
