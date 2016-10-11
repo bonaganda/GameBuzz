@@ -125,36 +125,54 @@ and open the template in the editor.
                     <div id="article_column">
 
                         <!--Article title-->
-                        <a href=""><b>&nbsp;&nbsp;ARTICLES</b><br><br></a>
+                        <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
-                        <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="inside" width="600" height="350" border="0"></a>
-                        <font size ="3"></br>
+
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
+
+                        <!-- Game Title -->
                         <a href="Games/Inside.php"><b><br>INSIDE</b><br></a>
                         </font>
-                        <p align="left">Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. The player basically controls the unnamed boy who runs, walks, climbs 
-                            and swims and then uses objects to overcome the obstacles and progress in the game.  
-                            <a href="Games/Inside.php"><b>Read More..</b></a>
-                        </p><br>
 
-                        <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="overwatch" width="600" height="350" border="0"></a>
-                        <font size ="3"></br>
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. 
+                            <a href="Games/Inside.php"><b>Read More..</b></a>
+                        </p>
+                        <br><br>  
+
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
+
+                        <!-- Game Title -->
                         <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>
                         </font>
-                        <p align="left"> 
-                            Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. Each hero has their own set of abilities that the player can master. There are a lot of characters in the game that the player can choose from such as Volatile Mercenary, 
-                            Super-Intelligent Genetically Engineered Gorilla or Cyborg Ninja. 
-                            <a href="Games/Overwatch.php"><b>Read More..</b></a>
-                        </p><br>
 
-                        <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="heartsofiron4" width="600" height="350" border="0"></a>
-                        <font size ="3"><br>
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. Each hero has their own set of abilities that the player can master. 
+                            <a href="Games/Overwatch.php"><b>Read More..</b></a>
+                        </p>
+                        <br><br><br><br>  
+
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
+
+                        <!-- Game Title -->
                         <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
                         </font>
-                        <p align="left"> 
+
+                        <!-- Game Excerpt-->
+                        <p align="left">
                             Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
-                            the player can lead the nation with their chosen ultimate weapon. From the heart of the battlefield to the centre of command, the player will need to guide his/her nation to glory and wage war, invade or negotiate. 
+                            the player can lead the nation with their chosen ultimate weapon. 
                             <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
-                        </p><br>
+                        </p>
+                        <br><br><br><br>                       
 
                         <b><a href="Home.php" button class="pagesbutton"><span>PREV</span></button>
                                 <a href="Home3.php" button class="pagesbutton"><span>NEXT </span></button>
@@ -166,7 +184,7 @@ and open the template in the editor.
                                         </div>
 
                                         <!-- Sidebar Section - Top 10 Games -->
-                                        <div id="sidebar">
+                                        <div id="sidebar" style="height: 1400px;">
                                             <a href="Top10.php"><b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOP 10 GAMES</b><br><br></a>
                                             <center>
                                                 <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>

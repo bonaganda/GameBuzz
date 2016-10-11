@@ -50,7 +50,7 @@ and open the template in the editor.
         <div id="banner"></div>
 
 
-        <div id="wrapper" style="height: 1600px">
+        <div id="wrapper" style="height: 1200px">
             <div class="columns">
                 <div id="news_area">
                     <div class="mySlides fade">
@@ -120,29 +120,41 @@ and open the template in the editor.
                     <!--Article Section*-->
 
                     <div id="article_column">
-                        <a href=""><b>&nbsp;&nbsp;ARTICLES</b><br><br></a>
+                        <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
 
                         <!--List of game articles-->
-                        <a href="Games/DarkSouls3.php"><img src="Images/Article Images/Dark Souls.jpg" alt="darksouls3" width="600" height="350" border="0"></a>
-                        <font size ="3"><br>
-                        <a href="Games/DarkSouls3.php"><b><br>DARK SOULS III</b><br></a>
-                        </font>
-                        <p align="left"> 
-                            Dark Souls III is an role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. 
-                            <a href="Games/DarkSouls3.php"><b>Read More..</b></a>
-                        </p><br>
 
-                        <a href="Games/Uncharted4.php"><img src="Images/Article Images/Uncharted4.jpg" alt="uncharted4" width="600" height="350" border="0"></a>
-                        <font size ="3"><br>
-                        <a href="Games/Uncharted4.php"><b><br>UNCHARTED 4</b><br></a>
-                        </font>
-                        <p align="left"> 
-                            Uncharted 4 is an adventure-action packed game that is played from a third-person perspective, with platform game elements. The player undertakes control of Nathan Drake, who is physically adept and is able to sprint, climb, jump, swim, scale narrow ledges and wall-faces to get amongst points, swing with a rope, use a grappling hook and do other acrobatic actions. Drake can use different 
-                            weapons such as assault rifles, grenades and pistols to kill his enemies.  
-                            <a href="Games/Uncharted4.php"><b>Read More..</b></a>
-                        </p><br>
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
 
-                        <b><a href="Home2.php" button class="pagesbutton"><span>PREV</span></button>
+                        <!-- Game Title -->
+                        <a href="Games/Inside.php"><b><br>DARK SOULS III</b><br></a>
+                        </font>
+
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Dark Souls III is an role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II.
+                            <a href="Games/Inside.php"><b>Read More..</b></a>
+                        </p>
+                        <br><br><br>   
+
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
+
+                        <!-- Game Title -->
+                        <a href="Games/Overwatch.php"><b><br>Uncharted 4</b><br></a>
+                        </font>
+
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Uncharted 4 is an adventure-action packed game that is played from a third-person perspective, with platform game elements. The player undertakes control of Nathan Drake, who is physically adept and is able to sprint, climb, jump, swim, scale narrow ledges and wall-faces to get amongst points, swing with a rope, use a grappling hook and do other acrobatic actions.
+                            <a href="Games/Overwatch.php"><b>Read More..</b></a>
+                        </p>
+                        <br><br> 
+
+                        <center><b><a href="Home2.php" button class="pagesbutton"><span>PREV</span></button>
                                 </div>
 
                                 </div>
@@ -151,7 +163,7 @@ and open the template in the editor.
 
                                 <!-- Sidebar Section - Top 10 Games -->
                                 <!-- Adjust sidebar size -->
-                                <div id="sidebar" style="height: 1600px;">
+                                <div id="sidebar" style="height: 1200px;">
                                     <a href="Top10.php"><b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOP 10 GAMES</b><br><br></a>
                                     <center>
                                         <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>

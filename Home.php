@@ -119,7 +119,7 @@ and open the template in the editor.
                     <div id="article_column">
 
                         <!--Article title-->
-                        <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
+                        <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
 
                         <!--List of Game Articles-->
 
@@ -139,34 +139,34 @@ and open the template in the editor.
                         <br><br> 
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Warhammer.php"><img src="Images/Article Images/Quadrilateral.png" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Games/QuadrilateralCowboy.php"><img src="Images/Article Images/Quadrilateral.png" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         
                         <!-- Game Title -->
                         <font size ="3">
-                        <a href="Games/Warhammer.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
+                        <a href="Games/QuadrilateralCowboy.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
                         </font>
                         
                         <!-- Game Excerpt-->
                         <p align="left">
-                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. 
-                            <a href="Games/Warhammer.php"><b>Read More..</b></a>
+                            Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
+                            <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
                         </p>
-                        <br><br>     
+                        <br><br><br><br><br>   
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Warhammer.php"><img src="Images/Article Images/Doom.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Games/Doom.php"><img src="Images/Article Images/Doom.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
                         
                         <!-- Game Title -->
-                        <a href="Games/Warhammer.php"><b><br>DOOM</b><br></a>
+                        <a href="Games/Doom.php"><b><br>DOOM</b><br></a>
                         </font>
                         
                         <!-- Game Excerpt-->
                         <p align="left">
-                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. 
-                            <a href="Games/Warhammer.php"><b>Read More..</b></a>
+                            This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience.
+                            <a href="Games/Doom.php"><b>Read More..</b></a>
                         </p>
-                        <br><br>     
+                        <br><br><br><br>  
 
 
 
