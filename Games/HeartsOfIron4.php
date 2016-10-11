@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
-        <div id="wrapper" style="height: 3200px;">
+        <div id="wrapper" style="height: 3000px;">
 
             <div class="columns">
                 <a style="color: red;"><h1>Hearts Of Iron IV</h1></a>
@@ -106,8 +106,11 @@ and open the template in the editor.
 
             </div>
 
-            <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
-            <?php include 'Top10-Sidebar.php' ?>
+            <!-- Adjust sidebar size -->
+            <div id="sidebar" style="height: 3000px;">
 
+                <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
+                <?php include 'Top10-Sidebar.php' ?>
+            </div>
     </body>
 </html>

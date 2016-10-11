@@ -97,9 +97,11 @@ and open the template in the editor.
                 <!-- End of Comment Section -->
 
             </div>
-
+            
+            <!-- Adjust sidebar size -->
+            <div id="sidebar" style="height: 2800px;">
             <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
             <?php include 'Top10-Sidebar.php' ?>
-
+            </div>
     </body>
 </html>

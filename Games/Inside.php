@@ -27,19 +27,19 @@ and open the template in the editor.
                 <li><a href="../Login.php#">LOGIN</a></li>
             </ul>
         </nav>
-       
-        
-        
+
+
+
         <div id="banner">
         </div>
-        
+
         <div id="wrapper" style="height: 2200px;">
-            
+
             <div class="columns">
                 <a style="color: red;"><h1>Inside</h1></a>
-                
+
                 <h2>Platform: PC, PS4 and XONE</h2>
-                
+
                 Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. The player basically controls the unnamed boy who runs, walks, climbs and swims and then uses objects to overcome the obstacles and progress in the game. Later on, the boy gains the ability to control bodies to complete specific puzzles. At several points in the game, the player may learn of hidden rooms which contain orbs that are glowing. If the glowing orbs are disabled during the game, then the player can unlock the game’s different ending.</br></br>
                 <img src ="../Images/inside1.jpg" style="width: 675px; height: 400px;  " >
 
@@ -47,8 +47,8 @@ and open the template in the editor.
 
                 </br></br><h2>Trailer: </h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/yDm6PAgNohU" frameborder="0" allowfullscreen></iframe>
-            
-           <!-- Comment Section -->
+
+                <!-- Comment Section -->
 
                 <br><br><br>
 
@@ -94,8 +94,11 @@ and open the template in the editor.
 
             </div>
 
-            <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
-            <?php include 'Top10-Sidebar.php' ?>
-                     
+            <!-- Adjust sidebar size -->
+            <div id="sidebar" style="height: 2200px;">
+                <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
+                <?php include 'Top10-Sidebar.php' ?>
+            </div>
+
     </body>
 </html>

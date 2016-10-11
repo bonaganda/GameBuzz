@@ -108,8 +108,10 @@ and open the template in the editor.
 
             </div>
 
-            <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
-            <?php include 'Top10-Sidebar.php' ?>
-
+            <!-- Adjust sidebar size -->
+            <div id="sidebar" style="height: 3000px;">
+                <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
+                <?php include 'Top10-Sidebar.php' ?>
+            </div>
     </body>
 </html>

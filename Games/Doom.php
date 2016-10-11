@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
         
-        <div id="wrapper" style="height: 3200px;">
+        <div id="wrapper" style="height: 3000px;">
             
             <div class="columns">
                 <a style="color: red;"><h1>Doom</h1></a>
@@ -98,8 +98,9 @@ and open the template in the editor.
                 
             </div>
             
+            <div id="sidebar" style="height: 3000px;">
             <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
             <?php include 'Top10-Sidebar.php' ?>
-       
+            </div>
     </body>
 </html>
