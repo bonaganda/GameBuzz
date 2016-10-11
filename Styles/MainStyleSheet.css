@@ -31,7 +31,6 @@ body p
     background-color: black;
     background-size: cover;
     margin: 0 auto;
-    border: 5px solid black;
 }
 
 #wrapper_top10
@@ -75,10 +74,11 @@ body p
     position: relative;
     float: right;
     width: 350px;
-    height: 400px;  
-    text-align: center;
+    height: 2100px;  
+    text-align: left;
     text-decoration: white;
-    font-size: 20px;
+    font-size: 16px;
+    border-left: thick solid #5F5E5E;
 }
 
 #sidebar a {
@@ -227,8 +227,7 @@ nav li a {
     filter: alpha(opacity=50);
 }
 
-/*home wrapper content*/
-
+/*Home-Articles Section*/
 #article_column
 {
     float: left;
@@ -236,7 +235,7 @@ nav li a {
     height: 400px;
     background-repeat: no-repeat;
     background-size: contain;
-    text-align: center;
+    text-align: left;
     position: relative;
 }
 
@@ -245,12 +244,7 @@ nav li a {
     text-decoration: none;
 }
 
-#article_column a:hover {
-    color: red;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-
+/*News Section*/
 #news_area
 {
     float: left;
