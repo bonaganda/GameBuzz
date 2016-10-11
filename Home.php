@@ -116,41 +116,59 @@ and open the template in the editor.
                     <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5" border="0"><br><br>
 
                     <!--Article Section*-->
-
                     <div id="article_column">
 
                         <!--Article title-->
+                        <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
 
-                        <a href=""><b>&nbsp;&nbsp;ARTICLES</b><br><br></a>
-                        <!--<center>-->
-                        <!--List of game articles-->
-                        <a href="Games/Warhammer.php"><img src="Images/Article Images/TotalWar.png" alt="warhammer" width="600" height="350" border="0"></br></a>
+                        <!--List of Game Articles-->
+
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Warhammer.php"><img src="Images/Article Images/TotalWar.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+
+                        <!-- Game Title -->
                         <font size ="3">
                         <a href="Games/Warhammer.php"><b><br>TOTAL WAR: WARHAMMER</b><br></a>
                         </font>
+
+                        <!-- Game Excerpt-->
                         <p align="left">
-                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. In the Total War Series, it is the 10th title 
-                            and the first title to be released in the Total War: Warhammer trilogy. 
+                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. 
                             <a href="Games/Warhammer.php"><b>Read More..</b></a>
-                        </p><br>                   
+                        </p>
+                        <br><br> 
 
-                        <a href="Games/QuadrilateralCowboy.php"><img src="Images/Article Images/Quadrilateral.png" alt="quadrilateral cowboy" width="600" height="350" border="0"></br></a>
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Warhammer.php"><img src="Images/Article Images/Quadrilateral.png" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        
+                        <!-- Game Title -->
                         <font size ="3">
-                        <a href="Games/QuadrilateralCowboy.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
+                        <a href="Games/Warhammer.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
                         </font>
-                        <p align="left"> 
-                            Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
-                            <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
-                        </p><br>
+                        
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. 
+                            <a href="Games/Warhammer.php"><b>Read More..</b></a>
+                        </p>
+                        <br><br>     
 
-                        <a href="Games/Doom.php"><img src="Images/Article Images/Doom.jpg" alt="doom" wwidth="600" height="350" border="0"></a>
-                        <font size ="3"></br>
-                        <a href="Games/Doom.php"><b><br>DOOM</b><br></a>
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Warhammer.php"><img src="Images/Article Images/Doom.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
+                        
+                        <!-- Game Title -->
+                        <a href="Games/Warhammer.php"><b><br>DOOM</b><br></a>
                         </font>
-                        <p align="left"> 
-                            This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience. There are relentless demons, unbelievably destructive guns and very fast, fluid movement provide the grounds for an intense, first-person combat – whether you are destroying hordes of demons in Hell in the single-player mode or competing with your friends in several multiplayer modes. You can also easily create, play and share your content with the world by using the DOOM SnapMap game editor.
-                            <a href="Games/Doom.php"><b>Read More..</b></a>
-                        </p><br>
+                        
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. 
+                            <a href="Games/Warhammer.php"><b>Read More..</b></a>
+                        </p>
+                        <br><br>     
+
+
 
                         <!--<a href="Games/Warhammer.php"><b>< PREV  </b></a>-->
                         <b><a href="Home2.php" button class="pagesbutton"><span>NEXT </span></button>
@@ -160,7 +178,7 @@ and open the template in the editor.
 
                                     </div>
                                     </div>
-                                    <div id="sidebar">
+                                    <div id="sidebar" style="height: 1400px;">
                                         <center>    
                                             <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                                             <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
