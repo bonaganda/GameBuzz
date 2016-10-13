@@ -127,7 +127,7 @@ and open the template in the editor.
                         <!--Article title-->
                         <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
-
+                        
                         <!-- Adds filled border to each article -->
                         <div class = "border">
                             <!-- Image thumbnail of Game Article -->
@@ -183,7 +183,7 @@ and open the template in the editor.
                                 <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
                             </p>
                         </div>
-                        <br><br><br><br>                       
+                        <br><br><br>                     
 
                         <!-- Page Links -->
 
