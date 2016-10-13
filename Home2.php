@@ -128,50 +128,61 @@ and open the template in the editor.
                         <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
 
-                        <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                        <font size ="3">
+                        <!-- Adds filled border to each article -->
+                        <div class = "border">
+                            <!-- Image thumbnail of Game Article -->
+                            <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                            <font size ="3">
 
-                        <!-- Game Title -->
-                        <a href="Games/Inside.php"><b><br>INSIDE</b><br></a>
-                        </font>
+                            <!-- Game Title -->
+                            <a href="Games/Inside.php"><b><br>INSIDE</b><br></a>
+                            </font>
 
-                        <!-- Game Excerpt-->
-                        <p align="left">
-                            Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. 
-                            <a href="Games/Inside.php"><b>Read More..</b></a>
-                        </p>
-                        <br><br>  
+                            <!-- Game Excerpt-->
+                            <p align="left">
+                                Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. 
+                                <a href="Games/Inside.php"><b>Read More..</b></a>
+                            </p>
+                        </div>
+                        <br> 
 
-                        <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                        <font size ="3">
+                        <!-- Adds filled border to each article -->
+                        <div class = "border">
 
-                        <!-- Game Title -->
-                        <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>
-                        </font>
+                            <!-- Image thumbnail of Game Article -->
+                            <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                            <font size ="3">
 
-                        <!-- Game Excerpt-->
-                        <p align="left">
-                            Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. Each hero has their own set of abilities that the player can master. 
-                            <a href="Games/Overwatch.php"><b>Read More..</b></a>
-                        </p>
-                        <br><br><br><br>  
+                            <!-- Game Title -->
+                            <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>
+                            </font>
 
-                        <!-- Image thumbnail of Game Article -->
-                        <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                        <font size ="3">
+                            <!-- Game Excerpt-->
+                            <p align="left">
+                                Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. Each hero has their own set of abilities that the player can master. 
+                                <a href="Games/Overwatch.php"><b>Read More..</b></a>
+                            </p>
+                        </div>
+                        <br>
 
-                        <!-- Game Title -->
-                        <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
-                        </font>
+                        <!-- Adds filled border to each article -->
+                        <div class = "border">
 
-                        <!-- Game Excerpt-->
-                        <p align="left">
-                            Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
-                            the player can lead the nation with their chosen ultimate weapon. 
-                            <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
-                        </p>
+                            <!-- Image thumbnail of Game Article -->
+                            <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                            <font size ="3">
+
+                            <!-- Game Title -->
+                            <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
+                            </font>
+
+                            <!-- Game Excerpt-->
+                            <p align="left">
+                                Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
+                                the player can lead the nation with their chosen ultimate weapon. 
+                                <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
+                            </p>
+                        </div>
                         <br><br><br><br>                       
 
                         <!-- Page Links -->

@@ -244,6 +244,12 @@ nav li a {
     text-decoration: none;
 }
 
+#article_column a :hover
+{
+    color: red;
+}
+
+
 /*News Section*/
 #news_area
 {
@@ -492,3 +498,20 @@ ul.pagination li a.active {
 ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 
 div.center {text-align: center;}
+
+.border
+{
+    border-radius: 10px;
+    width: 680px;
+    height: 250px;
+    padding: 5px;
+    background-color: #333333;
+    opacity: 0.6;
+    filter: alpha(opacity=100)
+}
+
+.border p
+{
+    color: #ffffff;
+}
+
