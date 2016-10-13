@@ -27,7 +27,7 @@ body p
 #wrapper
 {
     width: 1080px;
-    height: 1400px;
+    height: 1500px;
     background-color: black;
     background-size: cover;
     margin: 0 auto;
@@ -464,3 +464,31 @@ input[type=submit] {
     border: 1px solid gray;
     padding: 5px;
 }*/
+
+/* Pagination */
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #b71222;
+    color: white;
+    border: 1px solid #b71222;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+div.center {text-align: center;}
