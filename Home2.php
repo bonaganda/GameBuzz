@@ -204,7 +204,7 @@ and open the template in the editor.
             </div>
 
             <!-- Sidebar Section - Top 10 Games -->
-            <div id="sidebar" style="height: 1400px;">
+            <div id="sidebar" style="height: 1500px;">
                 <a href="Top10.php"><b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOP 10 GAMES</b><br><br></a>
                 <center>
                     <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
