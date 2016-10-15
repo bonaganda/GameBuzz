@@ -19,7 +19,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
         </div>
 
         <!-- Adds the website's wrapper -->
-        <div id="wrapper" style="height: 1750px;">
+        <div id="wrapper" style="height: 1800px;">
 
             <!-- Adds the sidebar section -->
             <div class="columns">
@@ -145,7 +145,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
             </div>
 
             <!-- Extends sidebar border's height -->
-            <div id="sidebar" style="height: 1750px;">
+            <div id="sidebar" style="height: 1800px;">
                 
                 <!-- Sidebar Section -->
                 <center>    
