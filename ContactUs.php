@@ -64,7 +64,7 @@ and open the template in the editor.
                     }
                     ?>
                     
-                    <!-- Adds the website's wrapper -->
+                    <!-- This will display a thank you message if the form has been successfully submitted, otherwise if it isn't successful, it will return an error message back to the user -->
                     <?php
                     if (isset($_GET['sent']) === true) {
                         echo '<p>Thank you for your message!</p>';
@@ -78,6 +78,7 @@ and open the template in the editor.
                         }
                         ?>
 
+                    <!-- This creates and displays the contact us form on the website -->
                         <form action="" method="post">
                             <p>
                                 <label for="visitorName">Name:</label><br>
