@@ -11,7 +11,7 @@ if(isset($_POST['signup_btn'])){
     
     //Query the database for user
     try {
-        $result = mysqli_query($con, "SELECT * FROM users WHERE username = '$username' AND password = '$password'");
+        $result = mysqli_query($con, "SELECT * FROM users WHERE username = '$username'");
     } catch(mysqli_sql_exception $e) {
         die ('Failed to query DB');
     }

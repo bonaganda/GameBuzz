@@ -1,3 +1,28 @@
+<?php 
+session_start();
+require './Database.php';
+
+if(isset($_POST['login_btn'])){
+    //to prevent sql injection
+    $username = mysqli_real_escape_string($con, $_POST['username']);
+    $password = mysqli_real_escape_string($con, $_POST['password']);
+    
+    //Query the database for user
+    try {
+        $result = mysqli_query($con, "SELECT * FROM users WHERE username = '$username' AND password = '$password'");
+        $row = mysqli_fetch_array($result); 
+    } catch(mysqli_sql_exception $e) {
+        die ('Failed to query DB');
+    }
+    //Check if user exist
+    if($username == $row['username'] && $password == $row['password']){
+        die('login success');
+    } else {
+        die('login failed!');
+    }
+}
+?>
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -38,7 +63,7 @@ and open the template in the editor.
             <div class="loginbox">
                 <div id="Sign-In"> 
                     <fieldset style="width:100%; "><legend>MEMBER LOGIN</legend> 
-                        <form method="POST" action="connectivity.php" style="color: red;">
+                        <form method="POST" action="Login.php" style="color: red;">
                             <p>
                                 <label>Username:</label><br>
                                 <input type="text" name="username" size="30" >
