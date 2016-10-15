@@ -11,24 +11,9 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        <nav class="navigation">
-            <ul id="nav">
-                <a href="../Home.php"><img src="../Images/Logo/GBLogosmall.png" width="232" height="50" id="logo" /></a> 
-                <li><a href="../Home.php">HOME</a></li>
-                <li class="dropdown" style="position: relative; top:">
-                    <div><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">PLATFORM</a></div>
-                    <div class="dropdown-content" id="myDropdown">
-                        <a href="#">PS4</a>
-                        <a href="#">XONE</a>
-                    </div>
-                </li> 
-                <li><a href="../Reviews.php">REVIEWS</a></li>
-                <li><a href="../About.php">ABOUT</a></li>
-                <li><a href="../Login.php#">LOGIN</a></li>
-            </ul>
-        </nav>
-
-
+        
+        <!-- Calls Navbar.php and displays it in the page -->
+        <?php include '../Includes/Navbar_1.php' ?>
 
         <div id="banner">
         </div>
@@ -38,7 +23,7 @@ and open the template in the editor.
             <div class="columns">
                 <a style="color: red;"><h1>Overwatch</h1></a>
 
-                <h2>Platform: PC, XONE and PS4</h2></br>
+                <h2>Platform: PC, XBOX ONE and PS4</h2></br>
                 Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. 
                 Each hero has their own set of abilities that the player can master. There are a lot of characters in the game that the player can choose from such as Volatile Mercenary, Super-Intelligent Genetically Engineered Gorilla or Cyborg Ninja. 
                 The game is essentially all about teamwork so the player would need to know what his/her role and excel in it. 

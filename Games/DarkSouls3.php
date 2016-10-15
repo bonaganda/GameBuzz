@@ -11,31 +11,17 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        <nav class="navigation">
-            <ul id="nav">
-                <a href="../Home.php"><img src="../Images/Logo/GBLogosmall.png" width="232" height="50" id="logo" /></a> 
-                <li><a href="../Home.php">HOME</a></li>
-                <li class="dropdown" style="position: relative; top:">
-                    <div><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">PLATFORM</a></div>
-                    <div class="dropdown-content" id="myDropdown">
-                        <a href="#">PS4</a>
-                        <a href="#">XONE</a>
-                    </div>
-                </li> 
-                <li><a href="../Reviews.php">REVIEWS</a></li>
-                <li><a href="../About.php">ABOUT</a></li>
-                <li><a href="../Login.php#">LOGIN</a></li>
-            </ul>
-        </nav>
-
-
-
+        
+        <!-- Calls Navbar.php and displays it in the page -->
+        <?php include '../Includes/Navbar_1.php' ?>
+        
         <div id="banner">
         </div>
 
         <div id="wrapper" style="height: 3000px;">
 
             <div class="columns">
+                
                 <a style="color: red;"><h1> Dark Souls 3</h1></a>
 
                 <h2>Platform: PC, PS4 and XONE </h2> 
@@ -49,7 +35,7 @@ and open the template in the editor.
                 In the game, the players come across various types of enemies and each of them has a different behaviour. Some of which change their pattern for fighting during battles. There is also new combat features added in Dark Souls III such as weapons and skills that can shield which are special abilities that differ from weapon to weapon that allow exclusive attacks and features with the cost of the FPs’.</br></br>
                 <img src ="../Images/d33.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 The game is more focused on role-playing in which the character builder is expanded and weapons are enhanced to offer more tactical choices to players. There fewer overall maps are larger and more detailed that encourages the player to explore them compared to Dark Souls II. Lastly, the stats are adjusted and features multiplayer elements.
-
+ 
                 </br></br><h2>Trailer:</h2> 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/_zDZYrIUgKE" frameborder="0" allowfullscreen></iframe>
                

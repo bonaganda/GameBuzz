@@ -154,7 +154,7 @@ nav li a {
     left: 0;
     z-index: 9999;
     width: 100%;
-    height: 80px;
+    height: 70px;
     margin: 0 auto;
     background-color: black;
     box-shadow: 3px 3px 3px #1E1B1B;
@@ -201,6 +201,36 @@ nav li a {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.platform_columns
+{
+    position: relative;
+    float: left;
+    width: 1200px;
+    margin: 15px 0 0 25px;
+}
+/*NavBar - Platform -PS4*/
+
+#Ps4_column
+{
+    float: left;
+    width: 675px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    position: relative;
+}
+
+#Ps4_column a {
+    color: white;
+    text-decoration: none;
+}
+
+#Ps4_column a :hover
+{
+    color: red;
 }
 .columns
 {
@@ -516,3 +546,16 @@ div.center {text-align: center;}
     color: #ffffff;
 }
 
+line {
+    width: 20px;
+    height: 5px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+line:hover {
+    width: 500px;
+}

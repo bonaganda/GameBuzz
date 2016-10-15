@@ -1,4 +1,5 @@
 <!-- Sidebar Section - Top 10 Games (File to include to article pages to display the sidebar -->
+
 <div id="sidebar">
     <a href="../Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
     <a href="../Games/Warhammer.php"><img src="../Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
