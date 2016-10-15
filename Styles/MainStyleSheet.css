@@ -494,6 +494,11 @@ input[type=submit] {
     padding: 6px 20px;
 }
 
+/* Reset button layout*/
+input[type=reset] {
+    border-radius: 6px;
+    padding: 6px 20px;
+}
 /* Home-Articles border*/
 /*.div1{
     width: 680px;

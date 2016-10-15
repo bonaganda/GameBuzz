@@ -12,6 +12,7 @@
                 </li> 
                 <li><a href="../Reviews.php">REVIEWS</a></li>
                 <li><a href="../About.php">ABOUT</a></li>
+                <li><a href="../ContactUs.php">CONTACT US</a></li>
                 <?php if (isset($_SESSION['username'])) { ?>
                     <li><a href="../Logout.php#">LOGOUT</a></li>
                 <?php } else { ?>
