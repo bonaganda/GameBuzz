@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php 
 session_start();
 require './Database.php';
@@ -10,16 +9,17 @@ if(isset($_POST['login_btn'])){
     
     //Query the database for user
     try {
-        $result = mysqli_query($con, "SELECT * FROM users WHERE username = '$username' AND password = '$password'");
-        $row = mysqli_fetch_array($result); 
+        $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+        $result = $con->query($sql);
     } catch(mysqli_sql_exception $e) {
         die ('Failed to query DB');
     }
     //Check if user exist
-    if($username == $row['username'] && $password == $row['password']){
-        die('login success');
+    if(!$row = $result ->fetch_assoc()){ 
+        echo "<script language=javascript>alert('Entered invalid username or password.')</script>";
     } else {
-        die('login failed!');
+        $_SESSION['username'] = $row['username'];
+        header("Location: Home.php");
     }
 }
 ?>
@@ -41,14 +41,20 @@ and open the template in the editor.
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
 
-        <div id="banner">
+        <?php if (isset($_SESSION['username'])) { ?>
+            <li><a href="Logout.php#">LOGOUT</a></li>
+        <?php } else { ?>
+            <li><a href="Login.php#">LOGIN</a></li>
+        <?php } ?>
+       
+            <div id="banner" style="height: 20px;">
         </div>
         
         <div id="login_wrapper">
             <div class="loginbox">
                 <div id="Sign-In"> 
                     <fieldset style="width:100%; height: 90%;"><legend>MEMBER LOGIN</legend> 
-                        <form method="POST" action="connectivity.php" style="color: red;">
+                        <form method="POST" action="Login.php" style="color: red;">
                             <p>
                                 <label>Username:</label><br>
                                 <input type="text" name="username" size="25" >
@@ -62,13 +68,7 @@ and open the template in the editor.
                         </form> 
                     </fieldset> 
                 </div>
-
-                
-                
             </div>
-            
-            
-            
         </div>
         
     </body>

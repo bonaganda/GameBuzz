@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+?>
 <!DOCTYPE html>
 <!--
 This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.

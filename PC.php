@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+?>
 <!DOCTYPE html>
 <!--
 This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.
@@ -19,7 +22,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
         </div>
 
         <!-- Adds the website's wrapper -->
-        <div id="wrapper" style="height: 2600px;">
+        <div id="wrapper" style="height: 2610px;">
 
             <!-- Adds the sidebar section -->
             <div class="columns">
