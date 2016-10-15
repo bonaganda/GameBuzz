@@ -35,24 +35,24 @@ and open the template in the editor.
                     <br><br>
                     <?php
                     if (empty($_POST) === false) {
-                        $errors = array();
+                        $error = array();
 
-                        $name = $_POST['name'];
-                        $email = $_POST['email'];
-                        $message = $_POST['message'];
+                        $visitorName = $_POST['visitorName'];
+                        $emailAdd = $_POST['emailAdd'];
+                        $messageInquiry = $_POST['messageInquiry'];
 
-                        if (empty('name') === true || empty('email') === true || empty('message') === true) {
-                            $errors[] = 'Name, email and message are required';
+                        if (empty($visitorName) === true || empty($emailAdd) === true || empty($messageInquiry) === true) {
+                            $error[] = 'The name, email address and message fields must be filled in.';
                         } else {
-                            if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-                                $errors[] = 'That\'s not a valid email address';
+                            if (filter_var($emailAdd, FILTER_VALIDATE_EMAIL) === false) {
+                                $error[] = 'The email address you entered is invalid.';
                             }
-                            if (ctype_alpha($name) === false) {
-                                $errors[] = 'Name must only contain letters!';
+                            if (ctype_alpha($visitorName) === false) {
+                                $error[] = 'Name must only contain letters!';
                             }
                         }
-                        if (empty($errors) === true) {
-                            mail('kimbcapati@yahoo.com', 'Contact form', $message, 'From: ' . $email);
+                        if (empty($error) === true) {
+                            mail('kimbcapati@yahoo.com', 'Contact Form', $messageInquiry, 'From: ' . $emailAdd);
                             header('Location: ContactUs.php?sent');
                             exit();
                         }
@@ -61,12 +61,12 @@ and open the template in the editor.
 
                     <?php
                     if (isset($_GET['sent']) === true) {
-                        echo '<p>Thanks for contacting us!</p>';
+                        echo '<p>Thank you for your message!</p>';
                     } else {
-                        if (empty($errors) === false) {
+                        if (empty($error) === false) {
                             echo '<ul>';
-                            foreach ($errors as $error) {
-                                echo '<li>', $error, '</li>';
+                            foreach ($error as $errors) {
+                                echo '<li>', $errors, '</li>';
                             }
                             echo '</ul>';
                         }
@@ -74,26 +74,26 @@ and open the template in the editor.
 
                         <form action="" method="post">
                             <p>
-                                <label for="name">Name:</label><br>
-                                <input type="text" name="name" id="name" <?php
-                                if (isset($_POST['name']) === true) {
-                                    echo 'value="', strip_tags($_POST['name']), '"';
+                                <label for="visitorName">Name:</label><br>
+                                <input type="text" name="visitorName" id="visitorName" <?php
+                                if (isset($_POST['visitorName']) === true) {
+                                    echo 'value="', strip_tags($_POST['visitorName']), '"';
                                 }
                                 ?>>      
                             </p>
                             <p>
-                                <label for="email">Email:</label><br>
-                                <input type="text" name="email" id="email" <?php
-                                if (isset($_POST['email']) === true) {
-                                    echo 'value="', strip_tags($_POST['email']), '"';
+                                <label for="emailAdd">Email Address:</label><br>
+                                <input type="text" name="emailAdd" id="emailAdd" <?php
+                                if (isset($_POST['emailAdd']) === true) {
+                                    echo 'value="', strip_tags($_POST['emailAdd']), '"';
                                 }
                                 ?>>   
                             </p>
                             <p>
-                                <label for="message">Message:</label><br>
-                                <textarea name="mesage" rows="8" cols="40" id="message"><?php
-                                    if (isset($_POST['message']) === true) {
-                                        echo strip_tags($_POST['message']);
+                                <label for="messageInquiry">Message:</label><br>
+                                <textarea name="messageInquiry" rows="8" cols="40" id="messageInquiry"><?php
+                                    if (isset($_POST['messageInquiry']) === true) {
+                                        echo strip_tags($_POST['messageInquiry']);
                                     }
                                     ?></textarea> 
                             </p>
