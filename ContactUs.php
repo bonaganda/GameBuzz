@@ -19,13 +19,15 @@ and open the template in the editor.
         <?php include 'Includes/Navbar.php' ?>
 
 
-
+        <!-- Leaves a margin between the navbar and the website's body -->
         <div id="banner">
         </div>
 
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 1020px;">
             <br>
             <center>
+                <!-- This section is a contact us form that can be used by visitors or users of our website that would want to send us a question or message -->
                 <a style="color: red;"><h1>Contact Us</h1></a>
                 <center>
                     <br>
@@ -33,7 +35,10 @@ and open the template in the editor.
                     <br><br>
                     We would love to hear from you - if you have any inquiries,<br>fill in the form below and we will get back to you within 24 hours :) 
                     <br><br>
-                    <?php
+
+                    <!-- The code below will display an error message if the user inputed incorrect or invalid information. Thus, the form will not be submitted if any of the below is invalid -->
+                    <!-- Once the user has submitted the form the system checks for validity and errors and if it is clear of any errors, it sends an email to the specified email address -->
+                        <?php
                     if (empty($_POST) === false) {
                         $error = array();
 
@@ -50,7 +55,7 @@ and open the template in the editor.
                             if (ctype_alpha($visitorName) === false) {
                                 $error[] = 'Name must only contain letters!';
                             }
-                        }
+                        }       
                         if (empty($error) === true) {
                             mail('kimbcapati@yahoo.com', 'Contact Form', $messageInquiry, 'From: ' . $emailAdd);
                             header('Location: ContactUs.php?sent');
@@ -58,7 +63,8 @@ and open the template in the editor.
                         }
                     }
                     ?>
-
+                    
+                    <!-- Adds the website's wrapper -->
                     <?php
                     if (isset($_GET['sent']) === true) {
                         echo '<p>Thank you for your message!</p>';

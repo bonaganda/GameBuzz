@@ -19,13 +19,16 @@ and open the template in the editor.
         <?php include 'Includes/Navbar.php' ?>
 
 
-
+        <!-- Leaves a margin between the navbar and the website's body -->
         <div id="banner">
         </div>
-
+        
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 1020px;">
             <center>
                 <br>
+                
+                <!-- This section contains information about our website and about us -->
                 <a style="color: red;"><h1>About Us</h1></a>
                 <img src="Images/Kim/aboutus.png" style="width: 600px; height: 260px;">
                 <br><br>
