@@ -22,7 +22,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
         </div>
 
         <!-- Adds the website's wrapper -->
-        <div id="wrapper" style="height: 2610px;">
+        <div id="wrapper" style="height: 2100px;">
 
             <!-- Adds the sidebar section -->
             <div class="columns">
@@ -172,7 +172,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
             </div>
 
             <!-- Extends sidebar border's height -->
-            <div id="sidebar" style="height: 2600px;">
+            <div id="sidebar" style="height: 2100px;">
 
                 <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Includes/Top10-Sidebar.php' ?>
