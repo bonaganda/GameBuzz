@@ -4,4 +4,3 @@
 //$Content = "Hello World!";
 
 include 'Home.php';
-?>

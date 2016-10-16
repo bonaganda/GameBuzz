@@ -22,8 +22,7 @@ and open the template in the editor.
             function myFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");
             }
-
-
+            
             window.onclick = function (e) {
                 if (!e.target.matches('.dropbtn')) {
                     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -38,13 +37,11 @@ and open the template in the editor.
         </script>
 
         <div id="banner"></div>
-
-
+        
         <div id="wrapper" style="height: 1200px">
             <div class="columns">
                 <div id="news_area">
                     <div class="mySlides fade">
-
                         <img src="Images/News1.jpg" style="width: 675px; height: 400px;">
                         <div class="text">Heroes of the Storm rated as the shittest game on the world, and zarya just got nerfed!</div>
                     </div>            
@@ -167,9 +164,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
             </div>
 
             <!-- Sidebar Section - Top 10 Games -->
@@ -189,9 +184,6 @@ and open the template in the editor.
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
                 </center>
             </div>
-
         </div>
-
     </body>
-
 </html>

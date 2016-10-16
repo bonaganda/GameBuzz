@@ -18,16 +18,12 @@ and open the template in the editor.
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
        
-        
-        
-        <div id="banner">
-        </div>
+        <div id="banner"></div>
         
         <div id="wrapper" style="height: 1020px;">
             <div class="columns">
                 About Page
             </div>
         </div>
-        
     </body>
 </html>

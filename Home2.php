@@ -44,19 +44,16 @@ and open the template in the editor.
             <div class="columns">
                 <div id="news_area">
                     <div class="mySlides fade">
-
                         <img src="Images/News1.jpg" style="width: 675px; height: 400px;">
                         <div class="text">Heroes of the Storm rated as the shittest game on the world, and zarya just got nerfed!</div>
                     </div>            
 
                     <div class="mySlides fade">
-
                         <img src="Images/News2.jpg" style="width: 675px; height: 400px;">
                         <div class="text">BattleNet is finally closing after selling overwatch to steam!</div>
                     </div>
 
                     <div class="mySlides fade">
-
                         <img src="Images/News3.jpg" style="    width: 675px; height: 400px;">
                         <div class="text">Asian pro team has decided to invade oceanic territory but lost to the mere ozies</div>
                     </div>
@@ -71,10 +68,6 @@ and open the template in the editor.
                         <span class="dot" style="position:absolute;right:47%;top:90%" onclick="currentSlide(2)"></span> 
                         <span class="dot" style="position:absolute;right:44%;top:90%"onclick="currentSlide(3)"></span> 
                     </div>
-
-
-
-
 
                     <script> var slideIndex = 1;
                         showSlides(slideIndex);
@@ -209,9 +202,6 @@ and open the template in the editor.
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>
                 </center>
             </div>
-
         </div>
-
     </body>
-
 </html>

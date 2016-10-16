@@ -19,7 +19,7 @@ if(isset($_POST['login_btn'])){
         echo "<script language=javascript>alert('Entered invalid username or password.')</script>";
     } else {
         $_SESSION['username'] = $row['username'];
-        header("Location: Home.php");
+        header("Location: Home.php"); //redirects the user to the homepage if login is succesful
     }
 }
 ?>
@@ -40,12 +40,6 @@ and open the template in the editor.
         
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
-
-        <?php if (isset($_SESSION['username'])) { ?>
-            <li><a href="Logout.php#">LOGOUT</a></li>
-        <?php } else { ?>
-            <li><a href="Login.php#">LOGIN</a></li>
-        <?php } ?>
        
             <div id="banner" style="height: 20px;">
         </div>
@@ -70,7 +64,6 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        
     </body>
 </html>
 

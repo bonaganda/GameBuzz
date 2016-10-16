@@ -12,27 +12,26 @@
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
         
-       <script>
-        function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
 
-    
-    window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
-
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (var d = 0; d < dropdowns.length; d++) {
-          var openDropdown = dropdowns[d];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    }
-      </script>  
-        <div id="banner">
-        </div>
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var d = 0; d < dropdowns.length; d++) {
+                  var openDropdown = dropdowns[d];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>  
+      
+        <div id="banner"></div>
         
         <div id="wrapper_top10">
             <div class="columns_top10">
@@ -68,7 +67,6 @@
                 <input type="button" name="b1" value="prev" onclick="location.href='Top10.php'">
             </div>
         </div>
-        
     </body>
 </html>
 

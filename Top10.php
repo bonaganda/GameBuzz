@@ -76,7 +76,6 @@ and open the template in the editor.
 
                 <input type="button" name="b2" value="next" onclick="location.href='Top10cont.php'">
             </div>
-        
     </body>
 </html>
 
