@@ -41,8 +41,7 @@ and open the template in the editor.
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
        
-            <div id="banner" style="height: 20px;">
-        </div>
+        <div id="banner"></div>
         
         <div id="login_wrapper">
             <div class="loginbox">

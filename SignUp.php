@@ -1,71 +1,81 @@
-<?php 
+<?php
 session_start();
+
 require './Database.php';
 
-if(isset($_POST['login_btn'])){
-    //to prevent sql injection
+if(isset($_POST['signup_btn'])){
     $username = mysqli_real_escape_string($con, $_POST['username']);
+    $email = mysqli_real_escape_string($con, $_POST['email']);
     $password = mysqli_real_escape_string($con, $_POST['password']);
+    $password2 = mysqli_real_escape_string($con, $_POST['password2']);
     
     //Query the database for user
     try {
-        $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
-        $result = $con->query($sql);
+        $result = mysqli_query($con, "SELECT * FROM users WHERE username = '$username'");
     } catch(mysqli_sql_exception $e) {
         die ('Failed to query DB');
     }
-    //Check if user exist
-    if(!$row = $result ->fetch_assoc()){ 
-        echo "<script language=javascript>alert('Entered invalid username or password.')</script>";
+    
+   //to check if username already exist
+    if(mysqli_num_rows($result) > 0 ) {
+        echo "<script language=javascript>alert('User already exist.')</script>";
     } else {
-        $_SESSION['username'] = $row['username'];
-        header("Location: Home.php");
+        //checks if password and confirmed password is the same
+        if($password == $password2) {
+            //create user
+            $password = md5($password); //hash password for security
+            $sql = "INSERT INTO users (username, password, email) VALUES ('$username', '$password', '$email')";            
+            mysqli_query($con, $sql);
+            $_SESSION['username'] = $username;
+            echo "<script language=javascript>alert('Signup Successful.')</script>";
+            header("location: Home.php");
+        } else {
+            //failed to create user
+            echo "<script language=javascript>alert('Password do not match.')</script>";
+        }
     }
 }
 ?>
 
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Login</title>
+        <title>Sign Up</title>
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
         
-        <!-- Calls Navbar.php and displays it in the page -->
-        <?php include 'Includes/Navbar.php' ?>
-
-       
-        <div id="banner" style="height: 20px;">
-        </div>
+        <?php include './Includes/Navbar.php'; ?>
         
-        <div id="login_wrapper">
+        <div id="banner"></div>
+        
+        <div id="login_wrapper" style="background-image: url(Images/mirana.jpg); background-size: cover;">
             <div class="loginbox">
-                <div id="Sign-In"> 
-                    <fieldset style="width:100%; height: 90%;"><legend>MEMBER LOGIN</legend> 
-                        <form method="POST" action="Login.php" style="color: red;">
+                <div id="Sign-In" style="height: 280px; "> 
+                    <fieldset style="width:100%;  "><legend>Sign Up</legend> 
+                        <form method="POST" action="SignUp.php">
                             <p>
                                 <label>Username:</label><br>
                                 <input type="text" name="username" size="25" >
                             </p>
                             <p>
+                                <label>Email Address:</label><br>
+                                <input type="email" name="email" size="25"><br>
+                            </p>
+                            <p>
                                 <label>Password:</label><br>
                                 <input type="password" name="password" size="25">
-                                <input id="button" type="submit" name="login_btn" value="Login"><br>  
                             </p>
-                            <a href="SignUp.php">Not a member? Sign up now!</a>
+                            <p>
+                                <label>Re-enter Password:</label><br>
+                                <input type="password" name="password2" size="25">
+                                <input id="button" type="submit" name="signup_btn" value="Sign Up"><br>
+                            </p>
                         </form> 
                     </fieldset> 
                 </div>
             </div>
         </div>
-        
     </body>
 </html>
-
