@@ -237,7 +237,18 @@ nav li a {
     filter: alpha(opacity=50);
 }
 
+/*About Section - Column*/
 .columns_about
+{
+    position: relative;
+    float: left;
+    width: 1000px;
+    margin: 25px 25px 25px 25px;
+}
+
+/*Contact Us Section - Column*/
+
+.columns_contactus
 {
     position: relative;
     float: left;

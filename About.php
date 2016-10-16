@@ -26,7 +26,6 @@ and open the template in the editor.
 
             <div class="columns_about">
 
-
                 <!-- This section contains information about our website and about us -->
                 <a style="color: red;"><h1>About Us</h1></a>
                 <!-- <img src="Images/Kim/aboutus.png" style="width: 600px; height: 260px;"> -->
