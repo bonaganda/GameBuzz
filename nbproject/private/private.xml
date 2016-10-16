@@ -3,11 +3,37 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/wamp64/www/GameBuzz/Home.php</file>
             <file>file:/C:/wamp64/www/GameBuzz/News2.php</file>
             <file>file:/C:/wamp64/www/GameBuzz/Ps4.php</file>
             <file>file:/C:/wamp64/www/GameBuzz/News1.php</file>
             <file>file:/C:/wamp64/www/GameBuzz/News3.php</file>
+=======
+            <file>file:/C:/wamp64/www/GameBuzz/Includes/Navbar.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Reviews/Overwatch.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Top10.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Styles/MainStyleSheet.css</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Home.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Games/Dota2.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Games/comments-darksouls.html</file>
+            <file>file:/C:/wamp64/www/GameBuzz/About.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Ps4.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/PC.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Includes/Navbar_1.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Reviews.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Games/HeartsOfIron4.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Reviews2.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/News2.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Reviews/TotalWarhammer.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Games/Warhammer.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/ContactUs.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Includes/Top10-Sidebar.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Reviews/QCowboy.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/News1.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Database.php</file>
+            <file>file:/C:/wamp64/www/GameBuzz/Games/Doom.php</file>
+>>>>>>> b3de8d47d7e54dd35ac2b6dac951e5a4ea949e6c
         </group>
     </open-files>
 </project-private>
