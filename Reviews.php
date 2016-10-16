@@ -9,7 +9,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>PC</title>
+        <title>Reviews</title>
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
@@ -30,26 +30,26 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                 <!-- Adds the article column section -->
                 <div id="article_column">
 
-                    <!-- Platform Title -->
-                    <a href="PC.php"><h1>&nbsp;PC</h1></a>
+                    <!-- Header Title -->
+                    <h1>Reviews</h1>
 
-                    <!-- List of PC Game Articles -->
+                    <!-- The list of reviews that are published on this page are submitted by our fellow GameBuzz users -->
 
                     <!-- Adds filled border to each article -->
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Warhammer.php"><img src="Images/Article Images/TotalWar.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Reviews/TotalWarhammer.php"><img src="Images/Kim/TotalWarhammer.png" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
 
                         <!-- Game Title -->
                         <font size ="3">
-                        <a href="Games/Warhammer.php"><b><br>TOTAL WAR: WARHAMMER</b><br></a>
+                        <a href="Reviews/TotalWarhammer.php"><b><br>TOTAL WAR: WARHAMMER</b><br></a>
                         </font>
 
                         <!-- Game Excerpt -->
                         <p align="left">
-                            Total War: Warhammer is a video game that is based on turns and real-time tactical battles between armies. The video game was developed by Creative Assembly and then later on published by Sega. The gameplay of the Total War series are featured along with the factions of Games Workshop’s Warhammer series. 
-                            <a href="Games/Warhammer.php"><b>Read More..</b></a>
+                            One of my favourite games of all time is Warhammer: Shadow of the Horned Rat. It’s available on GOG now, and while it’s not quite an old game, it remains deeply playable. The secret to its enduring success is the variety of the units, as well as your ability to take ownership of them because they all have individual names and accumulate experience. 
+                            <a href="Reviews/TotalWarhammer.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
                     <br>
@@ -58,17 +58,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/QuadrilateralCowboy.php"><img src="Images/Article Images/Quadrilateral.png" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Reviews/QCowboy.php"><img src="Images/Kim/qboy1.jpg" alt="quadrilateral cowboy" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
 
                         <!-- Game Title -->
                         <font size ="3">
-                        <a href="Games/QuadrilateralCowboy.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
+                        <a href="Reviews/QCowboy.php"><b><br>QUADRILATERAL COWBOY</b><br></a>
                         </font>
 
                         <!-- Game Excerpt-->
                         <p align="left">
-                            Quadrilateral Cowboy is a puzzle video game developed by Blendo Games. It was released in July 2016 for Microsoft Windows, with Mac OS X and Linux versions to come in September 2016.
-                            <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
+                            Quadrilateral Cowboy is a unique environmental puzzle game developed by Blendo Games and available now on Steam. It’s already raked in tonnes of acclaim from some of the top dogs in the industry, and I’ve been kind of excited, albeit a little apprehensive to dive into it in earnest.
+                            <a href="Reviews/QCowboy.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
                     <br>  
@@ -77,17 +77,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Doom.php"><img src="Images/Article Images/Doom.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Reviews/Overwatch.php"><img src="Images/Kim/overwatch1.jpg" alt="overwatch" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
 
                         <!-- Game Title -->
-                        <a href="Games/Doom.php"><b><br>DOOM</b><br></a>
+                        <a href="Reviews/Overwatch.php"><b><br>OVERWATCH</b><br></a>
                         </font>
 
                         <!-- Game Excerpt -->
                         <p align="left">
                             This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience.
-                            <a href="Games/Doom.php"><b>Read More..</b></a>
+                            <a href="Reviews/Overwatch.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
                     <br>

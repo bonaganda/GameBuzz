@@ -10,7 +10,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Warhammer</title>
+        <title>Total War: Warhammer</title>
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
