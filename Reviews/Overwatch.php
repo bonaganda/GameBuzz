@@ -10,7 +10,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Quadrilateral Cowboy</title>
+        <title>Overwatch</title>
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
@@ -24,28 +24,25 @@ and open the template in the editor.
         <div id="wrapper" style="height: 3000px;">
 
             <div class="columns">
-                <a style="color: red;"><h1>Quadrilateral Cowboy</h1></a>
+                <a style="color: red;"><h1>Overwatch</h1></a>
 
-                <h2>By: Jody Mulhern</h2> 
-                Quadrilateral Cowboy is a unique environmental puzzle game developed by Blendo Games and available now on Steam. It’s already raked in tonnes of acclaim from some of the top dogs in the industry, and I’ve been kind of excited, albeit a little apprehensive to dive into it in earnest. It’s a first-person puzzle game set in a cyberpunk 1980 with an emphasis on computer hacking to gain access to restricted areas by manipulating security systems. It also boasts a superb visual style and artistic identity with its low poly characters and environments seamlessly brought to life by an atmospheric colour scheme and impressive soundtrack.</br></br>
+                <h2>By: Dustin Chadwell</h2> 
+                While I’ve generally enjoyed Blizzard’s output for quite some time, like most, I wasn’t entirely sure of what to expect with Overwatch. While Blizzard has certainly made a name for themselves in RTS / RPG circles over their many, many years of existence, a team-based shooter didn’t exactly seem like a perfect match to me. That said, as more and more of Overwatch came to light during the development process, and as various closed/open betas rolled around, it became clear we had little to worry about. And now that the finished product is here? Well, Overwatch has put most multiplayer shooters to shame much in the way that DOOM did for shooter campaigns just a couple weeks ago.</br></br></br>
                 
-                </br>So why the apprehension? Well, the one feature that makes this game so unique was something that I wasn’t entirely convinced with. You see, you’re basically just a nerd armed with a bulky, cumbersome laptop that must connect to doors, skylights, cameras etc. by actually typing command scripts with your real life keyboard. For example, if I wanted to switch off a security camera so I could sneak past undetected, I’d have to whip out my ridiculously amusing 1980 hacking deck and type – “camera1.off(3)”. The number beside “camera” corresponds to one particular camera (there could be 4 or 5 in one level) and the number (3) after the command dictates how long I want, in seconds, to keep the camera off. For most security systems, 3 seconds is the limit before the alarm sounds and you get brutally shot to death by an automated turret.</br></br></br>
+                <img src ="../Images/Kim/overwatch3.jpg" style="width: 675px; height: 400px;  " > </br></br>
+                </br>On the surface, there doesn’t seem to be a whole lot to Overwatch. It’s certainly not a mode heavy sort of shooter, with no single player campaign to speak of, and a single rotating special mode that rolls around weekly in addition to the standard rotation of maps. There’s 12 maps at the onset, and a solid roster of characters to play, but when looking at the features on paper, Overwatch does seem a bit bare. Thankfully that’s offset by how much fun it is to play, and how utterly addicting the game can be. I’ve had a hard time tearing myself away from playing it this week, and will likely devote dozens if not hundreds of hours to the game going forward.</br></br></br>
                 
-                <img src ="../Images/Kim/qboy2.png" style="width: 675px; height: 400px;  " > </br></br>
-                </br>Initially, this totally bewildered me. In a way, I almost closed my mind to the idea that this could be any fun. However, after an hour or so, I was battering commands in like a total boss, and as the commands got increasingly more complex, I found that simultaneously bending 3 or 4 different security measures to my will in a single line of code granted me a truly fist pumping moment that would put the finest head-shot to shame. In short, this game made me feel like a real hacker.</br></br></br>
+                The learning curve with Overwatch is hardly severe. Don’t get too hung up on class roles and skills, instead just work your way through the roster and see what ends up fitting your preferred playstyle. Despite characters filling similar roles, like tanks, support, attack and so on, they all feel pretty unique. And it doesn’t take long to figure what character works well on any given map, or gravitates towards defense or offense. By and large, most characters work well with just about anyone, meaning you can generally pair up with another character and perform effectively, even if they don’t seem particularly compatible at first.</br>
+                </br></br><img src ="../Images/Kim/overwatch2.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 
-
-                As you progress through each job, usually consisting of stealing an item or obtaining restricted files, you’ll collect your money and go on a “Shopping Expedition”. Here, you’ll be greeted by a domestic cat who’ll recognise you as a special customer and casually proceed to reveal some of the finest black market equipment that cowboys like yourself might require; A tiny programmable robot for reaching those hard to reach places, a remote controlled sniper for precision fire and a launch pad for catapulting anything you want across the map, including yourself – to name but a few.</br></br></br>
-                <img src ="../Images/Kim/qboy3.jpg" style="width: 675px; height: 400px;  " > </br></br>
+                I also love the overall look of Overwatch. It’s a bright, vibrant take on first-person shooters that we still don’t see all that often. The character designs are fun and cartoony, and lend themselves well to fan-scripted backstories and theories. And it’s not just the character design, but also the map design, skins, music, and voiceover work that manages to blend Overwatch into a cohesive, fun, all-ages work of art.</br></br></br>
                 
-                </br>After that, the next mission is usually just an exercise in using the new tool you’ve just unlocked. This is where Quadrilateral Cowboy falters just a wee bit. Because of this format, you already know what tool to use before you even begin. Don’t get me wrong, the puzzles are still nicely designed, but there’s never truly a situation where you enter a new area and think to yourself – hmm… which way should I approach this? Duh, you’ll use the launch pad because you just unlocked it two minutes ago. It’s still fun to play despite the linearity, but it’s just a shame that the developers didn’t capitalise on all the awesome gear and ask just a little more of the average player. Having said that, it’s no cakewalk either and the lazier gamer (like me) will need to be switched on if they hope to complete all the jobs.</br></br></br>
-                
-                Hacking into everything you can and jabbing commands like a gangster is where Quadrilateral Cowboy cements itself as a memorable and exciting new IP. Just like Portal, although perhaps not quite as impactful, Blendo Games have come along and changed the way people perceive the environmental puzzler. It’s the finer details though that ultimately let it down; there’s never really a stress test of your skills, and you’re never confronted with a situation where you can use your entire arsenal to overcome the ultimate puzzle. Still, it looks great and, despite a degree wasted potential, plays great too.
-                
+                Finally, Overwatch controls and plays like a dream. Even on consoles, which is my only experience with the game so far, the performance is generally buttery smooth. The various abilities that each character possesses are generally fun to perform and pull off, and the ability to access ultimate powers over time means that everyone typically has a moment to shine in any given match. Also, since there’s a healthy roster of characters present at the start of the game, it means that most matches will feel like something unique, even if the overall objective isn’t. Team composition can also be changed after every respawn, allowing every match to evolve the longer it continues. All in all, Overwatch continues to feel unique regardless of how much time you spend with it, and despite the low number of available modes to participate in. I’m genuinely impressed by what Blizzard has managed to do here, and I think you will be too.</br></br>
+                     
                 <center>
-                    </br></br><h2>GameBuzz Rating:</h2>
+                    </br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/4star.png"></br></br></br>
-                    <img src ="../Images/Kim/graphrating2.png"></br>
+                    <img src ="../Images/Kim/graphrating3.png"></br>
                 </center>
                 
                 <!-- Comment Section -->

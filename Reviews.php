@@ -86,7 +86,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
 
                         <!-- Game Excerpt -->
                         <p align="left">
-                            This game was developed by ID sotware, which was the studio that had pioneered the genre of first-person shooting and developed a multiplayer deathmatch. DOOM returns as a fun but brutal and challenging modern-day shooter experience.
+                            While I’ve generally enjoyed Blizzard’s output for quite some time, like most, I wasn’t entirely sure of what to expect with Overwatch. While Blizzard has certainly made a name for themselves in RTS / RPG circles over their many, many years of existence, a team-based shooter didn’t exactly seem like a perfect match to me.
                             <a href="Reviews/Overwatch.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
@@ -96,17 +96,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/DarkSouls3.php"><img src="Images/Article Images/Dark Souls.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Reviews/Inside.php"><img src="Images/Kim/Inside2.jpg" alt="inside" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
 
                         <!-- Game Title -->
-                        <a href="Games/Inside.php"><b><br>DARK SOULS III</b><br></a>
+                        <a href="Reviews/Inside.php"><b><br>INSIDE</b><br></a>
                         </font>
 
                         <!-- Game Excerpt-->
                         <p align="left">
-                            Dark Souls III is an role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II.
-                            <a href="Games/Inside.php"><b>Read More..</b></a>
+                            Sneaking through the forest, a child running for his life serves as the main protagonist of Inside. Running further into the forest, it becomes apparent that the boy is running from an ominous threat. Having to sneak past trucks filled to the brim with mindless people that are being shipped off to an unforeseen destination, you are given a sense that everything is not ok. 
+                            <a href="Reviews/Inside.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
                     <br>  
@@ -114,17 +114,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <!-- Adds filled border to each article -->
                     <div class = "border">
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Inside.php"><img src="Images/Article Images/Inside.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Reviews/JustCause3.php"><img src="Images/Kim/justcause3.jpg" alt="justcause3" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
 
                         <!-- Game Title -->
-                        <a href="Games/Inside.php"><b><br>INSIDE</b><br></a>
+                        <a href="Reviews/JustCause3.php"><b><br>JUST CAUSE 3</b><br></a>
                         </font>
 
                         <!-- Game Excerpt-->
                         <p align="left">
                             Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. 
-                            <a href="Games/Inside.php"><b>Read More..</b></a>
+                            <a href="Reviews/JustCause3.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
                     <br> 
@@ -133,7 +133,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Games/Overwatch.php"><img src="Images/Kim/Inside2.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
 
                         <!-- Game Title -->
@@ -166,45 +166,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                                 <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
                             </p>
                         </div>
-                        <br>
-                        
-                        <!-- Adds filled border to each article -->
-                        <div class = "border">
-
-                            <!-- Image thumbnail of Game Article -->
-                            <a href="Games/Dota2.php"><img src="Images/Article Images/Dota 2.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                            <font size ="3">
-
-                            <!-- Game Title -->
-                            <a href="Games/Dota2.php"><b><br>DOTA 2</b><br></a>
-                            </font>
-
-                            <!-- Game Excerpt-->
-                            <p align="left">
-                                Dota 2 is a multiplayer online battle arena (MOBA) video game in which two teams of five players compete to collectively abolish a large structure protected by the opposite team known as the “Ancient” while defending their own structure.
-                                <a href="Games/Dota2.php"><b>Read More..</b></a>
-                            </p>
-                        </div>
-                        <br>
-                        
-                        <!-- Adds filled border to each article -->
-                    <div class = "border">
-
-                        <!-- Image thumbnail of Game Article -->
-                        <a href="Games/JustCause3.php"><img src="Images/Article Images/Just Cause.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                        <font size ="3">
-
-                        <!-- Game Title -->
-                        <a href="Games/JustCause3.php"><b><br>JUST CAUSE 3</b><br></a>
-                        </font>
-
-                        <!-- Game Excerpt-->
-                        <p align="left">
-                            Just Cause 3 is an open world adventure-action video game that is set on a fictional Mediterranean island known as Medici with Rico Rodriguez set as the main character. The map size is just like the setting of Just Cause 2 with 400sqm devoted to the new setting. 
-                            <a href="Games/JustCause3.php"><b>Read More..</b></a>
-                        </p>
-                    </div>
-                    <br>
+                        <br>                                              
                     
                 </div>
             </div>
