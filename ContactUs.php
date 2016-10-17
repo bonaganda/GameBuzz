@@ -47,6 +47,7 @@ and open the template in the editor.
                         $emailAdd = $_POST['emailAdd'];
                         $messageInquiry = $_POST['messageInquiry'];
 
+                        #The codes below refers to the when the system checks if name, email and message fields have been filled in. If not, then this displays an error message.
                         if (empty($visitorName) === true || empty($emailAdd) === true || empty($messageInquiry) === true) {
                             $error[] = 'The name, email address and message fields must be filled in.';
                         } else {
@@ -57,8 +58,9 @@ and open the template in the editor.
                                 $error[] = 'Name must only contain letters!';
                             }
                         }
+                        #If the system verifies that all fields have been filled in and correctly, it will proceed to submit the message to the specified email.
                         if (empty($error) === true) {
-                            mail('kimbcapati@yahoo.com', 'Contact Form', $messageInquiry, 'From: ' . $emailAdd);
+                            mail('cgn9661@autuni.ac.nz', 'Contact Form', $messageInquiry, 'From: ' . $emailAdd);
                             header('Location: ContactUs.php?sent');
                             exit();
                         }
@@ -69,7 +71,9 @@ and open the template in the editor.
                     <?php
                     if (isset($_GET['sent']) === true) {
                         echo '<p>Thank you for your message!</p>';
-                    } else {
+                    }
+                    #If the form wasn't submitted successfully, it will display the error message appropriate to that error.
+                    else {
                         if (empty($error) === false) {
                             echo '<ul>';
                             foreach ($error as $errors) {
@@ -82,30 +86,41 @@ and open the template in the editor.
                         <!-- This creates and displays the contact us form on the website -->
                         <form action="" method="post">
                             <p>
+                                <!-- Name text field -->
+                                <!-- Checks if the name has been set, if the name exists and is available. Also strip tags are used to avoid passing tags  -->
                                 <label for="visitorName">Name:</label><br>
-                                <input type="text" name="visitorName" id="visitorName" <?php
-                                if (isset($_POST['visitorName']) === true) {
-                                    echo 'value="', strip_tags($_POST['visitorName']), '"';
-                                }
-                                ?>>      
+                                <input type="text" name="visitorName" id="visitorName" 
+                                       
+                                       <?php
+                                       if (isset($_POST['visitorName']) === true) {
+                                           echo 'value="', strip_tags($_POST['visitorName']), '"';
+                                       }
+                                       ?>>      
                             </p>
                             <p>
+                                <!-- Email Address text field -->
+                                <!-- Checks if the email address has been set, if the email exists and is available. Also strip tags are used to avoid passing tags -->
                                 <label for="emailAdd">Email Address:</label><br>
-                                <input type="text" name="emailAdd" id="emailAdd" <?php
-                                if (isset($_POST['emailAdd']) === true) {
-                                    echo 'value="', strip_tags($_POST['emailAdd']), '"';
-                                }
-                                ?>>   
+                                <input type="text" name="emailAdd" id="emailAdd" 
+                                       <?php
+                                       if (isset($_POST['emailAdd']) === true) {
+                                           echo 'value="', strip_tags($_POST['emailAdd']), '"';
+                                       }
+                                       ?>>   
                             </p>
                             <p>
+                                <!--Message text field -->
+                                <!-- Checks if the message has been set, if the message exists and is available. Also strip tags are used to avoid passing tags -->
                                 <label for="messageInquiry">Message:</label><br>
-                                <textarea name="messageInquiry" rows="8" cols="40" id="messageInquiry"><?php
+                                <textarea name="messageInquiry" rows="8" cols="40" id="messageInquiry">                                      
+                                    <?php
                                     if (isset($_POST['messageInquiry']) === true) {
                                         echo strip_tags($_POST['messageInquiry']);
                                     }
                                     ?></textarea> 
                             </p>
                             <p>
+                                <!-- Submit or Reset/Clear Button -->
                                 <input type="submit" value="Submit">&nbsp;&nbsp;<input type="reset" value="Clear">
                             </p>
                         </form>
