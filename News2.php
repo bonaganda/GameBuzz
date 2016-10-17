@@ -10,30 +10,11 @@
     <body>
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
-       
-        <script>
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
-
-            window.onclick = function(e) {
-              if (!e.target.matches('.dropbtn')) {
-
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                for (var d = 0; d < dropdowns.length; d++) {
-                  var openDropdown = dropdowns[d];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                  }
-                }
-              }
-            }
-        </script>
         
         <div id="banner"></div>
         
         <div id="wrapper" style="height: 880px">
-            <div class="columns">
+            <div class="columns" style="border-radius: 10px; padding: 5px; background-color: #5F5E5E;">
                 <div id="review_col1">
                     <h1>Battle.net is no more</h1>
                     <img src="Images/News2.jpg" style="width: 675px; height: 400px;  ">
@@ -45,7 +26,7 @@
                 </div>
             </div>
        
-            <div id="sidebar" style="height: 1500px;">
+            <div id="sidebar" style="height: 880px;">
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                     <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>

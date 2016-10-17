@@ -23,7 +23,6 @@ if(isset($_POST['signup_btn'])){
         //checks if password and confirmed password is the same
         if($password == $password2) {
             //create user
-            $password = md5($password); //hash password for security
             $sql = "INSERT INTO users (username, password, email) VALUES ('$username', '$password', '$email')";            
             mysqli_query($con, $sql);
             $_SESSION['username'] = $username;

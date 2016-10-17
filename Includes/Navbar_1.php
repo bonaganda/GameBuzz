@@ -14,9 +14,9 @@
                 <li><a href="../About.php">ABOUT</a></li>
                 <li><a href="../ContactUs.php">CONTACT US</a></li>
                 <?php if (isset($_SESSION['username'])) { ?>
-                    <li><a href="../Logout.php#">LOGOUT</a></li>
+                    <li><a href="Logout.php#"><?php echo $_SESSION['username'];?> LOGOUT</a></li>
                 <?php } else { ?>
-                    <li><a href="../Login.php#">LOGIN</a></li>
+                    <li><a href="Login.php#">LOGIN</a></li>
                 <?php } ?>
             </ul>
         </nav>

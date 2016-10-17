@@ -34,7 +34,7 @@
         <div id="banner"></div>
 
         <div id="wrapper" style="height: 820px">
-            <div class="columns">
+            <div class="columns" style="border-radius: 10px; padding: 5px; background-color: #5F5E5E;">
                 <div id="review_col1">
                     <h1>Asian Gamers Unite!</h1>
                     <img src="Images/News3.jpg" style="width: 675px; height: 400px;  ">
@@ -52,7 +52,7 @@
                 </div>
             </div>
 
-            <div id="sidebar" style="height: 1500px;">
+            <div id="sidebar" style="height: 820px;">
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                     <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>
