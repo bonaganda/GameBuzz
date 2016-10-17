@@ -21,26 +21,28 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
-        <div id="wrapper" style="height: 3000px;">
+        <div id="wrapper" style="height: 2800px;">
 
             <div class="columns">
                 <a style="color: red;"><h1>Just Cause 3</h1></a>
 
-                <h2>By: Matthew S.</h2> 
-                One of my favourite games of all time is Warhammer: Shadow of the Horned Rat. It’s available on GOG now, and while it’s not quite an old game, it remains deeply playable. The secret to its enduring success is the variety of the units, as well as your ability to take ownership of them because they all have individual names and accumulate experience. Messing around with those armies remains compelling to this day. </br></br>
-                
-                </br>I have measured every Warhammer game since against Shadow of the Horned Rat, and every single one of them has been found wanting. But, with Total War: Warhammer, we finally have the game that can replace the classic. Total War: Warhammer is, simply, the best Warhammer game ever developed.</br></br></br>
+                <h2>By: Aidan Collett</h2> 
+                Just Cause 3 is the latest instalment in the infamous Just Cause series, which is famous for being the video game equivalent of a bull in a china shop. With heat-seeking grenades. And a parachute. Where the china explodes easily. So it’s quite a lot of fun.</br></br></br>
                 <img src ="../Images/Kim/justcause01.jpg" style="width: 675px; height: 400px;  " > </br></br>
-
-                </br>You’ve got a number of different classical Warhammer armies to take control of (and the promise of more to be added in later via DLC), and, in classical Total War style, you need to manage both the growth and maintenance of your empire – which plays out in a turn-based fashion – with the real-time battles as units clash with one another.</br></br></br>
+                
+                <center></br>“In JC3, the SAM sites have turned into HAM sites”</br></br></center>
+                
+                </br>JC3 has ruined the crucial freedom that made JC2 so enjoyable. It has adopted a more regimented, more organised way of entertaining the player, in a way not dissimilar to Far Cry. Rico now has to liberate regions, by liberating the outposts, military bases and towns contained within that region in order to continue along with the story missions. For me, this is an unprecedented and unnecessary infringement on the player’s liberty in the game, and makes JC3 a linear slog, rather than the enjoyable chaos fest I had hoped for. In place of blasting in and destroying everything in sight, you have to actually try to clear an area in order to proceed with the game. Forced, organised fun is no sort of fun at all. It really irks me when a game says “Hey! In order to fully enjoy this game, you need to destroy these 4 settlements, so then you can turn off the EMP that guards the next step on the journey, and here is a bunch of collectables for you to collect in the meantime.” Nothing screams fun like having to collect 18 pieces of a vintage weapon in order to unlock it, or having to collect every single car in the game and drive it to a garage so you can order it. There is literally nothing I would rather do in my free time than slog across the map, trying to find an elusive final rebel shrine so I can unlock a paintjob for my guns.</br></br></br>
                 <img src ="../Images/Kim/justcause02.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 
-                </br>There’s plenty of different units to recruit, and the battlefield control of them is comprehensive and engaging. Importantly, it’s also gorgeous to look at, and really helps to draw players in to a badly underrepresented fantasy universe in the video game realm. You could argue that Total War has hit a groove now where one game is merely iterating on what has come before, but I think that would be disingenuous, when each game is so distinctive. Napoleon really drew you to the Napoleonic Wars, Shogun was uniquely Japanese in tone, and now Warhammer convincingly teleports you into a fantasy universe where those miniatures that you used to spend weeks and months painting in anticipating of grand tabletop wargaming are able to come to life. 
+                <center></br>“Forced, organised fun is no sort of fun at all”</br></br></center>
+                
+                </br>Except for play the damn game. And this seems to be what developers are finding difficult at the moment. They think the consumer wants a product that will absorb them from their drab lives, and simply suck the life out of them. So longevity comes before quality or enjoyment. Just Cause 3 is a perfect example of this philosophy. They have ruined the best bits of the old game in favour of creating a bigger world with more things to collect. Crucially, it’s not fun anymore, and I can’t recommend buying it. Go and replay JC2 if you really need your fix, and leave JC3 in CEX where it belongs.
                 
                 <center>
                     </br></br><h2>GameBuzz Rating:</h2>
-                    <img src ="../Images/Kim/5star.png"></br></br></br>
-                    <img src ="../Images/Kim/graphrating.png"></br>
+                    <img src ="../Images/Kim/3star.png"></br></br></br>
+                    <img src ="../Images/Kim/graphrating5.png"></br>
                 </center>
                 
                 <!-- Comment Section -->
@@ -68,11 +70,11 @@ and open the template in the editor.
                     $content = $_POST['commentContent'];
 
                     #Get old comments
-                    $old = fopen("comments-war.html", "r+t");
+                    $old = fopen("CommentsJustCause3.html", "r+t");
                     $old_comments = fread($old, 1024);
 
                     #Delete everything, write down new and old comments
-                    $write = fopen("comments-war.html", "w+");
+                    $write = fopen("CommentsJustCause3.html", "w+");
                     $string = "<b><br>" . $name . "</b><br>" . $content . "</br>" . $old_comments . "</br>";
                     fwrite($write, $string);
                     fclose($write);
@@ -80,7 +82,7 @@ and open the template in the editor.
                 }
 
                 #Read comments
-                $read = fopen("comments-war.html", "r+t");
+                $read = fopen("CommentsJustCause3.html", "r+t");
                 echo "<br><br>Comments<hr>" . fread($read, 1024);
                 fclose($read);
                 ?>       
@@ -90,9 +92,9 @@ and open the template in the editor.
             </div>
 
             <!-- Adjust sidebar size -->
-            <div id="sidebar" style="height: 3000px;">
+            <div id="sidebar" style="height: 2800px;">
                 <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
-                <?php include 'Top10-Sidebar.php' ?>
+                <?php include '../Games/Top10-Sidebar.php' ?>
             </div>
     </body>
 </html>

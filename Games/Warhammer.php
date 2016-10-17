@@ -21,7 +21,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
-        <div id="wrapper" style="height: 3000px;">
+        <div id="wrapper" style="height: 3200px;">
 
             <div class="columns">
                 <a style="color: red;"><h1>Total War: Warhammer</h1></a>
@@ -92,7 +92,7 @@ and open the template in the editor.
             </div>
 
             <!-- Adjust sidebar size -->
-            <div id="sidebar" style="height: 3000px;">
+            <div id="sidebar" style="height: 3200px;">
                 <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Top10-Sidebar.php' ?>
             </div>

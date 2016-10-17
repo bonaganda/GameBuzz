@@ -21,7 +21,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
-        <div id="wrapper" style="height: 3000px;">
+        <div id="wrapper" style="height: 2600px;">
 
             <div class="columns">
                 <a style="color: red;"><h1>Inside</h1></a>
@@ -40,7 +40,7 @@ and open the template in the editor.
                      
                 <center>
                     </br><h2>GameBuzz Rating:</h2>
-                    <img src ="../Images/Kim/3star.png"></br></br></br>
+                    <img src ="../Images/Kim/4star.png"></br></br></br>
                     <img src ="../Images/Kim/graphrating4.png"></br>
                 </center>
                 
@@ -69,11 +69,11 @@ and open the template in the editor.
                     $content = $_POST['commentContent'];
 
                     #Get old comments
-                    $old = fopen("comments-war.html", "r+t");
+                    $old = fopen("CommentsInside.html", "r+t");
                     $old_comments = fread($old, 1024);
 
                     #Delete everything, write down new and old comments
-                    $write = fopen("comments-war.html", "w+");
+                    $write = fopen("CommentsInside.html", "w+");
                     $string = "<b><br>" . $name . "</b><br>" . $content . "</br>" . $old_comments . "</br>";
                     fwrite($write, $string);
                     fclose($write);
@@ -81,7 +81,7 @@ and open the template in the editor.
                 }
 
                 #Read comments
-                $read = fopen("comments-war.html", "r+t");
+                $read = fopen("CommentsInside.html", "r+t");
                 echo "<br><br>Comments<hr>" . fread($read, 1024);
                 fclose($read);
                 ?>       
@@ -91,9 +91,9 @@ and open the template in the editor.
             </div>
 
             <!-- Adjust sidebar size -->
-            <div id="sidebar" style="height: 3000px;">
+            <div id="sidebar" style="height: 2600px;">
                 <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
-                <?php include 'Top10-Sidebar.php' ?>
+                <?php include '../Games/Top10-Sidebar.php' ?>
             </div>
     </body>
 </html>
