@@ -42,6 +42,7 @@ body p
     margin: 0 auto;
     border: 5px solid black;    
 }
+
 /* Header Section */
 
 #wrapper_game
@@ -106,10 +107,6 @@ body p
 
 #nav ul
 {
-    /*  margin: 0;
-        padding: 0;
-        width: auto;
-        display: none;*/
     list-style-type: none;
     margin-top: 0;
     max-width: 80%;
@@ -247,7 +244,6 @@ nav li a {
 }
 
 /*Contact Us Section - Column*/
-
 .columns_contactus
 {
     position: relative;
@@ -300,10 +296,6 @@ nav li a {
 
 }
 
-/*about wrapper content
-
-    add details later
-*/
 
 /*login content*/
 #login_wrapper
@@ -460,7 +452,6 @@ nav li a {
     to {opacity: 1}
 }
 
-/*Comment Box Section*/
 
 /* Comment field layout*/
 textarea
@@ -491,13 +482,6 @@ input[type=reset] {
     border-radius: 6px;
     padding: 6px 20px;
 }
-/* Home-Articles border*/
-/*.div1{
-    width: 680px;
-    height: 250px;
-    border: 1px solid gray;
-    padding: 5px;
-}*/
 
 /* Pagination */
 ul.pagination {
