@@ -24,14 +24,16 @@ and open the template in the editor.
         </div>
 
         <!-- Adds the website's wrapper -->
-        <div id="wrapper" style="height: 620px;">
+        <div id="wrapper" style="height: 950px;">
 
             <div class="columns_about">
 
                 <!-- This section is a contact us form that can be used by visitors or users of our website that would want to send us a question or message -->
+                <center>
                 <a style="color: red;"><h1>Contact Us</h1></a>
                 <br>
-                <!--<img src="Images/Kim/contactus.png" style="width: 600px; height: 280px;">-->
+                <img src="Images/Kim/contactus.png" style="width: 600px; height: 280px;">
+                </br></br></br>
                 We would love to hear from you - if you have any inquiries,<br>fill in the form below and we will get back to you within 24 hours :) 
                 <br><br>
 
@@ -110,6 +112,7 @@ and open the template in the editor.
                     <?php
                 }
                 ?>
+                </center>
             </div>
         </div>
     </div>
