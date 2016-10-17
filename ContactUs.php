@@ -90,7 +90,7 @@ and open the template in the editor.
                                 <!-- Checks if the name has been set, if the name exists and is available. Also strip tags are used to avoid passing tags  -->
                                 <label for="visitorName">Name:</label><br>
                                 <input type="text" name="visitorName" id="visitorName" 
-                                       
+
                                        <?php
                                        if (isset($_POST['visitorName']) === true) {
                                            echo 'value="', strip_tags($_POST['visitorName']), '"';
@@ -102,11 +102,11 @@ and open the template in the editor.
                                 <!-- Checks if the email address has been set, if the email exists and is available. Also strip tags are used to avoid passing tags -->
                                 <label for="emailAdd">Email Address:</label><br>
                                 <input type="text" name="emailAdd" id="emailAdd" 
-                                       <?php
-                                       if (isset($_POST['emailAdd']) === true) {
-                                           echo 'value="', strip_tags($_POST['emailAdd']), '"';
-                                       }
-                                       ?>>   
+                                <?php
+                                if (isset($_POST['emailAdd']) === true) {
+                                    echo 'value="', strip_tags($_POST['emailAdd']), '"';
+                                }
+                                ?>>   
                             </p>
                             <p>
                                 <!--Message text field -->
