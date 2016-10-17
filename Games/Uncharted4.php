@@ -21,7 +21,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
-        <div id="wrapper" style="height: 2800px;">
+        <div id="wrapper" style="height: 2900px;">
 
             <div class="columns">
                 <a style="color: red;"><h1>Uncharted 4</h1></a>
@@ -95,7 +95,7 @@ and open the template in the editor.
             </div>
 
             <!-- Adjust sidebar size -->
-            <div id="sidebar" style="height: 2800px;">
+            <div id="sidebar" style="height: 2900px;">
             <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
             <?php include 'Top10-Sidebar.php' ?>
             </div>

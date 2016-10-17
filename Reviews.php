@@ -123,7 +123,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
 
                         <!-- Game Excerpt-->
                         <p align="left">
-                            Inside is a puzzle platformer in which the player is a young boy who wears a red shirt and explores a surreal setting presented as a predominantly monochromatic 2.5D platform game using colour only to highlight parts of the setting. The game itself is very dark in nature and regularly silent, with only intermittent musical cues. 
+                             Just Cause 3 is the latest instalment in the infamous Just Cause series, which is famous for being the video game equivalent of a bull in a china shop. With heat-seeking grenades. And a parachute. Where the china explodes easily. So it’s quite a lot of fun. 
                             <a href="Reviews/JustCause3.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
@@ -133,17 +133,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Overwatch.php"><img src="Images/Kim/Inside2.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Reviews/Uncharted4.php"><img src="Images/Kim/uncharted.jpg" alt="uncharted4" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
 
                         <!-- Game Title -->
-                        <a href="Games/Overwatch.php"><b><br>OVERWATCH</b><br></a>
+                        <a href="Reviews/Uncharted4.php"><b><br>UNCHARTED 4</b><br></a>
                         </font>
 
                         <!-- Game Excerpt-->
                         <p align="left">
-                            Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. Each hero has their own set of abilities that the player can master. 
-                            <a href="Games/Overwatch.php"><b>Read More..</b></a>
+                            The trouble with trilogies is that they almost never end at three. The same kind of thinking that assumes three parts will be necessary to tell a single story will inevitably need a fourth and fifth shot at getting things right. In that way, “Uncharted 4: A Thief’s End” feels as inevitable as it does unnecessary.
+                            <a href="Reviews/Uncharted4.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>
                     <br>
@@ -152,18 +152,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                         <div class = "border">
 
                             <!-- Image thumbnail of Game Article -->
-                            <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                            <a href="Reviews/Dota2.php"><img src="Images/Kim/dota" alt="dota2" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                             <font size ="3">
 
                             <!-- Game Title -->
-                            <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
+                            <a href="Reviews/Dota2.php"><b><br>DOTA 2</b><br></a>
                             </font>
 
                             <!-- Game Excerpt-->
                             <p align="left">
-                                Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
-                                the player can lead the nation with their chosen ultimate weapon. 
-                                <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
+                                We’ve never heard anyone talk about League of Legends or Dota in real life. We don’t know any friends that play them and we don’t even recall any fellow journos discussing them. Nor do we remember anyone writing into the Inbox about them. And yet on any given day they have over 10 million people playing them, and the mere announcement of Dota 2’s existence was enough to crash the websites reporting it.
+                                <a href="Reviews/Dota2.php"><b>Read the rest of this entry..</b></a>
                             </p>
                         </div>
                         <br>                                              

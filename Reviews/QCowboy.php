@@ -21,7 +21,7 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
-        <div id="wrapper" style="height: 3000px;">
+        <div id="wrapper" style="height: 3050px;">
 
             <div class="columns">
                 <a style="color: red;"><h1>Quadrilateral Cowboy</h1></a>
@@ -34,7 +34,6 @@ and open the template in the editor.
                 <img src ="../Images/Kim/qboy2.png" style="width: 675px; height: 400px;  " > </br></br>
                 </br>Initially, this totally bewildered me. In a way, I almost closed my mind to the idea that this could be any fun. However, after an hour or so, I was battering commands in like a total boss, and as the commands got increasingly more complex, I found that simultaneously bending 3 or 4 different security measures to my will in a single line of code granted me a truly fist pumping moment that would put the finest head-shot to shame. In short, this game made me feel like a real hacker.</br></br></br>
                 
-
                 As you progress through each job, usually consisting of stealing an item or obtaining restricted files, you’ll collect your money and go on a “Shopping Expedition”. Here, you’ll be greeted by a domestic cat who’ll recognise you as a special customer and casually proceed to reveal some of the finest black market equipment that cowboys like yourself might require; A tiny programmable robot for reaching those hard to reach places, a remote controlled sniper for precision fire and a launch pad for catapulting anything you want across the map, including yourself – to name but a few.</br></br></br>
                 <img src ="../Images/Kim/qboy3.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 
@@ -44,7 +43,7 @@ and open the template in the editor.
                 
                 <center>
                     </br></br><h2>GameBuzz Rating:</h2>
-                    <img src ="../Images/Kim/halfstar.png"></br></br></br>
+                    <img src ="../Images/Kim/4halfstar.png"></br></br></br>
                     <img src ="../Images/Kim/graphrating2.png"></br>
                 </center>
                 
@@ -95,7 +94,7 @@ and open the template in the editor.
             </div>
 
             <!-- Adjust sidebar size -->
-            <div id="sidebar" style="height: 3000px;">
+            <div id="sidebar" style="height: 3050px;">
                 <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include '../Games/Top10-Sidebar.php' ?>
             </div>
