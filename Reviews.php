@@ -3,7 +3,7 @@
 ?>
 <!DOCTYPE html>
 <!--
-This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.
+This is the websites Review page. It consists of reviews created by other GameBuzz users
 -->
 
 <html>

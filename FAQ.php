@@ -37,19 +37,19 @@ and open the template in the editor.
                     </br>
                     <img src="Images/Kim/benjo1.png" width="100" height="120" align="left" hspace = "30">
                     </br></br>
-                    <p align="left">Hi, my name is Benjo! (Product Owner)</br> I'm responsible for defining Stories and prioritizing the Team Backlog so as to streamline the execution of program priorities.</p>
+                    <p align="left">Hi, my name is Benjo! (Product Owner)</br> I'm res.</p>
                     </br></br></br></br>
                     <img src="Images/Kim/bona1.png" width="100" height="120" align="left" hspace = "30">
                     </br></br>
-                    <p align="left">Hi, my name is Kim! (Scrum Master)</br> I'm the Scrum Master for this project and I make sure that the team adheres to Scrum's principles.</p>
+                    <p align="left">Hi, my name is Kim! (Scrum Master)</br> I'm the Scrum nciples.</p>
                     </br></br></br></br>
                     <img src="Images/Kim/kim1.png" width="100" height="120" align="left" hspace = "30">
                     </br></br>
-                    <p align="left">Hi, my name is Joni! (Website Designer) </br> I'm in charge of the design part for our website.</p>
+                    <p align="left">Hi, my name is Joni! (Website Designer) </br> I'm website.</p>
                     </br></br></br></br>
                     <img src="Images/Kim/joni1.png" width="100" height="120" align="left" hspace = "30">
                     </br></br>
-                    <p align="left">Hi, my name is Bona! (Team Coordinator) </br> I'm in charge of overseeing the processes and details of how our team reaches our goals.</p>
+                    <p align="left">Hi, my name is Bona! (Team Coordinator) </br> I'm is our goals.</p>
                 </center>
             </div>
         </div>
