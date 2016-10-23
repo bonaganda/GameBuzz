@@ -67,7 +67,7 @@ REVIEWS AND REVIEW PAGE<br>
 *This page shows the readers a list of games reviewed and a summary of the review of the games listed are shown on the page.<br>
 *Once in the review page, simply pick a game review that you want to read and you will be directed to that specific game review.<br>
 *Once the user has chosen an article to read about, he/she can simply click the game title or the game thumbnail or the “read the rest of this entry” link and you will be directed to the particular game review.<br>
-*On the actual game review page, the user will be able to find a review that was done by a user and submitted to GameBuzz. In addition, pictures of the game and a rating information is also displayed. <br>
+*On the actual game review page, the user will be able to find a review that was done by a user and submitted to GameBuzz. In addition, pictures of the game and a rating information is also displayed.<br>
 *The user can also comment on the article page itself if he/she desires to.<br>
 
 ABOUT<br>
@@ -75,16 +75,25 @@ ABOUT<br>
 
 *This page allows the reader to view what the whole website is about, and information about the creators of the website.<br>
 
+FAQ<br>
+---
+
+*This page allows the visitor to view the most frequent questions being asked on the website and GameBuzz’s response to each question.<br>
+
 CONTACT US<br>
 ----------
+
 *This page allows the reader to contact the creators of GameBuzz. If you have an inquiry, concern or you just want to send them a message, you just need to fill in the form and all the fields provided on the webpage and then you must click “submit” in order to send it to GameBuzz.<br>
+*LIMITATION: When trying to send a mail from the contact us box, the mail function won’t work as we are using a localhost server (Wampserver). Based from my research, if you want to make this work, you would have to download a certain software and change some settings on your Wampserver.<br> 
 
 SIGNUP<br>
 ------
+
 *It allows the user to signup and create an account in order to gain more website privileges. Just enter your desired username, password and your email address.<br>
 
 LOGIN<br>
 -----
+
 *This page lets the user login if they already have an account. Just enter your username and password. <br>
 *If a user is logged in, there will be a logout button on the right side of the navigation which will let the user logout.<br>
 
