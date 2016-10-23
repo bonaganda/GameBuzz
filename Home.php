@@ -1,5 +1,8 @@
-<?php 
-    session_start();
+<!-- Authors: Joni Pablo & Bonaliza Garcia -->
+<!-- This file contains the home page of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
 <!DOCTYPE html>
 <!--
@@ -14,13 +17,13 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        
+
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php';
         ?>
-        
-        
-        
+
+
+
         <script>
             function myFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");
@@ -43,9 +46,9 @@ and open the template in the editor.
         <div id="wrapper">
             <div class="columns">
                 <div id="news_area">
-                    
+
                     <!--Calls HomepageNews.php and displays in in the page-->
-                    <?php include 'Includes/HomepageNews.php';?>
+                    <?php include 'Includes/HomepageNews.php'; ?>
 
                     <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5" border="0"><br><br>
 
@@ -93,9 +96,9 @@ and open the template in the editor.
                                 <a href="Games/QuadrilateralCowboy.php"><b>Read More..</b></a>
                             </p>
                         </div>
-                            <br>  
+                        <br>  
 
-                            <!-- Adds filled border to each article -->
+                        <!-- Adds filled border to each article -->
                         <div class = "border">
 
                             <!-- Image thumbnail of Game Article -->
@@ -112,7 +115,7 @@ and open the template in the editor.
                                 <a href="Games/Doom.php"><b>Read More..</b></a>
                             </p>
                         </div>
-                                <br><br><br>
+                        <br><br><br>
 
                         <!-- Page Links -->
 
@@ -131,7 +134,7 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-            
+
             <div id="sidebar" style="height: 1500px;">
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>

@@ -1,4 +1,6 @@
-<?php 
+<!-- Author: John Rafael Baroro -->
+<!-- This file contains the news page (news 3) of the GameBuzz website -->
+    <?php 
     session_start();
 ?>
 <html>

@@ -1,4 +1,7 @@
-<?php
+<!-- Author: Bonaliza Garcia -->
+<!-- This file contains the signup pageof the GameBuzz website -->
+    
+    <?php
 session_start();
 
 require './Database.php';

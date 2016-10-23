@@ -1,10 +1,9 @@
-<?php 
-    session_start();
+<!-- Author: Joni Pablo -->
+<!-- This file contains the Ps4 game articles of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.
--->
 
 <html>
     <head>
@@ -31,7 +30,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                 <div id="article_column">
 
                     <!-- Platform Title -->
-                   <a href="Ps4.php"><h1>&nbsp;PS4</h1></a>
+                    <a href="Ps4.php"><h1>&nbsp;PS4</h1></a>
 
                     <!-- Adds filled border to each article -->
                     <div class = "border">
@@ -149,7 +148,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
 
             <!-- Extends sidebar border's height -->
             <div id="sidebar" style="height: 1780px;">
-                
+
                 <!-- Sidebar Section -->
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>

@@ -1,12 +1,10 @@
+<!-- Authors: John Rafael Baroro & Joni Pablo -->
+<!-- This file contains the full article of the Dark Souls III game as well as the game trailer and the comment box -->
+
 <?php
-    session_start();
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,17 +12,17 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        
+
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include '../Includes/Navbar_1.php' ?>
-        
+
         <div id="banner">
         </div>
 
         <div id="wrapper" style="height: 3000px;">
 
             <div class="columns">
-                
+
                 <a style="color: red;"><h1> Dark Souls 3</h1></a>
 
                 <h2>Platform: PC, PS4 and XONE </h2> 
@@ -38,12 +36,12 @@ and open the template in the editor.
                 In the game, the players come across various types of enemies and each of them has a different behaviour. Some of which change their pattern for fighting during battles. There is also new combat features added in Dark Souls III such as weapons and skills that can shield which are special abilities that differ from weapon to weapon that allow exclusive attacks and features with the cost of the FPs’.</br></br>
                 <img src ="../Images/d33.jpg" style="width: 675px; height: 400px;  " > </br></br>
                 The game is more focused on role-playing in which the character builder is expanded and weapons are enhanced to offer more tactical choices to players. There fewer overall maps are larger and more detailed that encourages the player to explore them compared to Dark Souls II. Lastly, the stats are adjusted and features multiplayer elements.
- 
+
                 </br></br><h2>Trailer:</h2> 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/_zDZYrIUgKE" frameborder="0" allowfullscreen></iframe>
-               
+
                 <!-- Comment Section -->
-                
+
                 <br><br><br>
 
                 <!-- Leave a comment text -->
@@ -83,12 +81,14 @@ and open the template in the editor.
                 echo "<br><br>Comments<hr>" . fread($read, 1024);
                 fclose($read);
                 ?>       
-                
+
                 <!-- End of Comment Section -->
-                
+
             </div>
-            
+
+            <!-- Adjust sidebar size -->
             <div id="sidebar" style="height: 3000px;">
+                
                 <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Top10-Sidebar.php' ?>
             </div>

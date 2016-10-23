@@ -1,12 +1,10 @@
-<?php 
+<!-- Author: Joni Pablo -->
+<!-- This file contains the home page (page 3) of the GameBuzz website -->
+    
+    <?php 
     session_start();
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -41,6 +39,7 @@ and open the template in the editor.
         <div id="wrapper" style="height: 1200px">
             <div class="columns">
                 <div id="news_area">
+                    
                     <!--Calls HomepageNews.php and displays in in the page-->
                     <?php include 'Includes/HomepageNews.php';?>
 

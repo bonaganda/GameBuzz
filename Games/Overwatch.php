@@ -1,5 +1,8 @@
+<!-- Authors: John Rafael Baroro & Joni Pablo -->
+<!-- This file contains the full article of the Overwatch game as well as the game trailer and the comment box -->
+
 <?php
-    session_start();
+session_start();
 ?>
 <!DOCTYPE html>
 <!--
@@ -14,7 +17,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        
+
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include '../Includes/Navbar_1.php' ?>
 
@@ -98,6 +101,7 @@ and open the template in the editor.
 
             <!-- Adjust sidebar size -->
             <div id="sidebar" style="height: 3000px;">
+                
                 <!-- Calls Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Top10-Sidebar.php' ?>
             </div>

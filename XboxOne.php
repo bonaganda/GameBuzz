@@ -1,10 +1,9 @@
-<?php 
-    session_start();
+<!-- Author: Joni Pablo -->
+<!-- This file contains the XboxOne game articles of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.
--->
 
 <html>
     <head>
@@ -134,7 +133,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
 
             <!-- Extends sidebar border's height -->
             <div id="sidebar" style="height: 1500px;">
-                
+
                 <!-- Sidebar Section -->
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
@@ -150,6 +149,6 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>               
                 </center>
             </div>
-            
+
     </body>
 </html>

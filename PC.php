@@ -1,10 +1,9 @@
-<?php 
-    session_start();
+<!-- Author: Joni Pablo -->
+<!-- This file contains the PC game articles of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.
--->
 
 <html>
     <head>
@@ -147,47 +146,47 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                         </p>
                     </div>
                     <br>
-                    
+
                     <!-- Adds filled border to each article -->
-                        <div class = "border">
+                    <div class = "border">
 
-                            <!-- Image thumbnail of Game Article -->
-                            <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                            <font size ="3">
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/HeartsOfIron4.php"><img src="Images/Article Images/HOI.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
 
-                            <!-- Game Title -->
-                            <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
-                            </font>
+                        <!-- Game Title -->
+                        <a href="Games/HeartsOfIron4.php"><b><br>HEARTS OF IRON IV</b><br></a>
+                        </font>
 
-                            <!-- Game Excerpt-->
-                            <p align="left">
-                                Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
-                                the player can lead the nation with their chosen ultimate weapon. 
-                                <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
-                            </p>
-                        </div>
-                        <br>
-                        
-                        <!-- Adds filled border to each article -->
-                        <div class = "border">
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and 
+                            the player can lead the nation with their chosen ultimate weapon. 
+                            <a href="Games/HeartsOfIron4.php"><b>Read More..</b></a>
+                        </p>
+                    </div>
+                    <br>
 
-                            <!-- Image thumbnail of Game Article -->
-                            <a href="Games/Dota2.php"><img src="Images/Article Images/Dota 2.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
-                            <font size ="3">
+                    <!-- Adds filled border to each article -->
+                    <div class = "border">
 
-                            <!-- Game Title -->
-                            <a href="Games/Dota2.php"><b><br>DOTA 2</b><br></a>
-                            </font>
+                        <!-- Image thumbnail of Game Article -->
+                        <a href="Games/Dota2.php"><img src="Images/Article Images/Dota 2.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <font size ="3">
 
-                            <!-- Game Excerpt-->
-                            <p align="left">
-                                Dota 2 is a multiplayer online battle arena (MOBA) video game in which two teams of five players compete to collectively abolish a large structure protected by the opposite team known as the “Ancient” while defending their own structure.
-                                <a href="Games/Dota2.php"><b>Read More..</b></a>
-                            </p>
-                        </div>
-                        <br>
-                        
-                        <!-- Adds filled border to each article -->
+                        <!-- Game Title -->
+                        <a href="Games/Dota2.php"><b><br>DOTA 2</b><br></a>
+                        </font>
+
+                        <!-- Game Excerpt-->
+                        <p align="left">
+                            Dota 2 is a multiplayer online battle arena (MOBA) video game in which two teams of five players compete to collectively abolish a large structure protected by the opposite team known as the “Ancient” while defending their own structure.
+                            <a href="Games/Dota2.php"><b>Read More..</b></a>
+                        </p>
+                    </div>
+                    <br>
+
+                    <!-- Adds filled border to each article -->
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
@@ -205,7 +204,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                         </p>
                     </div>
                     <br>
-                    
+
                 </div>
             </div>
 

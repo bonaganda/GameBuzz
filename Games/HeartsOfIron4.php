@@ -1,12 +1,10 @@
+<!-- Authors: John Rafael Baroro & Joni Pablo -->
+<!-- This file contains the full article of the Hearts of Iron IV game as well as the game trailer and the comment box -->
+
 <?php
-    session_start();
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,10 +12,10 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../Styles/MainStyleSheet.css"/>
     </head>
     <body>
-      
+
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include '../Includes/Navbar_1.php' ?>
-        
+
         <div id="banner">
         </div>
 

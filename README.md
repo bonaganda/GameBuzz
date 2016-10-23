@@ -1,6 +1,6 @@
 # GameBuzz
 
-Author: Joni Pablo, Bonaliza Garcia, Kimberley Capati & John Rafael Baroro
+Authors: Joni Pablo, Bonaliza Garcia, Kimberley Capati & John Rafael Baroro
 
 LIST OF FILES IN THE SYSTEM
 ---------------------------
