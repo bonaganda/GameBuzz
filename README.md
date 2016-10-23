@@ -13,6 +13,7 @@ LIST OF FILES IN THE SYSTEM
 *MainStyleSheet.css<br>
 *Review folder<br>
 *About.php<br>
+*FAQ.php<br>
 *ContactUs.php<br>
 *Database.php<br>
 *Home.php<br>
