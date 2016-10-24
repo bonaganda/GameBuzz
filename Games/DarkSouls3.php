@@ -84,8 +84,8 @@ if(isset($_SESSION['username'])) {
 
                 <!-- Comment Form -->
                 <form action="" method="POST">
-                    <!-- Username text field -->
-                    <input type = "text" name = "name" maxlength = "10" required> Username <font color = "red">(required)</font></br></br>                           
+<!--                     Username text field 
+                    <input type = "text" name = "name" maxlength = "10" required> Username <font color = "red">(required)</font></br></br>                           -->
                     <!-- Comment box -->
                     <textarea rows ="5" cols ="60" name="commentContent" required></textarea></br></br>
                     <!-- Submit button -->
@@ -95,20 +95,23 @@ if(isset($_SESSION['username'])) {
                 <!-- Code to display the inputted name and comment in the page -->
                 <?php
                 if ($_POST) {
+                    if(isset($_SESSION['username'])) {
+                        $name = $_SESSION['username'];
+                        $content = $_POST['commentContent'];
 
-                    $name = $_POST['name'];
-                    $content = $_POST['commentContent'];
+                        #Get old comments
+                        $old = fopen("comments-darksouls.html", "r+t");
+                        $old_comments = fread($old, 1024);
 
-                    #Get old comments
-                    $old = fopen("comments-darksouls.html", "r+t");
-                    $old_comments = fread($old, 1024);
-
-                    #Delete everything, write down new and old comments
-                    $write = fopen("comments-darksouls.html", "w+");
-                    $string = "<b><br>" . $name . "</b><br>" . $content . "</br>" . $old_comments . "</br>";
-                    fwrite($write, $string);
-                    fclose($write);
-                    fclose($old);
+                        #Delete everything, write down new and old comments
+                        $write = fopen("comments-darksouls.html", "w+");
+                        $string = "<b><br>" . $name . "</b><br>" . $content . "</br>" . $old_comments . "</br>";
+                        fwrite($write, $string);
+                        fclose($write);
+                        fclose($old);
+                    } else {
+                        echo "<script language=javascript>alert('Must be logged in to leave comments!')</script>";
+                    }
                 }
 
                 #Read comments
