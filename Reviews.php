@@ -171,14 +171,16 @@ if(isset($_SESSION['username'])) {
                     <br>                                              
 
                 </div>
+               
             </div>
-
+              
             <!-- Extends sidebar border's height -->
             <div id="sidebar" style="height: 2100px;">
 
                 <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Includes/Top10-Sidebar.php' ?>
             </div>
-             <?php include 'footer.php'; ?> 
+        </div>
+             <?php include 'footer.php'; ?>
     </body>
 </html>
