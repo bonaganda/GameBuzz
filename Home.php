@@ -134,7 +134,8 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-
+            
+            <!-- Sidebar Section - Top 10 Games -->
             <div id="sidebar" style="height: 1500px;">
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
