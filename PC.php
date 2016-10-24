@@ -214,5 +214,6 @@ session_start();
                 <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Includes/Top10-Sidebar.php' ?>
             </div>
+             <?php include 'footer.php'; ?> 
     </body>
 </html>

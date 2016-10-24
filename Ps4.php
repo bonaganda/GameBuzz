@@ -165,5 +165,6 @@ session_start();
                 </center>
             </div>
         </div>
+         <?php include 'footer.php'; ?> 
     </body>
 </html>
