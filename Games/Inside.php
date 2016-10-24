@@ -58,7 +58,7 @@ if(isset($_SESSION['username'])) {
                 <?php } else if(!isset ($_SESSION['username'])) {?>
                         <!--If  user is not logged on, favourite button is not shown-->
                 <?php } else {?>
-                        <input id="favebtn" type="button" name="favebtn" value="Favorited ♥" style="color: red">
+                        <input id="favebtn" type="button" name="favebtn" value="Favorite ♥" style="color: red">
                 <?php } ?>
 
                 <h2>Platform: PC, PS4 and XONE</h2>

@@ -61,7 +61,7 @@ and open the template in the editor.
                 <?php } else if(!isset ($_SESSION['username'])) {?>
                         <!--If  user is not logged on, favourite button is not shown-->
                 <?php } else {?>
-                        <input id="favebtn" type="button" name="favebtn" value="Favorited ♥" style="color: red">
+                        <input id="favebtn" type="button" name="favebtn" value="Favorite ♥" style="color: red">
                 <?php } ?>
 
                 <h2>Platform: PC, XBOX ONE and PS4</h2></br>
