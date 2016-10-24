@@ -3,8 +3,11 @@
 
 <?php
 session_start();
+include './Database.php';
+if(isset($_SESSION['username'])) {
+    require './Includes/Favourites.php';
+}
 ?>
-
 <html>
     <head>
         <meta charset="UTF-8">

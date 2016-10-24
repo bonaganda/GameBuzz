@@ -1,10 +1,13 @@
 <!-- Author: Joni Pablo -->
 <!-- This file contains the home page (page 3) of the GameBuzz website -->
     
-    <?php 
-    session_start();
+<?php
+session_start();
+include './Database.php';
+if(isset($_SESSION['username'])) {
+    require './Includes/Favourites.php';
+}
 ?>
-
 <html>
     <head>
         <meta charset="UTF-8">

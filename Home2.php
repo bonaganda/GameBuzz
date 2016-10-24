@@ -3,6 +3,10 @@
 
 <?php
 session_start();
+include './Database.php';
+if(isset($_SESSION['username'])) {
+    require './Includes/Favourites.php';
+}
 ?>
 
 <html>

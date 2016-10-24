@@ -3,6 +3,10 @@
 
 <?php
 session_start();
+include './Database.php';
+if(isset($_SESSION['username'])) {
+    require './Includes/Favourites.php';
+}
 ?>
 
 <html>
@@ -160,7 +164,7 @@ session_start();
 
                         <!-- Game Excerpt-->
                         <p align="left">
-                            We’ve never heard anyone talk about League of Legends or Dota in real life. We don’t know any friends that play them and we don’t even recall any fellow journos discussing them. Nor do we remember anyone writing into the Inbox about them. And yet on any given day they have over 10 million people playing them, and the mere announcement of Dota 2’s existence was enough to crash the websites reporting it.
+                            We’ve never heard anyone talk about League of Legends or Dota in real life. We don’t know any friends that play them and we don’t even recall any fellow journos discussing them. Nor do we remember anyone writing into the Inbox about them. Yet on any given day they have over 10 million people playing them, and the mere announcement of Dota 2’s existence was enough to crash the websites reporting it.
                             <a href="Reviews/Dota2.php"><b>Read the rest of this entry..</b></a>
                         </p>
                     </div>

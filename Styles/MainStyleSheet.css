@@ -128,6 +128,7 @@ body p
 #nav li:last-child
 {
     float: right;
+    margin-right: 50px;
     text-align: center;
 }
 
@@ -193,6 +194,17 @@ nav li a {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
 }
 
+.dropdown-content-sub{
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    visibility: hidden;
+    background-color: black;
+    min-width: 122px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
     color: white;
@@ -206,6 +218,11 @@ nav li a {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content:hover .dropdown-content-sub{
+    visibility: visible;
     display: block;
 }
 
@@ -356,6 +373,22 @@ nav li a {
     font-size:14px;
     color:white;
 
+}
+
+#favebtn {
+    border-radius: 3px;
+    width: 20%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    float: right;   
+    background-color: black;
+    color: white;
+}
+
+#favebtn:hover {
+    color: red;
 }
 
 /* Slideshow container */

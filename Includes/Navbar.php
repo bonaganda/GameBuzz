@@ -15,7 +15,20 @@
                 <li><a href="FAQ.php">F.A.Q</a></li>
                 <li><a href="ContactUs.php">CONTACT US</a></li>
                 <?php if (isset($_SESSION['username'])) { ?>
-                    <li><a href="Logout.php#"><?php echo $_SESSION['username'];?> LOGOUT</a></li>
+                    <li class="dropdown" style="position: relative; top:">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()"><?php echo $_SESSION['username'];?></a>
+                        <div class="dropdown-content">
+                            <a href="#">My Favorites</a>
+                            <div class="dropdown-content-sub">
+                                <?php while($counter !=-1) {?>
+                                <a href="./Games/<?php echo $fave[$counter]?>.php"><?php echo $fave[$counter] ?></a>
+                                <?php 
+                                $counter--;
+                                }?>
+                            </div>
+                            <a href="Logout.php">Logout</a>
+                        </div>
+                    </li>
                 <?php } else { ?>
                     <li><a href="Login.php#">LOGIN</a></li>
                 <?php } ?>

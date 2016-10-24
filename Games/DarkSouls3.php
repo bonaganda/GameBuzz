@@ -3,6 +3,30 @@
 
 <?php
 session_start();
+$game = "DarkSouls3";
+include '../Database.php';
+if(isset($_SESSION['username'])) {
+    require '../Includes/Favourites.php';
+    $user = $_SESSION['username'];
+    $myfavourites = $game;
+    
+    //Query database for user
+    try {
+        $result = mysqli_query($con, "SELECT * FROM user_fave WHERE username = '$user' AND favourite = '$myfavourites'");
+        $row = mysqli_fetch_assoc($result);
+    } catch(mysqli_sql_exception $e) {
+        die ('Failed to query DB');
+    }
+    
+    //Inserts the users favorite game into the database for future access 
+    if(isset($_POST['fave_btn'])) {
+        if($row['favourite'] != $myfavourites) {
+            $sql = "INSERT INTO user_fave (username, favourite) VALUES ('$user', '$myfavourites')";            
+            mysqli_query($con, $sql);
+            header("Location: DarkSouls3.php");
+        }
+    }
+}
 ?>
 
 <html>
@@ -23,9 +47,20 @@ session_start();
 
             <div class="columns">
 
+                
                 <a style="color: red;"><h1> Dark Souls 3</h1></a>
-
-                <h2>Platform: PC, PS4 and XONE </h2> 
+                
+                <!--This shows the 'Add to favourite button-->
+                <?php if(isset($_SESSION['username']) && ($row['favourite'] != $myfavourites)){
+                        include '../Includes/Favebutton.php';  ?>
+                <?php } else if(!isset ($_SESSION['username'])) {?>
+                        <!--If  user is not logged on, favourite button is not shown-->
+                <?php } else {?>
+                        <input id="favebtn" type="button" name="favebtn" value="Favorited ♥" style="color: red">
+                <?php } ?>
+                
+                <h2>Platform: PC, PS4 and XONE</h2> 
+                
                 DS3 is a role-playing action packed game which is played from a third-person perspective and similar to the other games in the series. Based from the series creator and lead director Miyazaki, the gameplay design is followed closely from Dark Souls II. The player is generally equipped with a range of weapons such as bows, swords and throwable projectiles in order to fight his/her enemies. A shield is also available to be used as a secondary weapon but their main use is to deflect the enemies’ attacks and protect the player from suffering damage. Each weapon in the game has two basic kinds of attacks, one is the standard attack and the other is somewhat more powerful that can be charged up like the game from FromSoftware called Bloodborne.</br></br>
                 <img src ="../Images/d31.jpg" style="width: 675px; height: 400px;  " > </br></br>
 
