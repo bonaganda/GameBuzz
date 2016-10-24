@@ -84,8 +84,6 @@ if(isset($_SESSION['username'])) {
 
                 <!-- Comment Form -->
                 <form action="" method="POST">
-<!--                     Username text field 
-                    <input type = "text" name = "name" maxlength = "10" required> Username <font color = "red">(required)</font></br></br>                           -->
                     <!-- Comment box -->
                     <textarea rows ="5" cols ="60" name="commentContent" required></textarea></br></br>
                     <!-- Submit button -->
@@ -95,6 +93,7 @@ if(isset($_SESSION['username'])) {
                 <!-- Code to display the inputted name and comment in the page -->
                 <?php
                 if ($_POST) {
+                    //if user is logged in, user is able to comment
                     if(isset($_SESSION['username'])) {
                         $name = $_SESSION['username'];
                         $content = $_POST['commentContent'];
