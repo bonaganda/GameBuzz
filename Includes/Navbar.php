@@ -14,6 +14,10 @@
                 <li><a href="About.php">ABOUT</a></li>
                 <li><a href="FAQ.php">F.A.Q</a></li>
                 <li><a href="ContactUs.php">CONTACT US</a></li>
+                <li><form action="search.php" method="GET">
+        <input type="text" name="query" />
+        <input type="submit" value="Search" />
+                    </form></li>
                 <?php if (isset($_SESSION['username'])) { ?>
                     <li class="dropdown" style="position: relative; top:">
                         <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()"><?php echo $_SESSION['username'];?></a>
@@ -32,9 +36,6 @@
                 <?php } else { ?>
                     <li><a href="Login.php#">LOGIN</a></li>
                 <?php } ?>
-                    <form action="search.php" method="GET">
-        <input type="text" name="query" />
-        <input type="submit" value="Search" />
-    </form>
+
             </ul>
         </nav>
