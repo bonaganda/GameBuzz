@@ -43,6 +43,15 @@ body p
     border: 5px solid black;    
 }
 
+.footer
+{
+    width: 1080px;
+    height: 55px;
+    background-color: #151515;
+    background-size: cover;
+    border: 3px;
+    margin: 0 auto;
+}
 /* Header Section */
 
 #wrapper_game
@@ -540,3 +549,4 @@ line {
 line:hover {
     width: 500px;
 }
+

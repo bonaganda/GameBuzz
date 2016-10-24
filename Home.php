@@ -148,8 +148,9 @@ and open the template in the editor.
                     <a href="Games/Uncharted4.php"><img src="Images/Sidebar/uncharted4_banner.png" alt="uncharted4" width="300" height="60" border="0"></a>
                     <a href="Games/Dota2.php"><img src="Images/Sidebar/dota2_banner.png" alt="dota2" width="300" height="60" border="0"></a>
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>               
-                </center>
-            </div>
+                </center>              
+            </div>      
         </div>
+        <?php include 'footer.php'; ?>     
     </body>
 </html>
