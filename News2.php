@@ -20,7 +20,7 @@ if(isset($_SESSION['username'])) {
 
         <div id="banner"></div>
 
-        <div id="wrapper" style="height: 880px">
+        <div id="wrapper" style="height: 900px">
             <div class="columns" style="border-radius: 10px; padding: 5px; background-color: #5F5E5E;">
                 <div id="review_col1">
                     <h1>Battle.net is no more</h1>
@@ -33,7 +33,8 @@ if(isset($_SESSION['username'])) {
                 </div>
             </div>
 
-            <div id="sidebar" style="height: 880px;">
+            <!-- Sidebar Section - Top 10 Games -->
+            <div id="sidebar" style="height: 900px;">
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
                     <a href="Games/Warhammer.php"><img src="Images/Sidebar/warhammer_banner.png" alt="warhammer" width="300" height="60" border="0"></a>

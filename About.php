@@ -51,7 +51,7 @@ if(isset($_SESSION['username'])) {
                     </br></br></br></br>
                     <img src="Images/Kim/joni1.png" width="100" height="120" align="left" hspace = "30">
                     </br></br>
-                    <p align="left">Hi, my name is Bona! (Team Coordinator) </br> I'm in charge of overseeing the processes and details of how our team reaches our goals.</p>
+                    <p align="left">Hi, my name is Bona! (Team Coordinator) </br> I'm in charge of overseeing the processes and details of how our team reaches our goals.</p>                    
                 </center>
             </div>
         </div>

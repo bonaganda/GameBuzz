@@ -43,6 +43,15 @@ body p
     border: 5px solid black;    
 }
 
+.footer
+{
+    width: 1080px;
+    height: 55px;
+    background-color: #151515;
+    background-size: cover;
+    border: 3px;
+    margin: 0 auto;
+}
 /* Header Section */
 
 #wrapper_game
@@ -260,14 +269,6 @@ nav li a {
     margin: 25px 25px 25px 25px;
 }
 
-/*Contact Us Section - Column*/
-.columns_contactus
-{
-    position: relative;
-    float: left;
-    width: 1000px;
-    margin: 25px 25px 25px 25px;
-}
 
 /*Home-Articles Section*/
 #article_column
@@ -573,3 +574,4 @@ line {
 line:hover {
     width: 500px;
 }
+

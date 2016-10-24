@@ -150,5 +150,6 @@ if(isset($_SESSION['username'])) {
                 </center>
             </div>
         </div>
+         <?php include 'footer.php'; ?>
     </body>
 </html>
