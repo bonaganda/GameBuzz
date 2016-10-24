@@ -1,4 +1,7 @@
-<?php 
+<!-- Author: Bonaliza Garcia -->
+<!-- This file contains the login page of the GameBuzz website -->
+    
+    <?php 
 session_start();
 require './Database.php';
 
@@ -24,12 +27,6 @@ if(isset($_POST['login_btn'])){
 }
 ?>
 
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">

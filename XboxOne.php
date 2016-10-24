@@ -1,10 +1,9 @@
-<?php 
-    session_start();
+<!-- Author: Joni Pablo -->
+<!-- This file contains the XboxOne game articles of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-This is the website's PS4 platform page. This contains the PS4 game article's summary as well as its thumbnails.
--->
 
 <html>
     <head>
@@ -95,17 +94,17 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <div class = "border">
 
                         <!-- Image thumbnail of Game Article -->
-                        <a href="Games/Overwatch.php"><img src="Images/Article Images/Overwatch.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
+                        <a href="Games/Uncharted4.php"><img src="Images/Article Images/Uncharted4.jpg" alt="warhammer" width="400" height="250" border="0" align="left" hspace = "20"></br></a>
                         <font size ="3">
 
                         <!-- Game Title -->
-                        <a href="Games/Overwatch.php"><b><br>UNCHARTED 4</b><br></a>
+                        <a href="Games/Uncharted4.php"><b><br>UNCHARTED 4</b><br></a>
                         </font>
 
                         <!-- Game Excerpt-->
                         <p align="left">
                             Uncharted 4 is an adventure-action packed game that is played from a third-person perspective, with platform game elements. The player undertakes control of Nathan Drake, who is physically adept and is able to sprint, climb, jump, swim, scale narrow ledges and wall-faces to get amongst points, swing with a rope, use a grappling hook and do other acrobatic actions.
-                            <a href="Games/Overwatch.php"><b>Read More..</b></a>
+                            <a href="Games/Uncharted4.php"><b>Read More..</b></a>
                         </p>
                     </div>
                     <br>
@@ -134,7 +133,7 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
 
             <!-- Extends sidebar border's height -->
             <div id="sidebar" style="height: 1500px;">
-                
+
                 <!-- Sidebar Section -->
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>
@@ -150,6 +149,6 @@ This is the website's PS4 platform page. This contains the PS4 game article's su
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>               
                 </center>
             </div>
-            
+
     </body>
 </html>

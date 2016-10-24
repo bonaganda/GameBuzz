@@ -1,5 +1,8 @@
-<?php 
-    session_start();
+<!-- Author: John Rafael Baroro -->
+<!-- This file contains the news page (news 1) of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
 <html>
     <head>
@@ -8,31 +11,31 @@
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        
+
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
-        
+
         <script>
             function myFunction() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
 
-            window.onclick = function(e) {
-              if (!e.target.matches('.dropbtn')) {
+            window.onclick = function (e) {
+                if (!e.target.matches('.dropbtn')) {
 
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                for (var d = 0; d < dropdowns.length; d++) {
-                  var openDropdown = dropdowns[d];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                  }
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    for (var d = 0; d < dropdowns.length; d++) {
+                        var openDropdown = dropdowns[d];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
                 }
-              }
             }
         </script>
-        
+
         <div id="banner"></div>
-        
+
         <div id="wrapper" style="height: 820px">
             <div class="columns" style="border-radius: 10px; padding: 5px; background-color: #5F5E5E;">
                 <div id="review_col1">
@@ -40,11 +43,11 @@
                     <img src="Images/News1.jpg" style="width: 675px; height: 400px;  ">
                     <h2> After many report and interviews denying she was gay, there are lots of proofs of her dating tracer in public </h2>
                     <p>If you only have the ability to put in a few hours per week to help out with coverage, we can aid you in your development as a content creator. For those with the time and talent to make a significant impact straight away, there is equally the chance to make a name for yourself in one of the fastest-growing media areas globally. While the majority of the GG.net crew members work on voluntary basis, the industry is growing rapidly and our site is the perfect place to begin your journey within it. You will be working with your crew leader closely to coordinate tasks, but most of the time you will set your own tempo, and have the freedom to discover just how far you can go.
-                    Take initiative and assign tasks to yourself: we love people who don’t need to be babysat and ordered around. If you want to write an article about an event – or if you want to help with the ticker by taking care of match data, go for it!
-                    Use Skype and crew forums to communicate with the crew: our team is online most of the time, busy not having lives at all…</p>
+                        Take initiative and assign tasks to yourself: we love people who don’t need to be babysat and ordered around. If you want to write an article about an event – or if you want to help with the ticker by taking care of match data, go for it!
+                        Use Skype and crew forums to communicate with the crew: our team is online most of the time, busy not having lives at all…</p>
                 </div>
             </div>
-       
+
             <div id="sidebar" style="height: 820px;">
                 <center>    
                     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>

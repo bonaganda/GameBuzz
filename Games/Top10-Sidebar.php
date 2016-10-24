@@ -1,3 +1,4 @@
+<!-- Author: Joni Pablo -->
 <!-- Sidebar Section - Top 10 Games (File to include to article pages to display the sidebar -->
 
 <div id="sidebar">

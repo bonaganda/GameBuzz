@@ -1,12 +1,10 @@
-<?php 
-    session_start();
+<!-- Author: Joni Pablo -->
+<!-- This file contains the home page (page 2) of the GameBuzz website -->
+
+<?php
+session_start();
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,7 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="Styles/MainStyleSheet.css"/>
     </head>
     <body>
-        
+
         <!-- Calls Navbar.php and displays it in the page -->
         <?php include 'Includes/Navbar.php' ?>
 
@@ -44,7 +42,7 @@ and open the template in the editor.
             <div class="columns">
                 <div id="news_area">
                     <!--Calls HomepageNews.php and displays in in the page-->
-                    <?php include 'Includes/HomepageNews.php';?>
+                    <?php include 'Includes/HomepageNews.php'; ?>
 
                     <img src="Images/Article Images/divider.png" alt="divider" width="700" height="5"><br><br>
 
@@ -55,7 +53,7 @@ and open the template in the editor.
                         <!--Article title-->
                         <a href=""><b>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</b><br><br></a>
                         <!--List of game articles-->
-                        
+
                         <!-- Adds filled border to each article -->
                         <div class = "border">
                             <!-- Image thumbnail of Game Article -->
