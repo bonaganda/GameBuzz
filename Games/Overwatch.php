@@ -3,6 +3,32 @@
 
 <?php
 session_start();
+$game = "Overwatch";
+include '../Database.php';
+
+if(isset($_SESSION['username'])) {
+    require '../Includes/Favourites.php';
+    $user = $_SESSION['username'];
+    $myfavourites = $game;
+    
+    //Query database for user
+    try {
+        $result = mysqli_query($con, "SELECT * FROM user_fave WHERE username = '$user' AND favourite = '$myfavourites'");
+        $row = mysqli_fetch_assoc($result);
+    } catch(mysqli_sql_exception $e) {
+        die ('Failed to query DB');
+    }
+   
+    //Inserts the users favorite game into the database for future access
+    if(isset($_POST['fave_btn'])) {
+        if($row['favourite'] != $myfavourites) {
+            $sql = "INSERT INTO user_fave (username, favourite) VALUES ('$user', '$myfavourites')";            
+            mysqli_query($con, $sql);
+            header("Location: Overwatch.php");
+        }
+    }
+    
+} 
 ?>
 <!DOCTYPE html>
 <!--
@@ -28,6 +54,15 @@ and open the template in the editor.
 
             <div class="columns">
                 <a style="color: red;"><h1>Overwatch</h1></a>
+                
+                <!--This shows the 'Add to favourite button-->
+                <?php if(isset($_SESSION['username']) && ($row['favourite'] != $myfavourites)){
+                        include '../Includes/Favebutton.php';  ?>
+                <?php } else if(!isset ($_SESSION['username'])) {?>
+                        <!--If  user is not logged on, favourite button is not shown-->
+                <?php } else {?>
+                        <input id="favebtn" type="button" name="favebtn" value="Favorited ♥" style="color: red">
+                <?php } ?>
 
                 <h2>Platform: PC, XBOX ONE and PS4</h2></br>
                 Overwatch is a team based shooter from renowned games studio, Blizzard. What sets this shooter apart from the rest is that there is a wide range of heroes for the player to fight with. 

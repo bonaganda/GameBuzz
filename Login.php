@@ -1,7 +1,7 @@
 <!-- Author: Bonaliza Garcia -->
 <!-- This file contains the login page of the GameBuzz website -->
     
-    <?php 
+<?php 
 session_start();
 require './Database.php';
 

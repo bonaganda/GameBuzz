@@ -1,7 +1,11 @@
 <!-- Author: John Rafael Baroro -->
 <!-- This file contains the news page (news 3) of the GameBuzz website -->
-    <?php 
-    session_start();
+<?php
+session_start();
+include './Database.php';
+if(isset($_SESSION['username'])) {
+    require './Includes/Favourites.php';
+}
 ?>
 <html>
     <head>

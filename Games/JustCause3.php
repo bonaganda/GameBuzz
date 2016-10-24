@@ -3,6 +3,33 @@
 
 <?php
 session_start();
+$game = "JustCause3";
+include '../Database.php';
+
+if(isset($_SESSION['username'])) {
+    require '../Includes/Favourites.php';
+    $user = $_SESSION['username'];
+    $myfavourites = $game;
+    
+    //Query database for user
+    try {
+        $result = mysqli_query($con, "SELECT * FROM user_fave WHERE username = '$user' AND favourite = '$myfavourites'");
+        $row = mysqli_fetch_assoc($result);
+    } catch(mysqli_sql_exception $e) {
+        die ('Failed to query DB');
+    }
+   
+    //Inserts the users favorite game into the database for future access
+    if(isset($_POST['fave_btn'])) {
+        
+        if($row['favourite'] != $myfavourites) {
+            $sql = "INSERT INTO user_fave (username, favourite) VALUES ('$user', '$myfavourites')";            
+            mysqli_query($con, $sql);
+            header("Location: JustCause3.php");
+        }
+    }
+    
+}  
 ?>
 
 <html>
@@ -23,6 +50,15 @@ session_start();
 
             <div class="columns">
                 <a style="color: red;"><h1>Just Cause 3</h1></a>
+                
+                <!--This shows the 'Add to favourite button-->
+                <?php if(isset($_SESSION['username']) && ($row['favourite'] != $myfavourites)){
+                        include '../Includes/Favebutton.php';  ?>
+                <?php } else if(!isset ($_SESSION['username'])) {?>
+                        <!--If  user is not logged on, favourite button is not shown-->
+                <?php } else {?>
+                        <input id="favebtn" type="button" name="favebtn" value="Favorited ♥" style="color: red">
+                <?php } ?>
 
                 <h2>Platform: PC, PS4 and XONE</h2></br>
                 Just Cause 3 is an open world adventure-action video game that is set on a fictional Mediterranean island known as Medici with Rico Rodriguez set as the main character. The map size is just like the setting of Just Cause 2 with 400sqm devoted to the new setting. Nevertheless, its volumetric terrain has increased to allow more vertically – as a result of this, it’s possible for the character to explore the subterranean caverns and to search the buildings more realistically and more efficiently. The world of the game consists of five key biomes, with each having distinctive landscapes and landmarks.<br><br>

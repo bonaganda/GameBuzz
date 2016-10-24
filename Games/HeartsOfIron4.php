@@ -3,6 +3,33 @@
 
 <?php
 session_start();
+$game = "HeartsOfIron4";
+include '../Database.php';
+
+if(isset($_SESSION['username'])) {
+    require '../Includes/Favourites.php';
+    $user = $_SESSION['username'];
+    $myfavourites = $game;
+    
+    //Query database for user
+    try {
+        $result = mysqli_query($con, "SELECT * FROM user_fave WHERE username = '$user' AND favourite = '$myfavourites'");
+        $row = mysqli_fetch_assoc($result);
+    } catch(mysqli_sql_exception $e) {
+        die ('Failed to query DB');
+    }
+   
+    //Inserts the users favorite game into the database for future access
+    if(isset($_POST['fave_btn'])) {
+        
+        if($row['favourite'] != $myfavourites) {
+            $sql = "INSERT INTO user_fave (username, favourite) VALUES ('$user', '$myfavourites')";            
+            mysqli_query($con, $sql);
+            header("Location: HeartsOfIron4.php");
+        }
+    }
+    
+} 
 ?>
 
 <html>
@@ -23,6 +50,16 @@ session_start();
 
             <div class="columns">
                 <a style="color: red;"><h1>Hearts Of Iron IV</h1></a>
+                
+                <!--This shows the 'Add to favourite button-->
+                <!--This shows the 'Add to favourite button-->
+                <?php if(isset($_SESSION['username']) && ($row['favourite'] != $myfavourites)){
+                        include '../Includes/Favebutton.php';  ?>
+                <?php } else if(!isset ($_SESSION['username'])) {?>
+                        <!--If  user is not logged on, favourite button is not shown-->
+                <?php } else {?>
+                        <input id="favebtn" type="button" name="favebtn" value="Favorited ♥" style="color: red">
+                <?php } ?>
 
                 <h2>Platform: PC</h2></br>
                 Hearts of Iron IV is a strategy game where the player is able to take command of any nation in World War II which is the most engaging conflict in world history and the player can lead the nation with their chosen ultimate weapon. 
