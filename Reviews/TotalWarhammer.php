@@ -1,3 +1,6 @@
+<!-- Author: Kimberley Capati -->
+<!-- This file contains the review page for Total War: Warhammer of the GameBuzz website -->
+
 <?php
     session_start();
     include '../Database.php';
@@ -5,12 +8,7 @@
         require '../Includes/Favourites.php';
     }
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,9 +23,12 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 2700px;">
 
             <div class="columns">
+                
+                <!-- The section below is the article for Total War: Warhammer -->
                 <a style="color: red;"><h1>Total War: Warhammer</h1></a>
 
                 <h2>By: Matthew S.</h2> 
@@ -41,6 +42,7 @@ and open the template in the editor.
                 
                 </br>There’s plenty of different units to recruit, and the battlefield control of them is comprehensive and engaging. Importantly, it’s also gorgeous to look at, and really helps to draw players in to a badly underrepresented fantasy universe in the video game realm. You could argue that Total War has hit a groove now where one game is merely iterating on what has come before, but I think that would be disingenuous, when each game is so distinctive. Napoleon really drew you to the Napoleonic Wars, Shogun was uniquely Japanese in tone, and now Warhammer convincingly teleports you into a fantasy universe where those miniatures that you used to spend weeks and months painting in anticipating of grand tabletop wargaming are able to come to life. 
                 
+                <!-- Game Review Rating -->
                 <center>
                     </br></br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/5star.png"></br></br></br>

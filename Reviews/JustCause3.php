@@ -1,3 +1,6 @@
+<!-- Author: Kimberley Capati -->
+<!-- This file contains the review page for Just Cause 3 of the GameBuzz website -->
+
 <?php
     session_start();
     include '../Database.php';
@@ -5,12 +8,7 @@
         require '../Includes/Favourites.php';
     }
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,9 +23,12 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 2800px;">
 
             <div class="columns">
+                
+                <!-- The section below is the article for Just Cause 3 -->
                 <a style="color: red;"><h1>Just Cause 3</h1></a>
 
                 <h2>By: Aidan Collett</h2> 
@@ -43,6 +44,7 @@ and open the template in the editor.
                 
                 </br>Except for play the damn game. And this seems to be what developers are finding difficult at the moment. They think the consumer wants a product that will absorb them from their drab lives, and simply suck the life out of them. So longevity comes before quality or enjoyment. Just Cause 3 is a perfect example of this philosophy. They have ruined the best bits of the old game in favour of creating a bigger world with more things to collect. Crucially, it’s not fun anymore, and I can’t recommend buying it. Go and replay JC2 if you really need your fix, and leave JC3 in CEX where it belongs.
                 
+                <!-- Game Review Rating -->
                 <center>
                     </br></br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/3star.png"></br></br></br>

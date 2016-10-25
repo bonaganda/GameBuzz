@@ -56,7 +56,7 @@ PLATFORM (PS4, PC, XBOX ONE)<br>
 ARTICLES AND ARTICLE PAGE<br>
 -------------------------
 
-*The reader can find a specific article page by using the search function found at the right hand side next to the "Login" tab on the navigation bar.<br>
+*The reader can find a specific article page by using the search function found beside the "CONTACT US PAGE".<br>
 *The reader can also find some articles and a summary of the articles in the main page (Home), by clicking the sidebar (on the right side of the page) or by choosing a platform on the navbar (found at the top of every page).<br>
 *The reader can also learn more about the game by simply clicking the game title or the game thumbnail or the “read more” link and you will be directed to the particular game article.<br>
 *On the actual article page, the user will be able to find information about the game which also includes pictures and a trailer for that game.<br>
