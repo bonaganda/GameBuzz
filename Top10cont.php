@@ -45,7 +45,7 @@ if(isset($_SESSION['username'])) {
                 <a style="color: red;"><h1>Top 5 - 1</h1></a>
                 <h2> Here are the best of the bests in the world of games!</h2>
 
-                <div class="columns" style="height: 600px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 600px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 5</h2>
                     <a href="Games/Inside.php"><h3> INSIDE - Score: 9.1 </h3></a>
                     <a href="Games/Inside.php"><img src="Images/inside.jpg" style="width: 675px; height: 400px;  "></a>
@@ -55,7 +55,7 @@ if(isset($_SESSION['username'])) {
                         search for its mysterious hidden orb collectibles. Play it soon before anyone spoils a single big moment for you. For us, its a 9.1 outta 10. </p>
                 </div>
 
-                <div class="columns" style="height: 600px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 600px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 4 </h2>
                     <a href="Games/DarkSouls3.php"><h3> Dark Souls 3 - Score: 9.3 </h3></a>
                     <a href="Games/DarkSouls3.php"><img src="Images/ds.jpg" style="width: 675px; height: 400px;  "></a>
@@ -65,7 +65,7 @@ if(isset($_SESSION['username'])) {
                         Dark Souls 3 is a powerful journey and the sequel the series truly deserves. A must play for action game lovers out there, and a solid 9.3.</p>
                 </div>
 
-                <div class="columns" style="height: 600px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 600px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 3</h2>
                     <a href="Games/Doom.php"><h3>Doom - Score 9.4</h3></a>
                     <a href="Games/Doom.php"><img src="Images/doom.jpg" style="width: 675px; height: 400px;"></a>
@@ -75,7 +75,7 @@ if(isset($_SESSION['username'])) {
                         satisfy either school of thought. SnapMap, meanwhile, is a blend of weird and simple and endearing. </p>
                 </div>    
 
-                <div class="columns" style="height: 615px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 615px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 2</h2>
                     <a href="Games/QuadrilateralCowboy.php"><h3>Quadrilateral Cowboy - Score: 9.6</h3></a>
                     <a href="Games/QuadrilateralCowboy.php"><img src="Images/cowboy.jpg" style="width: 675px; height: 400px;"></a>
@@ -86,7 +86,7 @@ if(isset($_SESSION['username'])) {
                         recommend this for you to try as well. This game gets the number 2 spot with a score of 9.6! </p>
                 </div>
 
-                <div class="columns" style="height: 630px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 630px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 1</h2>
                     <a href="Games/Warhammer.php"><h3>Total War: Warhammer - Score: 10</h3></a>
                     <a href="Games/Warhammer.php"><img src="Images/war.jpg" style="width: 675px; height: 400px;"></a>

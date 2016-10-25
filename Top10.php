@@ -48,7 +48,7 @@ if(isset($_SESSION['username'])) {
                 <a style="color: red;"><h1>Top 10 Games of 2016!</h1></a>
                 <h2> Here are the best of the bests in the world of games!</h2>
 
-                <div class="columns" style="height: 600px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 600px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 10</h2>
                     <a href="Games/JustCause3.php"><h3>Just Cause 3 - Score: 8.4 </h3></a>
                     <a href="Games/JustCause3.php"><img src="Images/jc3.jpg" style="width: 675px; height: 400px;"></a>
@@ -57,7 +57,7 @@ if(isset($_SESSION['username'])) {
                         creativity and tolerance for performance bugs on your part, so come expecting to make at least some of your own fun. We gave it a score of 8.4, making it's spot at number 10. </p>
                 </div>
 
-                <div class="columns" style="height: 640px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 640px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 9 </h2>
                     <a href="Games/Dota2.php"><h3> Dota 2 - Score: 8.5 </h3></a>
                     <a href="Games/Dota2.php"><img src="Images/d2.jpg" style="width: 675px; height: 400px;  "></a>
@@ -69,7 +69,7 @@ if(isset($_SESSION['username'])) {
                         scored Dota 2 a decent 8.5, overtaking Just Cause 3 for the number 9 spot.</p>
                 </div>
 
-                <div class="columns" style="height: 610px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 610px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 8</h2>
                     <a href="Games/Uncharted4.php"><h3>Uncharted 4 - Score 8.8</h3></a>
                     <a href="Games/Uncharted4.php"><img src="Images/uncharted4.jpg" style="width: 675px; height: 400px;"></a>
@@ -79,7 +79,7 @@ if(isset($_SESSION['username'])) {
                         it’s a gentle sendoff to the rag-tag group of characters we’ve known for nine years. For this game, we gave it an 8.8. A worthy thief’s end, indeed. </p>
                 </div>
 
-                <div class="columns" style="height: 625px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 625px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 7</h2>
                     <a href="Games/HeartsOfIron4.php"><h3>Hearts of Iron IV -Score: 8.9</h3></a>
                     <a href="Games/HeartsOfIron4.php"><img src="Images/soldier.jpg" style="width: 675px; height: 400px;"></a>
@@ -90,7 +90,7 @@ if(isset($_SESSION['username'])) {
                         like Hearts of Iron 4, and for that we gave it a whopping 8.9 as the score to take the number 7 spot! </p>
                 </div>
 
-                <div class="columns" style="height: 630px;  border-radius: 10px; padding: 10px; background-color: #5F5E5E;">
+                <div class="columns" style="height: 630px;  border-radius: 5px; padding: 10px; background-color: #5F5E5E;">
                     <h2>Number 6</h2>
                     <a href="Games/Overwatch.php"><h3>Overwatch - Score: 9.0</h3></a>
                     <a href="Games/Overwatch.php"><img src="Images/ow.jpg" style="width: 675px; height: 400px;"></a>
