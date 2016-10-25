@@ -1,3 +1,6 @@
+<!-- Author: Kimberley Capati -->
+<!-- This file contains the review page for Overwatch of the GameBuzz website -->
+
 <?php
     session_start();
     include '../Database.php';
@@ -5,12 +8,7 @@
         require '../Includes/Favourites.php';
     }
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,9 +23,12 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 3000px;">
 
             <div class="columns">
+                
+                <!-- The section below is the article for Overwatch -->
                 <a style="color: red;"><h1>Overwatch</h1></a>
 
                 <h2>By: Dustin Chadwell</h2> 
@@ -42,7 +43,8 @@ and open the template in the editor.
                 I also love the overall look of Overwatch. It’s a bright, vibrant take on first-person shooters that we still don’t see all that often. The character designs are fun and cartoony, and lend themselves well to fan-scripted backstories and theories. And it’s not just the character design, but also the map design, skins, music, and voiceover work that manages to blend Overwatch into a cohesive, fun, all-ages work of art.</br></br></br>
                 
                 Finally, Overwatch controls and plays like a dream. Even on consoles, which is my only experience with the game so far, the performance is generally buttery smooth. The various abilities that each character possesses are generally fun to perform and pull off, and the ability to access ultimate powers over time means that everyone typically has a moment to shine in any given match. Also, since there’s a healthy roster of characters present at the start of the game, it means that most matches will feel like something unique, even if the overall objective isn’t. Team composition can also be changed after every respawn, allowing every match to evolve the longer it continues. All in all, Overwatch continues to feel unique regardless of how much time you spend with it, and despite the low number of available modes to participate in. I’m genuinely impressed by what Blizzard has managed to do here, and I think you will be too.</br></br>
-                     
+                
+                <!-- Game Review Rating -->
                 <center>
                     </br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/4star.png"></br></br></br>
