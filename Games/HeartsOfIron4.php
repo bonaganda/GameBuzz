@@ -138,6 +138,6 @@ if(isset($_SESSION['username'])) {
                 <?php include 'Top10-Sidebar.php' ?>
             </div>
             </div>
-             <?php include '../footer.php'; ?> 
+             <?php include '../footer2.php'; ?> 
     </body>
 </html>

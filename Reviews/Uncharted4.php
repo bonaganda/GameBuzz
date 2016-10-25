@@ -116,6 +116,6 @@
                 <?php include '../Games/Top10-Sidebar.php' ?>
             </div>
             </div>
-             <?php include '../footer.php'; ?> 
+             <?php include '../footer2.php'; ?> 
     </body>
 </html>
