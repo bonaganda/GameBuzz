@@ -28,6 +28,5 @@
     <a href="../Games/JustCause3.php" style="position: absolute; left: 760px;  color: white">Just Cause 3</a>
     <a href="../Games/Doom.php" style="position: absolute; left: 870px;  color: white">Doom</a>
     <a href="../Home2.php" style="position: absolute; left: 1100px;  color: white">Article 2</a>
-    <br><a href="../Login.php" style="position: absolute; left: 570px; color: white">Login</a>
     <a href="../Home3.php" style="position: absolute; left: 1100px;  color: white">Article 3</a>
 </div>
