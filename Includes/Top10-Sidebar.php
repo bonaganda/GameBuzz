@@ -1,6 +1,5 @@
-<!-- 
-Sidebar Section - Top 10 Games (File to include to article pages to display the sidebar 
--->
+<!-- Authors: Joni Pablo -->
+<!-- Sidebar Section - Top 10 Games (File to include to article pages to display the sidebar -->
 
 <div id="sidebar">
     <a href="Top10.php"><b><br>TOP 10 GAMES</b><br><br></a>

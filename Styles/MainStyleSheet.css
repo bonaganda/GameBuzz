@@ -1,13 +1,7 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 20/09/2016, 12:36:06 PM
-    Author     : BonaGanda
-*/
+/**Author: Joni Pablo, John Rafael Baroro & Bonaliza Garcia **/
+/** This file is a CSS which describes how html elements are to be displayed on the GameBuzz website**/
 
+/** Body Section **/
 body 
 {
     font-family: lucida grande, tahoma, verdana, arial, sans-serif;
@@ -18,12 +12,15 @@ body
     background-attachment: fixed;
 }
 
+
 body p
 {
     font-size: 0.8em;
     line-height: 1.28;
 }
+/**End of Body Section**/
 
+/** Wrapper Section **/
 #wrapper
 {
     width: 1080px;
@@ -42,15 +39,18 @@ body p
     margin: 0 auto;
     border: 5px solid black;    
 }
+/**End of Wrapper Section**/
 
+/** Sitemap Section **/
 .footer
 {
     width: 1080px;
-    height: 55px;
-    background-color: #151515;
+    height: 230px;
+    background-color: black;
     background-size: cover;
     border: 3px;
     margin: 0 auto;
+    border-top: thick solid #5F5E5E;
 }
 /* Header Section */
 
@@ -63,6 +63,8 @@ body p
     margin: 0 auto;
     border: 5px solid black;   
 }
+
+/** Banner Section (Leaves a space between the navigation bar and the wrapper) **/
 #banner
 {
     width: 1080px;
@@ -76,6 +78,7 @@ body p
     border-radius: 10px;
     height: 50px;
 }
+/** End of Banner Section (Leaves a space between the navigation bar and the wrapper) **/
 
 /* Sidebar Section*/
 
@@ -167,7 +170,9 @@ nav li a {
     box-shadow: 3px 3px 3px #1E1B1B;
     margin: 0 auto;
 }
+/* End of Navigation Bars Section */
 
+/** Drop-down Button Section **/
 
 .dropbtn {
     display: inline-block;
@@ -225,7 +230,9 @@ nav li a {
     visibility: visible;
     display: block;
 }
+/** End of Drop-down Button Section **/
 
+/** Platform Section **/
 .platform_columns
 {
     position: relative;
@@ -233,6 +240,9 @@ nav li a {
     width: 1200px;
     margin: 15px 0 0 25px;
 }
+/** End of Platform Section **/
+
+/**Sets the size of each content's column**/
 
 .columns
 {
@@ -259,6 +269,7 @@ nav li a {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+/** End --- Sets the size of each content's column**/
 
 /*About Section - Column*/
 .columns_about
@@ -268,6 +279,7 @@ nav li a {
     width: 1000px;
     margin: 25px 25px 25px 25px;
 }
+/*End of About Section - Column*/
 
 
 /*Home-Articles Section*/
@@ -291,6 +303,7 @@ nav li a {
 {
     color: red;
 }
+/*End of Home-Articles Section*/
 
 
 /*News Section*/
@@ -308,6 +321,7 @@ nav li a {
     position:absolute;
     bottom:0;
 }
+/**End of News Section**/
 
 /*review wrapper content*/
 #review_col1{
@@ -315,7 +329,7 @@ nav li a {
 }
 
 
-/*login content*/
+/*Login Section*/
 #login_wrapper
 {
     width: 1080px;
@@ -485,6 +499,7 @@ nav li a {
     from {opacity: .4} 
     to {opacity: 1}
 }
+/** End of Fading Animation**/
 
 
 /* Comment field layout*/
@@ -517,7 +532,7 @@ input[type=reset] {
     padding: 6px 20px;
 }
 
-/* Pagination */
+/* Pagination Section*/
 ul.pagination {
     display: inline-block;
     padding: 0;
@@ -544,7 +559,9 @@ ul.pagination li a.active {
 ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 
 div.center {text-align: center;}
+/** End of Pagination Section**/
 
+/** Article Border **/
 .border
 {
     border-radius: 10px;
@@ -560,18 +577,4 @@ div.center {text-align: center;}
 {
     color: #ffffff;
 }
-
-line {
-    width: 20px;
-    height: 5px;
-    background: red;
-    -webkit-transition-property: width; /* Safari */
-    -webkit-transition-duration: 2s; /* Safari */
-    transition-property: width;
-    transition-duration: 2s;
-}
-
-line:hover {
-    width: 500px;
-}
-
+/** End of Article Border **/

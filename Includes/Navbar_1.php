@@ -1,3 +1,6 @@
+<!-- Authors: Joni Pablo -->
+<!-- Navbar Section - (File to include to the webpages to display the navigation bar -->
+
 <nav class="navigation">
             <ul id="nav">
                 <a href="../Home.php"><img src="../Images/Logo/GBLogosmall.png" width="232" height="50" id="logo" /></a> 
