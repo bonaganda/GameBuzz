@@ -98,4 +98,8 @@ LOGIN<br>
 *This page lets the user login if they already have an account. Just enter your username and password. <br>
 *If a user is logged in, there will be a logout button on the right side of the navigation which will let the user logout.<br>
 
+DATABASE<br>
+-------
 
+*The database was made using phpmyadmin. Localhost server was used therefore you might now have access to this database thus, you might encounter some error while running the code.
+*You might get these error when dealing with the login, sign up and search functions.
