@@ -107,7 +107,7 @@ if(isset($_SESSION['username'])) {
                         $content = $_POST['commentContent'];
 
                         #Get old comments
-                        $old = fopen("comments-darksouls.html", "r+t");
+                        $old = fopen("comments-heartsofiron4.html", "r+t");
                         $old_comments = fread($old, 1024);
 
                         #Delete everything, write down new and old comments

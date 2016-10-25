@@ -107,11 +107,11 @@ if(isset($_SESSION['username'])) {
                         $content = $_POST['commentContent'];
 
                         #Get old comments
-                        $old = fopen("comments-darksouls.html", "r+t");
+                        $old = fopen("comments-overwatch.html", "r+t");
                         $old_comments = fread($old, 1024);
 
                         #Delete everything, write down new and old comments
-                        $write = fopen("comments-darksouls.html", "w+");
+                        $write = fopen("comments-overwatch.html", "w+");
                         $string = "<b><br>" . $name . "</b><br>" . $content . "</br>" . $old_comments . "</br>";
                         fwrite($write, $string);
                         fclose($write);
