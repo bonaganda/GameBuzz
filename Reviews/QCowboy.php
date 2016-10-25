@@ -1,3 +1,6 @@
+<!-- Author: Kimberley Capati -->
+<!-- This file contains the review page for Quadrilateral Cowboy of the GameBuzz website -->
+
 <?php
     session_start();
     include '../Database.php';
@@ -5,12 +8,7 @@
         require '../Includes/Favourites.php';
     }
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,9 +23,12 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 3050px;">
 
             <div class="columns">
+                
+                <!-- The section below is the article for Quadrilateral Cowboy -->
                 <a style="color: red;"><h1>Quadrilateral Cowboy</h1></a>
 
                 <h2>By: Jody Mulhern</h2> 
@@ -45,6 +46,7 @@ and open the template in the editor.
                 
                 Hacking into everything you can and jabbing commands like a gangster is where Quadrilateral Cowboy cements itself as a memorable and exciting new IP. Just like Portal, although perhaps not quite as impactful, Blendo Games have come along and changed the way people perceive the environmental puzzler. Still, it looks great and, despite a degree wasted potential, plays great too.
                 
+                <!-- Game Review Rating -->
                 <center>
                     </br></br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/4halfstar.png"></br></br></br>

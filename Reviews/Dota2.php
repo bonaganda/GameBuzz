@@ -1,3 +1,6 @@
+<!-- Author: Kimberley Capati -->
+<!-- This file contains the review page for Dota 2 of the GameBuzz website -->
+
 <?php
     session_start();
     include '../Database.php';
@@ -18,10 +21,13 @@
 
         <div id="banner">
         </div>
-
+        
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 3600px;">
 
             <div class="columns">
+                
+                <!-- The section below is the article for Dota 2 -->
                 <a style="color: red;"><h1>Dota 2</h1></a>
 
                 <h2>By: Mr Pinkerton</h2> 
@@ -43,7 +49,8 @@
                 </br></br></br>
                 
                 In Short: Gaming’s ultimate eSport gets a well-considered makeover by the masters at Valve, although new ideas, and fixes for old problems, are currently thin on the ground.</br></br>
-
+                
+                <!-- Game Review Rating -->
                 <center>
                     </br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/3star.png"></br></br></br>

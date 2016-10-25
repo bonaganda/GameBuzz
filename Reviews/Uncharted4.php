@@ -1,3 +1,6 @@
+<!-- Author: Kimberley Capati -->
+<!-- This file contains the review page for Uncharted 4 of the GameBuzz website -->
+
 <?php
     session_start();
     include '../Database.php';
@@ -5,12 +8,7 @@
         require '../Includes/Favourites.php';
     }
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,9 +23,12 @@ and open the template in the editor.
         <div id="banner">
         </div>
 
+        <!-- Adds the website's wrapper -->
         <div id="wrapper" style="height: 3750px;">
 
             <div class="columns">
+                
+                <!-- The section below is the article for Uncharted 4 -->
                 <a style="color: red;"><h1>Uncharted 4</h1></a>
 
                 <h2>By: Michael Thomsen</h2> 
@@ -56,7 +57,7 @@ and open the template in the editor.
                 Nathan is scuba diving through shallow waters looking for a crashed cargo container a client has hired him to bring back to dry land. It could be filled with diamonds or ghostly mementos from some extinct civilization. He could be in the waters of Madagascar or Malaysia but, after finding all the loose crates and cinching the container to a pulley, Nathan resurfaces and we discover he’s in a muddy New Orleans river pulling up a shipment of copper wire for a trucking company that has had an accident on a bridge. The player is as easily convinced as the protagonist that there must be something worth salvaging in the wreckage, and the developers’ primary job is to ensure the wreck is big enough and detailed enough to not immediately give away the secret. “A Thief’s End” is less a conclusion to Nathan Drake’s story than an affirmation of the inconclusive wreck it has always been.</br>
                 
                 
-                
+                <!-- Game Review Rating -->
                 <center>
                     </br></br><h2>GameBuzz Rating:</h2>
                     <img src ="../Images/Kim/halfstar.png"></br></br></br>

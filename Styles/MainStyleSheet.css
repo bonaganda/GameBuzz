@@ -347,6 +347,7 @@ nav li a {
     margin: 200px 300px;
 }
 
+/*Signup page*/
 #Sign-In
 { 
     border:3px solid #a1a1a1;
@@ -375,7 +376,7 @@ nav li a {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
-
+/*Design for login and signup button*/
 #button
 { 
     float: right;
@@ -389,6 +390,7 @@ nav li a {
 
 }
 
+/*Design for favourites button on game articles*/
 #favebtn {
     border-radius: 3px;
     width: 20%;
