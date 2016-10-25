@@ -153,6 +153,8 @@ if(isset($_SESSION['username'])) {
                     <a href="Games/JustCause3.php"><img src="Images/Sidebar/justcause_banner.png" alt="justcause3" width="300" height="60" border="0"></a>               
                 </center>
             </div>
- <?php include 'footer.php'; ?> 
+        </div>
+         <?php include 'footer.php'; ?> 
+        
     </body>
 </html>
