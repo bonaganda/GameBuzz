@@ -1,3 +1,6 @@
+<!--Author: Bonaliza Garcia-->
+<!--Gets the favourites row in the database and puts it in an array for the nav bar "My Favourites" dropdwon-->
+
 <?php
 $user = $_SESSION['username'];
 
