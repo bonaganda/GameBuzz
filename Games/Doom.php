@@ -128,5 +128,7 @@ if(isset($_SESSION['username'])) {
                 <!-- Calls the Top10-Sidebar.php and displays it in the page's sidebar -->
                 <?php include 'Top10-Sidebar.php' ?>
             </div>
+            </div>
+             <?php include '../footer.php'; ?> 
     </body>
 </html>

@@ -1,5 +1,6 @@
 
 <div class="footer">
+    <!--This file sets the footer sitemap for all the pages of the website -->
     <h2 style="position: absolute; left: 400px; color: white">Platform</h2>
     <h2 style="position: absolute; left: 570px; color: white">Navigation</h2>
     <h2 style="position: absolute; left: 760px; color: white">Games</h2>
