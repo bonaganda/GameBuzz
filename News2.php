@@ -19,7 +19,7 @@ if(isset($_SESSION['username'])) {
         <?php include 'Includes/Navbar.php' ?>
 
         <div id="banner"></div>
-
+        <!-- Show Image and News -->
         <div id="wrapper" style="height: 900px">
             <div class="columns" style="border-radius: 10px; padding: 5px; background-color: #5F5E5E;">
                 <div id="review_col1">
